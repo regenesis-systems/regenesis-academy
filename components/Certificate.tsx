@@ -12,6 +12,7 @@ import {
   PDFViewer,
 } from "@react-pdf/renderer";
 import type { Trainee, Property } from "@/lib/types";
+import { NOVAK_SIGNATURE, TAV_SIGNATURE } from "@/lib/signatures";
 
 Font.register({
   family: "Cormorant",
@@ -298,7 +299,7 @@ export function CertificateDocument({
               <View style={styles.sigBlock}>
                 <View style={styles.sigImageWrap}>
                   <Image
-                    src="/novak-signature.png"
+                    src={NOVAK_SIGNATURE}
                     style={[styles.sigImage, { height: 42 }]}
                   />
                 </View>
@@ -309,7 +310,7 @@ export function CertificateDocument({
               <View style={styles.sigBlock}>
                 <View style={styles.sigImageWrap}>
                   <Image
-                    src="/tav-signature.png"
+                    src={TAV_SIGNATURE}
                     style={[styles.sigImage, { height: 46 }]}
                   />
                 </View>
