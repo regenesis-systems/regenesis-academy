@@ -2,12 +2,12 @@ import type { QuizQuestion } from "@/lib/types";
 
 export const FINAL_ASSESSMENT: QuizQuestion[] = [
   {
-    q: "A guest at Amanyara says 'I've got terrible insomnia — will this cure it?' What is your response?",
+    q: "A guest at Amanyara says 'I've got terrible insomnia. Will this cure it?' What is your response?",
     options: [
       "'Yes, most of our guests with insomnia sleep perfectly after their first session.'",
-      "'The Pod supports the body's natural recovery, and many guests report feeling deeply relaxed. I'd always suggest checking in with your doctor — but the experience is safe, and you can see how your body responds.'",
+      "'The Pod supports the body's natural recovery, and many guests report feeling deeply relaxed. I'd always suggest checking in with your doctor, but the experience is safe, and you can see how your body responds.'",
       "'It's clinically proven to treat insomnia.'",
-      "'We can't answer that — you'll have to try it and see.'",
+      "'We can't answer that. You'll have to try it and see.'",
     ],
     answer: 1,
     explain:
@@ -23,9 +23,9 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "A guest asks 'who's actually behind this?' What is the correct on-brand answer?",
     options: [
       "'It's a wellness startup from Asia, not sure of the founders.'",
-      "'It's co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and Regenesis co-founder Tav Keen. The same environment Novak uses himself.'",
+      "'It's co-founded by Novak Djokovic, Aman's Global Wellness Ambassador, and Regenesis co-founder Tav Keen. The same environment Novak uses himself.'",
       "'It's licensed by Aman from another company.'",
-      "'I'm not sure — I'd have to check with my manager.'",
+      "'I'm not sure. I'd have to check with my manager.'",
     ],
     answer: 1,
     explain:
@@ -35,7 +35,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "A guest has been on an overnight flight and is visibly flat and jet-lagged. Which experience do you suggest?",
     options: ["RELAX", "RECONNECT", "RECHARGE", "Skip the Pod today"],
     answer: 2,
-    explain: "RECHARGE (Tangerine) is the bright reset — designed for jet lag and low energy.",
+    explain: "RECHARGE (Tangerine) is the bright reset. Designed for jet lag and low energy.",
   },
   {
     q: "How long is the Pod session itself, and how long is the total spa-room experience?",
@@ -54,8 +54,8 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     options: [
       "At villa check-in during the welcome tour.",
       "In the briefing before the first session.",
-      "After the first session, during the Integration Conversation — once the guest has had 60 seconds of silence post-emergence.",
-      "Never — it is considered pushy at Aman properties.",
+      "After the first session, during the Integration Conversation. Once the guest has had 60 seconds of silence post-emergence.",
+      "Never. It is considered pushy at Aman properties.",
     ],
     answer: 2,
     explain: "The guest must have *felt* the Pod first. Pitching earlier is pushy; pitching later is too late.",
@@ -64,7 +64,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "Why do we recommend sessions every other day rather than daily?",
     options: [
       "Because the Pod's scent needs 24 hours to refill.",
-      "Because the afterglow — the integration window — lasts 24 to 48 hours, and daily sessions prevent the body from landing the benefit.",
+      "Because the afterglow. The integration window. Lasts 24 to 48 hours, and daily sessions prevent the body from landing the benefit.",
       "Because we want guests to rest in their villas.",
       "Because daily sessions overheat the Pod.",
     ],
@@ -81,13 +81,13 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     ],
     answer: 1,
     explain:
-      "A single session is $150 for 20 minutes in the Pod. The Recovery Series of four sessions totals $600 — still less than a single signature facial + massage on the same menu.",
+      "A single session is $150 for 20 minutes in the Pod. The Recovery Series of four sessions totals $600. Still less than a single signature facial + massage on the same menu.",
   },
   {
     q: "At the end of the day, you power down the Pod by:",
     options: [
       "Unplugging the Pod from the step-down converter.",
-      "Pressing the illuminated exterior on/off button — never unplugging.",
+      "Pressing the illuminated exterior on/off button, never unplugging.",
       "Leaving it running overnight.",
       "Disconnecting the step-down converter from the wall.",
     ],
@@ -98,7 +98,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "How often is the Pod's olfactory system refilled?",
     options: ["Daily", "Every Monday", "Fortnightly (every two weeks)", "Only when the scent fades"],
     answer: 2,
-    explain: "Fortnightly refill — 10 drops of each doTERRA oil. The Pod's olfactory system is a precision burst system, not a continuous diffuser.",
+    explain: "Fortnightly refill. 10 drops of each doTERRA oil. The Pod's olfactory system is a precision burst system, not a continuous diffuser.",
   },
   {
     q: "The Pod loses power during a session. The door has not opened automatically. Your first action is to:",
@@ -115,7 +115,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "A skeptical guest asks 'is this actually scientifically proven?' Best response:",
     options: [
       "List the studies and cite specific research papers.",
-      "Mention the Pod is a Living Installation with protocols continuously updated with researchers at IACS, Harvard and UCLA — then invite them into a single session.",
+      "Mention the Pod is a Living Installation with protocols continuously updated with researchers at IACS, Harvard and UCLA, then invite them into a single session.",
       "Insist firmly that it works and they will feel it.",
       "Tell them the Pod may not be right for them.",
     ],
@@ -132,7 +132,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     ],
     answer: 1,
     explain:
-      "Regenesis's sanctioned term is *Rhythmic Visual Priming* — one of the seven modalities of impact. Don't use the old technical terms.",
+      "Regenesis's sanctioned term is *Rhythmic Visual Priming*. One of the seven modalities of impact. Don't use the old technical terms.",
   },
   {
     q: "A guest emerges from their first Pod session. The correct sequence is:",
@@ -143,14 +143,14 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
       "Leave them alone until they come out of the room on their own timing.",
     ],
     answer: 1,
-    explain: "The Emergence is sacred. 60 seconds of silence protects the afterglow. Then — and only then — a gentle conversation.",
+    explain: "The Emergence is sacred. 60 seconds of silence protects the afterglow, and then a gentle conversation can open.",
   },
   {
     q: "What is the single most important principle of the Regenesis Voice?",
     options: [
       "Convince the guest the Pod is better than every alternative.",
       "Sell as many sessions as possible on the first visit.",
-      "You are not selling — you are inviting. The Pod does the rest.",
+      "You are not selling. You are inviting. The Pod does the rest.",
       "Use scientific language to establish credibility quickly.",
     ],
     answer: 2,

@@ -27,7 +27,7 @@ export default function AcademyHome() {
         <div className="rule-gold mb-8" />
         <p className="text-[17px] leading-[1.75] text-charcoal max-w-[58ch] mb-10">
           Six modules. Each one ends in a short assessment. When every module
-          is complete you will sit the Final Assessment — and, on passing,
+          is complete you will sit the Final Assessment, and on passing,
           receive your Certified Regenesis Pod Concierge certificate in your
           own name.
         </p>
@@ -108,7 +108,7 @@ export default function AcademyHome() {
             </h3>
             <p className="text-[15px] text-muted mb-6 max-w-[52ch]">
               Fifteen questions drawn from every module. Passing score is 80%.
-              You may retake as many times as you need — the Academy is
+              You may retake as many times as you need. The Academy is
               designed for mastery, not speed.
             </p>
             {allDone ? (

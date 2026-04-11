@@ -10,7 +10,7 @@ export const guestJourneyModule: Module = {
   sections: [
     {
       kind: "prose",
-      body: `A Regenesis session doesn't begin when the guest enters the Pod. It begins when they first hear about it — from a villa host, front office, or spa receptionist — and ends in the hour afterwards when they're sitting quietly on a terrace.
+      body: `A Regenesis session doesn't begin when the guest enters the Pod. It begins when they first hear about it, from a villa host, front office, or spa receptionist, and ends in the hour afterwards when they're sitting quietly on a terrace.
 
 Three teams touch this arc. If each team knows its part and hands off cleanly, the guest experiences it as **one story**.`,
     },
@@ -22,32 +22,32 @@ Three teams touch this arc. If each team knows its part and hands off cleanly, t
       kind: "list",
       title: "The Journey at a Glance",
       items: [
-        "**Discovery** — first mention (villa host, front office, spa).",
-        "**Booking** — commits to a session or the Recovery Series.",
-        "**Arrival** — welcomed into the Pod room.",
-        "**Preparation** — brief, waiver, orientation.",
-        "**The Breath Bridge** — the instructional opening of the session.",
-        "**The Drop** — transition from active breathing to passive entrainment.",
-        "**Emergence** — the quiet moment just after. Sacred.",
-        "**Integration** — the hour after. Where the Recovery Series conversation happens.",
-        "**Return** — next session booked.",
+        "**Discovery**. First mention (villa host, front office, spa).",
+        "**Booking**. Commits to a session or the Recovery Series.",
+        "**Arrival**. Welcomed into the Pod room.",
+        "**Preparation**. Brief, waiver, orientation.",
+        "**The Breath Bridge**. The instructional opening of the session.",
+        "**The Drop**. Transition from active breathing to passive entrainment.",
+        "**Emergence**. The quiet moment just after. Sacred.",
+        "**Integration**. The hour after. Where the Recovery Series conversation happens.",
+        "**Return**. Next session booked.",
       ],
     },
     {
       kind: "callout",
-      title: "Session Timing — What to Tell Guests",
+      title: "Session Timing (What to Tell Guests)",
       body: `The Pod session itself is **20 minutes** (Regenesis offers protocols ranging from 8 to 21 minutes, with the 20-minute Relax protocol as the flagship).
 
 The full spa-room experience is **30 minutes total**: 5 minutes to settle and brief, 20 minutes inside the Pod, 5 minutes for Emergence and integration.
 
-When a guest asks how long, say: *"About 30 minutes in the spa room — with 20 of those inside the Pod itself."* That way the guest plans their day accurately and you never have them rushing out.`,
+When a guest asks how long, say: *"About 30 minutes in the spa room, with 20 of those inside the Pod itself."* That way the guest plans their day accurately and you never have them rushing out.`,
     },
     {
       kind: "callout",
       title: "The Villa Host · Plant the Seed",
-      body: `You are the first touch. Your job is not to explain — it's to make them curious enough to ask at the spa.
+      body: `You are the first touch. Your job is not to explain. It's to make them curious enough to ask at the spa.
 
-**The line:** *"There's something new I think you might enjoy — the Regenesis Pod. It's co-founded by Novak Djokovic, who you'll know is Aman's Global Wellness Ambassador. I'd suggest mentioning it at the spa — they can walk you through it properly."*
+**The line:** *"There's something new I think you might enjoy. The Regenesis Pod. It's co-founded by Novak Djokovic, who you'll know is Aman's Global Wellness Ambassador. I'd suggest mentioning it at the spa. They can walk you through it properly."*
 
 That's it. The Novak fact does the heavy lifting in one sentence. Clean handoff. Don't try to explain the technology.`,
     },
@@ -56,16 +56,16 @@ That's it. The Novak fact does the heavy lifting in one sentence. Clean handoff.
       title: "The Front Office · The Conversion",
       body: `You usually book the session. The structure: **legitimacy → single → series → soft close.** Never pitch the series first.
 
-**The line:** *"The Regenesis Pod is one of the newest experiences on our wellness menu. It's co-founded and designed with Novak Djokovic, our Global Wellness Ambassador. A single session is 150 dollars — but most of our guests here choose the **Recovery Series**: four sessions across the stay, every other day. It's the cadence that lets the body really land the benefit. Would you like me to pencil the first session in now?"*`,
+**The line:** *"The Regenesis Pod is one of the newest experiences on our wellness menu. It's co-founded and designed with Novak Djokovic, our Global Wellness Ambassador. A single session is 150 dollars, but most of our guests here choose the **Recovery Series**: four sessions across the stay, every other day. It's the cadence that lets the body really land the benefit. Would you like me to pencil the first session in now?"*`,
     },
     {
       kind: "callout",
       title: "The Spa Reception · The Welcome",
       body: `The most important ten minutes in the whole journey. Everything after is shaped by the tone you set here.
 
-**The Welcome (2 min):** Greet warmly by name. Offer water or tea. Speak more softly than normal — the room should feel *already half a session in*.
+**The Welcome (2 min):** Greet warmly by name. Offer water or tea. Speak more softly than normal. The room should feel *already half a session in*.
 
-**The Brief (5 min):** *"You'll be in the Pod for about 20 minutes. We'll begin with a short breath practice I'll guide you through — we call it **The Breath Bridge**. It's just two minutes, to help your body arrive. Then you'll settle into the session. Inside, you'll notice light, immersive sound, a gentle somatic vibration through the cushion, and the scent of [experience]. The door closes but it isn't sealed — you can open it from the inside any time. You don't need to do anything. The Pod does the work."*
+**The Brief (5 min):** *"You'll be in the Pod for about 20 minutes. We'll begin with a short breath practice I'll guide you through. We call it **The Breath Bridge**. It's just two minutes, to help your body arrive. Then you'll settle into the session. Inside, you'll notice light, immersive sound, a gentle somatic vibration through the cushion, and the scent of [experience]. The door closes but it isn't sealed. You can open it from the inside any time. You don't need to do anything. The Pod does the work."*
 
 Confirm the experience booked. First-timers default to **RELAX** (the 20-min flagship) unless they have a strong preference. Complete the waiver if not done.
 
@@ -76,14 +76,14 @@ Confirm the experience booked. First-timers default to **RELAX** (the 20-min fla
       title: "The Breath Bridge · The Drop",
       body: `Every Pod session has a specific opening: a brief guided breath practice at the start of the protocol that helps the guest's nervous system synchronise with the Pod's rhythm. This is **The Breath Bridge**. It lasts only a minute or two.
 
-What happens inside the session is a transition Tav calls **The Drop** — the moment the guest stops actively breathing-along and the Pod takes over, carrying them passively into entrainment. By session three, The Drop happens almost instantly; on session one it can take a few minutes. Both are normal.
+What happens inside the session is a transition Tav calls **The Drop**. The moment the guest stops actively breathing-along and the Pod takes over, carrying them passively into entrainment. By session three, The Drop happens almost instantly; on session one it can take a few minutes. Both are normal.
 
 Spa therapists: you will master guiding The Breath Bridge in the dedicated therapist workshop. Everyone else: it is enough to know the terms and reference them warmly when briefing a guest.`,
     },
     {
       kind: "prose",
       title: "During the Session",
-      body: `Stay within earshot, not hovering. Know where the Manual Release is (Module Six). **Set a quiet alarm** so you're present in the room as the session ends — the guest should never emerge to an empty room.`,
+      body: `Stay within earshot, not hovering. Know where the Manual Release is (Module Six). **Set a quiet alarm** so you're present in the room as the session ends. The guest should never emerge to an empty room.`,
     },
     {
       kind: "callout",
@@ -99,7 +99,7 @@ Spa therapists: you will master guiding The Breath Bridge in the dedicated thera
     {
       kind: "prose",
       title: "The Integration Conversation",
-      body: `Now — and only now — ask how it was and open the Recovery Series door. One warm observation, then stop.`,
+      body: `Now, and only now, ask how it was and open the Recovery Series door. One warm observation, then stop.`,
     },
     {
       kind: "pullquote",
@@ -116,7 +116,7 @@ If they say *"maybe later,"* the answer is: *"Of course. I'll note that you enjo
       title: "Before They Leave",
       body: `When you say goodbye, give them something to notice:
 
-> *"Drink plenty of water this afternoon, take it gently, and notice how you feel this evening and tomorrow. The Pod keeps working for about 48 hours after the session — that's when your body is actually integrating the benefit."*
+> *"Drink plenty of water this afternoon, take it gently, and notice how you feel this evening and tomorrow. The Pod keeps working for about 48 hours after the session. That's when your body is actually integrating the benefit."*
 
 This primes them to perceive the afterglow, explains the cadence, and makes them an active participant.`,
     },
@@ -144,7 +144,7 @@ This primes them to perceive the afterglow, explains the cadence, and makes them
       ],
       answer: 1,
       explain:
-        "The Breath Bridge is the instructional opening — the practice that carries the guest into the session. Every staff member should know the term even if only therapists guide it.",
+        "The Breath Bridge is the instructional opening. The practice that carries the guest into the session. Every staff member should know the term even if only therapists guide it.",
     },
     {
       q: "A guest has just opened their eyes after a session. What is the WORST thing you can do?",
@@ -162,7 +162,7 @@ This primes them to perceive the afterglow, explains the cadence, and makes them
       q: "Why do we recommend sessions every other day rather than daily?",
       options: [
         "Because the Pod needs time to cool down between sessions.",
-        "Because the afterglow — the physiological integration window — lasts 24 to 48 hours, and the body needs time to land the benefit.",
+        "Because the afterglow. The physiological integration window. Lasts 24 to 48 hours, and the body needs time to land the benefit.",
         "Because we want to fit more guests into the schedule.",
         "Because the scent needs to be refilled between sessions.",
       ],
@@ -173,7 +173,7 @@ This primes them to perceive the afterglow, explains the cadence, and makes them
     {
       q: "A guest says 'maybe later' to the Recovery Series. What is the right response?",
       options: [
-        "Push a little harder — remind them of the benefits.",
+        "Push a little harder. Remind them of the benefits.",
         "Offer a discount on the series to close the deal.",
         "Say 'of course, I'll note that you enjoyed it, whenever you're ready' and let it go completely.",
         "Tell them the price will go up if they wait.",

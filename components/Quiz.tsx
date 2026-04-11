@@ -52,7 +52,7 @@ export function Quiz({
         <div className="rule-gold mb-8" />
         <p className="text-[15px] text-muted mb-10">
           {passingScore}% or higher to advance. You may retake the quiz as many
-          times as you need — the Academy is designed for mastery, not speed.
+          times as you need. The Academy is designed for mastery, not speed.
         </p>
       </div>
 
@@ -142,8 +142,8 @@ export function Quiz({
           </div>
           <p className="text-[15px] text-muted leading-relaxed mb-6">
             {passed
-              ? "You are ready to move forward. The answers you got right are highlighted in gold; the ones you missed are struck through. Take a moment to read the notes — they are where the real learning lives."
-              : "Read the explanations carefully — they are where the real learning lives. Then retake the quiz. There is no limit, and there is no shame in a second pass."}
+              ? "You are ready to move forward. The answers you got right are highlighted in gold; the ones you missed are struck through. Take a moment to read the notes, where the real learning lives."
+              : "Read the explanations carefully. They are where the real learning lives. Then retake the quiz. There is no limit, and there is no shame in a second pass."}
           </p>
           {!passed && (
             <button type="button" className="btn btn-ghost" onClick={handleRetry}>

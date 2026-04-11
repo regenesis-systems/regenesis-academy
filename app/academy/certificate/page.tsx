@@ -59,7 +59,7 @@ export default function CertificatePage() {
           </h1>
           <div className="rule-gold mx-auto mb-8" />
           <p className="text-[17px] leading-[1.75] text-charcoal max-w-[52ch] mx-auto">
-            Welcome to the Founding Cohort — the first team in the world to
+            Welcome to the Founding Cohort, the first team in the world to
             complete the Regenesis Academy. Your certificate is below. Download
             it, keep it, share it. You have earned your place as a Certified
             Regenesis Pod Concierge.

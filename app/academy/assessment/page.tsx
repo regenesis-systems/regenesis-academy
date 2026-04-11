@@ -49,7 +49,7 @@ export default function AssessmentPage() {
           <div className="rule-gold mx-auto mb-6" />
           <p className="text-[15px] text-muted mb-10 max-w-[52ch] mx-auto leading-relaxed">
             The Final Assessment is unlocked when every module is complete.
-            You&apos;re so close — head back to the Academy to finish the
+            You&apos;re so close. Head back to the Academy to finish the
             remaining modules.
           </p>
           <Link href="/academy/" className="btn">
@@ -78,7 +78,7 @@ export default function AssessmentPage() {
           <div className="rule-gold mb-8" />
           <p className="text-[17px] leading-[1.75] text-charcoal max-w-[58ch]">
             Fifteen questions drawn from every module. You need 80% to pass.
-            Take your time — read each question carefully, and when you are
+            Take your time, read each question carefully, and when you are
             sure, submit. On passing, your certificate will be generated
             immediately.
           </p>

@@ -10,7 +10,7 @@ export const emergencyModule: Module = {
   sections: [
     {
       kind: "prose",
-      body: `Emergencies are rare. The Regenesis Pod 2.7 has multiple redundancies — automatic and manual door release, no drugs, no chemicals, and the guest can step out at any moment.
+      body: `Emergencies are rare. The Regenesis Pod 2.7 has multiple redundancies. Automatic and manual door release, no drugs, no chemicals, and the guest can step out at any moment.
 
 But rare is not never. When something unexpected happens, the difference between a small moment of concern and a damaged guest relationship is **how calmly and quickly you respond**. Read this slowly, then practice the Manual Release at least once before your first guest.`,
     },
@@ -27,7 +27,7 @@ But rare is not never. When something unexpected happens, the difference between
       kind: "list",
       title: "Power Outage",
       items: [
-        "**Stay calm. Announce yourself through the door:** *'This is [name] from the spa team. The Pod has lost power briefly — you are completely safe, and I am going to open the door for you now.'*",
+        "**Stay calm. Announce yourself through the door:** *'This is [name] from the spa team. The Pod has lost power briefly. You are completely safe, and I am going to open the door for you now.'*",
         "**Check if the door opened automatically.** It usually does within a few seconds.",
         "**If not, use the Manual Release.** No waiting, no hoping.",
         "**Help the guest step out.** Seat, water, unhurried calm.",
@@ -41,14 +41,14 @@ But rare is not never. When something unexpected happens, the difference between
       title: "The Manual Door Release · Practice This",
       body: `Every staff member must **physically practice** the Manual Release at least once before their first real session. You do not want to be figuring it out under stress with a guest inside.
 
-**Where:** the exterior of the Pod 2.7, below the hinge, on the side of the door. The release is deliberately distinct from the **illuminated power button** — they are not to be confused. Your trainer will show you the exact location.
+**Where:** the exterior of the Pod 2.7, below the hinge, on the side of the door. The release is deliberately distinct from the **illuminated power button**. They are not to be confused. Your trainer will show you the exact location.
 
 **How:**
 
-1. **Pull the toggle with firm, steady force and hold.** The mechanism is deliberately stiff — it cannot be activated accidentally.
+1. **Pull the toggle with firm, steady force and hold.** The mechanism is deliberately stiff. It cannot be activated accidentally.
 2. **Keep it pulled** until the lock disengages.
 3. **Aid the door gently** with your free hand until it is fully open.
-4. **Do NOT release the toggle early** — partial release can re-engage the lock.
+4. **Do NOT release the toggle early**. Partial release can re-engage the lock.
 
 After a Manual Release, contact Regenesis Technical Support (**support@regenesispod.com**). The door mechanism needs inspection before the next use.`,
     },
@@ -59,7 +59,7 @@ After a Manual Release, contact Regenesis Technical Support (**support@regenesis
         "**Stop the session immediately** from the three-dial tablet. All dials to zero.",
         "**Open the door.** If the button doesn't respond in a few seconds, go straight to Manual Release.",
         "**Speak softly:** *'I'm here. Take your time. You're completely safe.'*",
-        "**Assist them out.** Some guests feel lightheaded coming out of a deep state suddenly — especially if The Drop was happening when the session was interrupted.",
+        "**Assist them out.** Some guests feel lightheaded coming out of a deep state suddenly. Especially if The Drop was happening when the session was interrupted.",
         "**Offer water and quiet.** Don't ask what happened. Don't pitch another session. Let them speak first.",
         "**Follow up the next day** with a brief handwritten note to their villa. Never push, never disappear.",
       ],
@@ -73,8 +73,8 @@ After a Manual Release, contact Regenesis Technical Support (**support@regenesis
         "**Do not move the guest further than necessary.** If unconscious, leave them where they are until help arrives.",
         "**Stay with them.** Someone else contacts the on-duty manager.",
         "**Preserve the scene.** Do not reset the Pod or alter anything until the incident is documented.",
-        "**Document everything immediately** — time, symptoms, actions, response times.",
-        "**Contact Regenesis Technical Support** at support@regenesispod.com — guaranteed response within 24 hours.",
+        "**Document everything immediately**. Time, symptoms, actions, response times.",
+        "**Contact Regenesis Technical Support** at support@regenesispod.com. Guaranteed response within 24 hours.",
       ],
     },
     {
@@ -90,8 +90,8 @@ After a Manual Release, contact Regenesis Technical Support (**support@regenesis
       kind: "callout",
       title: "Regenesis Technical Support",
       body: `- **Email:** support@regenesispod.com
-- **Standard Live Support:** 18:00 – 10:00 TCI time (06:00 – 22:00 Bali WITA)
-- **Urgent Window:** 10:00 – 12:00 noon TCI time
+- **Standard Live Support:** 18:00 to 10:00 TCI time (06:00 to 22:00 Bali WITA)
+- **Urgent Window:** 10:00 to 12:00 noon TCI time
 - **Guaranteed response:** within 24 hours
 - **Extended support** available outside these hours by prior arrangement
 
@@ -102,7 +102,7 @@ Save these contact details in your phone before your first shift. When something
       title: "After Any Incident",
       body: `Every incident goes in the Maintenance Log immediately, with full detail. Regenesis Technical Support is notified. The Pod is inspected and cleared before next use.
 
-This is not about blame. It is about **learning faster than any Pod can fail** — every logged incident makes the next one less likely for the next guest, at the next Pod, anywhere in the world.`,
+This is not about blame. It is about **learning faster than any Pod can fail**. Every logged incident makes the next one less likely for the next guest, at the next Pod, anywhere in the world.`,
     },
   ],
   quiz: [
@@ -110,7 +110,7 @@ This is not about blame. It is about **learning faster than any Pod can fail** �
       q: "The Pod loses power during a guest session. Your first action is to:",
       options: [
         "Call the electrician immediately.",
-        "Check whether the door has opened automatically — and if not, use the Manual Release without delay.",
+        "Check whether the door has opened automatically, and if not, use the Manual Release without delay.",
         "Wait 30 seconds to see if power returns on its own.",
         "Open the Pod hatch to inspect the wiring.",
       ],
@@ -123,12 +123,12 @@ This is not about blame. It is about **learning faster than any Pod can fail** �
       options: [
         "Manual door release.",
         "Emergency stop for the three-dial control.",
-        "Power on/off button — used for Start-Up and Shut-Down.",
+        "Power on/off button. Used for Start-Up and Shut-Down.",
         "Scent refill access panel.",
       ],
       answer: 2,
       explain:
-        "The illuminated button is the power button. It is distinct from the Manual Release toggle, which is located separately — below the hinge on the side of the door.",
+        "The illuminated button is the power button. It is distinct from the Manual Release toggle, which is located separately. Below the hinge on the side of the door.",
     },
     {
       q: "A guest becomes distressed mid-session and wants out immediately. After ending the session and opening the door, the correct response is to:",
@@ -140,7 +140,7 @@ This is not about blame. It is about **learning faster than any Pod can fail** �
       ],
       answer: 2,
       explain:
-        "Listen, don't fill the silence. Presence and calm matter more than words — especially if The Drop was happening when the session was interrupted.",
+        "Listen, don't fill the silence. Presence and calm matter more than words. Especially if The Drop was happening when the session was interrupted.",
     },
     {
       q: "What is the Regenesis Technical Support email address?",
@@ -148,7 +148,7 @@ This is not about blame. It is about **learning faster than any Pod can fail** �
         "help@regenesis.com",
         "support@regenesispod.com",
         "technical@regenesispod.studio",
-        "There is no technical support — only the property's maintenance team.",
+        "There is no technical support. Only the property's maintenance team.",
       ],
       answer: 1,
       explain:

@@ -183,7 +183,7 @@ export default function AdminPage() {
                 Every enrolment, module completion, quiz score and certificate
                 issued is streamed into a live Google Sheet in real time. Open
                 it to see the full, aggregated view across every device and
-                every trainee — this page only shows trainees on your current
+                every trainee. This page only shows trainees on your current
                 browser.
               </p>
               <a
@@ -268,7 +268,7 @@ export default function AdminPage() {
                         {prop?.name ?? r.propertyCode}
                       </div>
                       <div className="tracked text-muted text-[10px] mt-1">
-                        {prop?.cohort ?? "—"}
+                        {prop?.cohort ?? ""}
                       </div>
                     </div>
                     <div className="col-span-3">
@@ -308,7 +308,7 @@ export default function AdminPage() {
                         </>
                       ) : (
                         <div className="tracked text-muted text-[10px]">
-                          —
+                          &nbsp;
                         </div>
                       )}
                     </div>

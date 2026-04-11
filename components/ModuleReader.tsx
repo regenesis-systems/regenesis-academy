@@ -121,7 +121,7 @@ export function ModuleReader({ module: mod }: { module: Module }) {
             />
             {next && (
               <div className="mt-6 max-w-[60ch] text-[13px] text-muted italic">
-                On passing, you will be taken to Module {next.number} —{" "}
+                On passing, you will be taken to Module {next.number},{" "}
                 {next.title}.
               </div>
             )}

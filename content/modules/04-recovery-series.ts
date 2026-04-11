@@ -10,7 +10,7 @@ export const recoverySeriesModule: Module = {
   sections: [
     {
       kind: "prose",
-      body: `A single session feels remarkable. But the real transformation — the kind a guest takes home — happens when we shift them from a **one-off treatment** to a **journey of neural conditioning**.
+      body: `A single session feels remarkable. But the real transformation, the kind a guest takes home, happens when we shift them from a **one-off treatment** to a **journey of neural conditioning**.
 
 The goal isn't to sell more sessions. The goal is to give the guest the full value of the Pod, which is only possible across three or four visits.`,
     },
@@ -23,15 +23,15 @@ The goal isn't to sell more sessions. The goal is to give the guest the full val
       title: "The Compound Effect",
       items: [
         "**Session 1.** The body maps the new environment. Many guests feel wonderful; some feel slightly overwhelmed by the newness. Both are normal.",
-        "**Session 2.** The body recognises the entry — the scent, the warmth, the Breath Bridge. The on-ramp gets shorter.",
-        "**Session 3.** The body now recognises the *neural anchors* — scent, rhythm, targeted NIR — and drops into the restorative state almost instantly. Guests often say the third session is where they *really understand* what the Pod is for.",
+        "**Session 2.** The body recognises the entry: the scent, the warmth, the Breath Bridge. The on-ramp gets shorter.",
+        "**Session 3.** The body now recognises the *neural anchors* (scent, rhythm, targeted NIR) and drops into the restorative state almost instantly. Guests often say the third session is where they *really understand* what the Pod is for.",
         "**Session 4.** The nervous system has a new pathway available. The guest is **training** their baseline of stillness to stay with them after they leave.",
       ],
     },
     {
       kind: "prose",
       title: "Protocol Consistency",
-      body: `Guests may want to switch experiences. Variety is fine — but repeating the same one is biologically better:`,
+      body: `Guests may want to switch experiences. Variety is fine, but repeating the same one is biologically better:`,
     },
     {
       kind: "list",
@@ -43,7 +43,7 @@ The goal isn't to sell more sessions. The goal is to give the guest the full val
     },
     {
       kind: "callout",
-      title: "The 48-Hour Cycle — The Most Important Fact",
+      title: "The 48-Hour Cycle (The Most Important Fact)",
       body: `We recommend **every other day**, not daily. Why: the afterglow lasts **24 to 48 hours**, and the body needs that window to integrate. PEMF is still stimulating cellular repair. The nervous system is still holding the lower cortisol baseline.
 
 Coming in daily short-circuits the afterglow and reduces cumulative benefit. Every other day keeps the guest in **constant coherence** across their stay.
@@ -52,12 +52,12 @@ If you internalise one fact: **every other day, not every day**.`,
     },
     {
       kind: "callout",
-      title: "The Price — What to Say",
+      title: "The Price (What to Say)",
       body: `On the Amanyara Spa Menu, the Pod is priced at:
 
 **Single session · 20 minutes · 150 USD**
 
-There is no bundled package price. The Recovery Series of four sessions is **4 × $150 = 600 USD** total — which is the line you'll quote.
+There is no bundled package price. The Recovery Series of four sessions is **4 × $150 = 600 USD** total, which is the line you'll quote.
 
 **Anchor it against the rest of the menu.** On the same printed page, a guest is looking at:
 
@@ -67,7 +67,7 @@ There is no bundled package price. The Recovery Series of four sessions is **4 �
 - Grounding Journey · 180 min · $875
 - Island Hideaway (couples) · 150 min · $1,400
 
-**The Recovery Series at $600 is less than a single 60-minute signature massage + facial.** Four deeply restorative sessions, spread across the stay, for the price of one traditional spa treatment. When a guest pauses on the price, this is the comparison to make — quietly, once, and then stop.`,
+**The Recovery Series at $600 is less than a single 60-minute signature massage + facial.** Four deeply restorative sessions, spread across the stay, for the price of one traditional spa treatment. When a guest pauses on the price, this is the comparison to make: quietly, once, and then stop.`,
     },
     {
       kind: "list",
@@ -82,10 +82,10 @@ There is no bundled package price. The Recovery Series of four sessions is **4 �
       title: "Your Talking Points",
       items: [
         `**"A workout for your inner calm."**`,
-        `**"Precision-Engineered Recovery — not spa relaxation."**`,
-        `**"Eliminating the on-ramp — by your third visit, your body recognises the frequencies immediately."**`,
+        `**"Precision-Engineered Recovery, not spa relaxation."**`,
+        `**"Eliminating the on-ramp. By your third visit, your body recognises the frequencies immediately."**`,
         `**"We're training your body to keep that feeling of Amanyara with you when you return home."**`,
-        `**"Every other day is the sweet spot — the benefit takes 24 to 48 hours to land."**`,
+        `**"Every other day is the sweet spot. The benefit takes 24 to 48 hours to land."**`,
       ],
     },
     {
@@ -95,18 +95,18 @@ There is no bundled package price. The Recovery Series of four sessions is **4 �
 
 **The line:**
 
-> *"Most of our guests who love their first session book into the Recovery Series for the rest of their stay. Four sessions at 150 dollars each — every other day — the cadence that lets the body really land the benefit. Would you like me to hold three more for you this week?"*
+> *"Most of our guests who love their first session book into the Recovery Series for the rest of their stay. Four sessions at 150 dollars each, every other day, the cadence that lets the body really land the benefit. Would you like me to hold three more for you this week?"*
 
-That's the whole pitch. Don't describe the science. Make one warm recommendation — then stop. **Silence closes more than words.**
+That's the whole pitch. Don't describe the science. Make one warm recommendation, then stop. **Silence closes more than words.**
 
-If they say *"maybe later,"* the answer is: *"Of course. I'll note that you enjoyed it. Whenever you're ready."* And let it go.
+If they say *"maybe later,"* the answer is: *"Of course. I'll note that you enjoyed it. Whenever you're ready."* Let it go.
 
-If they hesitate on price, the anchor: *"For context, that's less than what a single signature facial and massage costs on our menu — and it's designed to land biologically, not just to feel good in the moment."* Then stop again.`,
+If they hesitate on price, the anchor: *"For context, that's less than what a single signature facial and massage costs on our menu, and it's designed to land biologically, not just to feel good in the moment."* Then stop again.`,
     },
     {
       kind: "prose",
       title: "If The Stay Is Only Two Nights",
-      body: `Recommend **two sessions** — one on arrival, one on the morning of departure. Frame it as a **bookend** approach. Always recommend more than one. A single-session guest has not really experienced the Pod.`,
+      body: `Recommend **two sessions**: one on arrival, one on the morning of departure. Frame it as a **bookend** approach. Always recommend more than one. A single-session guest has not really experienced the Pod.`,
     },
   ],
   quiz: [
@@ -114,7 +114,7 @@ If they hesitate on price, the anchor: *"For context, that's less than what a si
       q: "Why do we recommend sessions every other day rather than daily?",
       options: [
         "Because the Pod needs 24 hours to reset between sessions.",
-        "Because the afterglow — the physiological integration window — lasts 24 to 48 hours, and daily sessions would short-circuit it.",
+        "Because the afterglow. The physiological integration window. Lasts 24 to 48 hours, and daily sessions would short-circuit it.",
         "Because we want guests to explore the resort on their off days.",
         "Because the essential oils need time to refill.",
       ],
@@ -161,8 +161,8 @@ If they hesitate on price, the anchor: *"For context, that's less than what a si
     {
       q: "A guest is only staying two nights. What do you recommend?",
       options: [
-        "Tell them the Recovery Series isn't for them — just a single session.",
-        "Recommend two sessions — one on arrival day, one on the morning of departure — as a 'bookend' approach.",
+        "Tell them the Recovery Series isn't for them. Just a single session.",
+        "Recommend two sessions: one on arrival day, one on the morning of departure, as a 'bookend' approach.",
         "Push them to do four sessions back-to-back in two days.",
         "Decline their booking because the cadence doesn't work.",
       ],

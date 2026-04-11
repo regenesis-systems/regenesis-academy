@@ -96,24 +96,30 @@ export default function EnrollmentPage() {
             </h1>
             <div className="rule-gold mb-8" />
             <p className="text-[17px] md:text-[18px] leading-[1.75] text-charcoal max-w-[54ch] mb-8">
-              Welcome to the Regenesis Academy — the certification programme
-              for staff working with the Regenesis Pod at Aman properties
-              worldwide.
+              Welcome to the Regenesis Academy, the certification experience
+              for Aman staff entrusted with the Regenesis Pod across Aman
+              properties worldwide.
             </p>
             <p className="text-[17px] leading-[1.75] text-charcoal max-w-[54ch] mb-8">
               You are joining the{" "}
-              <em className="text-gold-dark">Founding Cohort</em>. Together with
-              a small group of colleagues at Amanyara, you are the first team
-              in the world to complete this programme — and your certificates
-              will carry that distinction forever.
+              <em className="text-gold-dark">Founding Cohort</em>. Alongside a
+              select group of colleagues at Amanyara, you will become part of
+              the first team in the world to complete this programme, and your
+              certification will carry that distinction.
+            </p>
+            <p className="text-[17px] leading-[1.75] text-charcoal max-w-[54ch] mb-8">
+              Over the next six modules, you will be guided through the Pod
+              experience, operating principles, guest journey, and core
+              standards required to deliver Regenesis with confidence and care.
+            </p>
+            <p className="text-[17px] leading-[1.75] text-charcoal max-w-[54ch] mb-8">
+              Each module concludes with a short assessment. Upon successful
+              completion of the full programme, you will receive a personalised
+              certificate recognising you as a Certified Regenesis Pod
+              Concierge.
             </p>
             <p className="text-[17px] leading-[1.75] text-charcoal max-w-[54ch]">
-              Over the next few hours you will be walked through six modules,
-              each ending in a short assessment. When you complete the final
-              assessment, you will receive a certificate in your name, signed
-              by our co-founder, marking you as a Certified Regenesis Pod
-              Concierge. Take your time. The Academy is designed for mastery,
-              not speed.
+              Take your time. The Academy is designed for mastery, not speed.
             </p>
           </div>
 
