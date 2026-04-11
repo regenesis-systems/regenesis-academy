@@ -5,6 +5,7 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { getProperty, PROPERTIES } from "@/content/properties";
 import type { Trainee, Property } from "@/lib/types";
+import { Wordmark } from "@/components/Wordmark";
 
 const CertificateView = dynamic(
   () => import("@/components/Certificate").then((m) => m.CertificateView),
@@ -60,11 +61,8 @@ export default function CertificatePreviewPage() {
   return (
     <main className="min-h-screen flex flex-col bg-paper">
       <header className="px-8 md:px-16 py-8 border-b border-line">
-        <div className="max-w-5xl mx-auto flex items-baseline justify-between">
-          <div className="flex items-baseline gap-3">
-            <div className="serif text-xl text-ink">Regenesis</div>
-            <div className="tracked text-gold-dark">Academy</div>
-          </div>
+        <div className="max-w-5xl mx-auto flex items-center justify-between">
+          <Wordmark size="md" />
           <Link
             href="/"
             className="tracked text-muted hover:text-ink transition-colors"

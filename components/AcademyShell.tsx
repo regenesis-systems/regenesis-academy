@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import type { Trainee } from "@/lib/types";
 import { loadTrainee, clearTrainee } from "@/lib/storage";
 import { getProperty } from "@/content/properties";
+import { Wordmark } from "@/components/Wordmark";
 
 export function AcademyShell({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -36,10 +37,7 @@ export function AcademyShell({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen flex flex-col">
       <header className="border-b border-line px-6 md:px-12 py-6">
         <div className="max-w-6xl mx-auto flex items-center justify-between gap-8">
-          <Link href="/academy/" className="flex items-baseline gap-3">
-            <div className="serif text-xl text-ink">Regenesis</div>
-            <div className="tracked text-gold-dark">Academy</div>
-          </Link>
+          <Wordmark size="md" href="/academy/" />
           <div className="hidden md:flex items-center gap-10">
             <div className="text-right">
               <div className="text-[13px] text-ink leading-tight">{trainee.name}</div>

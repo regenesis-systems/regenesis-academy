@@ -6,6 +6,7 @@ import { MODULES } from "@/content/modules";
 import { PROPERTIES } from "@/content/properties";
 import { loadTrainee } from "@/lib/storage";
 import type { Trainee } from "@/lib/types";
+import { Wordmark } from "@/components/Wordmark";
 
 const ADMIN_URL = process.env.NEXT_PUBLIC_ADMIN_URL ?? "";
 const SHEET_URL = process.env.NEXT_PUBLIC_SHEET_URL ?? "";
@@ -144,10 +145,7 @@ export default function AdminPage() {
     <div className="min-h-screen">
       <header className="border-b border-line px-6 md:px-12 py-6">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <div>
-            <div className="serif text-xl text-ink">Regenesis Academy</div>
-            <div className="tracked text-gold-dark mt-1">HQ Admin</div>
-          </div>
+          <Wordmark size="md" eyebrow="HQ Admin" />
           <div className="flex items-center gap-6">
             <button
               type="button"

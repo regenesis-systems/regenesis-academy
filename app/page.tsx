@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { enroll, loadTrainee, submitEnrollment } from "@/lib/storage";
 import { getProperty } from "@/content/properties";
+import { Wordmark } from "@/components/Wordmark";
 
 const ROLES = [
   "Spa Reception",
@@ -66,12 +67,7 @@ export default function EnrollmentPage() {
     <main className="min-h-screen flex flex-col">
       <header className="px-8 md:px-16 py-10">
         <div className="flex items-center justify-between max-w-6xl mx-auto">
-          <div>
-            <div className="serif text-2xl text-ink tracking-[0.02em]">
-              Regenesis
-            </div>
-            <div className="tracked text-gold-dark mt-1">Academy</div>
-          </div>
+          <Wordmark size="lg" />
           {mounted && existing && (
             <Link
               href="/academy/"
