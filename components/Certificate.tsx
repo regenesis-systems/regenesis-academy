@@ -11,7 +11,11 @@ import {
   PDFViewer,
 } from "@react-pdf/renderer";
 import type { Trainee, Property } from "@/lib/types";
-import { NOVAK_SIGNATURE, TAV_SIGNATURE } from "@/lib/signatures";
+import {
+  NOVAK_SIGNATURE,
+  TAV_SIGNATURE,
+  REGENESIS_WORDMARK,
+} from "@/lib/signatures";
 
 // Using @react-pdf/renderer built-in fonts (Times-Roman, Helvetica) so the
 // cert does not depend on any runtime font fetch. Google Fonts CDN URLs rotate
@@ -57,13 +61,12 @@ const styles = StyleSheet.create({
   },
   header: {
     textAlign: "center",
+    alignItems: "center",
   },
   wordmark: {
-    fontFamily: SERIF,
-    fontSize: 30,
-    color: PALETTE.ink,
-    letterSpacing: 4,
-    textAlign: "center",
+    width: 410,
+    height: 29,
+    objectFit: "contain",
   },
   eyebrow: {
     fontSize: 8,
@@ -71,8 +74,16 @@ const styles = StyleSheet.create({
     color: PALETTE.goldDark,
     textTransform: "uppercase",
     textAlign: "center",
-    marginTop: 5,
+    marginTop: 10,
     fontWeight: 500,
+  },
+  certTitle: {
+    fontFamily: SERIF_ITALIC,
+    fontSize: 20,
+    color: PALETTE.ink,
+    textAlign: "center",
+    marginTop: 6,
+    marginBottom: 4,
   },
   goldRule: {
     width: 36,
@@ -228,9 +239,10 @@ export function CertificateDocument({
         <View style={styles.frame}>
           <View style={styles.innerFrame}>
             <View style={styles.header}>
-              <Text style={styles.wordmark}>REGENESIS</Text>
-              <Text style={styles.eyebrow}>Academy · Certificate of Completion</Text>
+              <Image src={REGENESIS_WORDMARK} style={styles.wordmark} />
+              <Text style={styles.eyebrow}>Academy</Text>
               <View style={styles.goldRule} />
+              <Text style={styles.certTitle}>Certificate of Completion</Text>
             </View>
 
             <Text style={styles.awardedTo}>This certifies that</Text>
@@ -243,12 +255,10 @@ export function CertificateDocument({
             </Text>
 
             <Text style={styles.property}>{property.name}</Text>
-            <Text style={styles.cohort}>
-              {property.cohort} · {property.location}
-            </Text>
+            <Text style={styles.cohort}>{property.location}</Text>
 
             <Text style={styles.tagline}>
-              "You are not selling. You are inviting. The Pod does the rest."
+              Performance begins with recovery.
             </Text>
 
             <View style={styles.footer}>
@@ -256,7 +266,7 @@ export function CertificateDocument({
                 <View style={styles.sigImageWrap}>
                   <Image
                     src={NOVAK_SIGNATURE}
-                    style={[styles.sigImage, { height: 32 }]}
+                    style={[styles.sigImage, { height: 34 }]}
                   />
                 </View>
                 <View style={styles.sigLine} />
@@ -267,7 +277,7 @@ export function CertificateDocument({
                 <View style={styles.sigImageWrap}>
                   <Image
                     src={TAV_SIGNATURE}
-                    style={[styles.sigImage, { height: 38 }]}
+                    style={[styles.sigImage, { height: 34 }]}
                   />
                 </View>
                 <View style={styles.sigLine} />
