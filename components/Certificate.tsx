@@ -40,82 +40,57 @@ const styles = StyleSheet.create({
     fontFamily: SANS,
   },
   frame: {
-    margin: 18,
+    margin: 14,
     border: `1px solid ${PALETTE.gold}`,
     flex: 1,
-    padding: 22,
+    padding: 14,
     display: "flex",
     flexDirection: "column",
   },
   innerFrame: {
     border: `0.5px solid ${PALETTE.line}`,
     flex: 1,
-    padding: 18,
+    padding: 14,
     position: "relative",
   },
   header: {
     textAlign: "center",
-    marginBottom: 2,
   },
   wordmark: {
     fontFamily: SERIF,
-    fontSize: 26,
+    fontSize: 22,
     color: PALETTE.ink,
     letterSpacing: 4,
     textAlign: "center",
   },
   eyebrow: {
     fontSize: 7,
-    letterSpacing: 3,
+    letterSpacing: 2.5,
     color: PALETTE.goldDark,
     textTransform: "uppercase",
     textAlign: "center",
-    marginTop: 4,
+    marginTop: 3,
     fontWeight: 500,
   },
   goldRule: {
-    width: 36,
+    width: 32,
     height: 1,
     backgroundColor: PALETTE.gold,
     marginHorizontal: "auto",
-    marginTop: 8,
-    marginBottom: 8,
-  },
-  fineRule: {
-    height: 0.5,
-    backgroundColor: PALETTE.line,
-    marginVertical: 6,
-  },
-  purposeLabel: {
-    fontSize: 8,
-    letterSpacing: 3,
-    color: PALETTE.muted,
-    textAlign: "center",
-    textTransform: "uppercase",
-    marginTop: 10,
-    marginBottom: 4,
-    fontFamily: SANS,
-    fontWeight: 500,
-  },
-  certTitle: {
-    fontFamily: SERIF,
-    fontSize: 28,
-    color: PALETTE.ink,
-    textAlign: "center",
-    marginBottom: 4,
-    letterSpacing: 0.5,
+    marginTop: 6,
+    marginBottom: 6,
   },
   awardedTo: {
     fontFamily: SERIF_ITALIC,
     fontSize: 10,
     color: PALETTE.muted,
     textAlign: "center",
-    marginTop: 10,
-    marginBottom: 4,
+    marginTop: 4,
+    marginBottom: 2,
   },
   name: {
     fontFamily: SERIF,
-    fontSize: 38,
+    fontSize: 34,
     color: PALETTE.ink,
     textAlign: "center",
     marginBottom: 2,
@@ -125,9 +100,9 @@ const styles = StyleSheet.create({
     fontSize: 9,
     color: PALETTE.muted,
     textAlign: "center",
-    lineHeight: 1.5,
-    marginTop: 6,
-    marginHorizontal: 40,
+    lineHeight: 1.4,
+    marginTop: 4,
+    marginHorizontal: 60,
     fontFamily: SANS,
   },
   credential: {
@@ -137,7 +112,7 @@ const styles = StyleSheet.create({
     color: PALETTE.goldDark,
     textAlign: "center",
     textTransform: "uppercase",
-    marginTop: 8,
+    marginTop: 6,
     fontWeight: 500,
   },
   property: {
@@ -145,19 +120,19 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: PALETTE.charcoal,
     textAlign: "center",
-    marginTop: 10,
+    marginTop: 8,
   },
   cohort: {
-    fontSize: 8,
+    fontSize: 7,
     letterSpacing: 2.5,
     color: PALETTE.muted,
     textAlign: "center",
     textTransform: "uppercase",
-    marginTop: 3,
+    marginTop: 2,
   },
   footer: {
     marginTop: "auto",
-    paddingTop: 12,
+    paddingTop: 6,
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "flex-end",
@@ -167,24 +142,24 @@ const styles = StyleSheet.create({
     width: "42%",
   },
   sigImageWrap: {
-    height: 38,
+    height: 30,
     width: "100%",
     alignItems: "center",
     justifyContent: "flex-end",
     marginBottom: 2,
   },
   sigImage: {
-    height: 34,
+    height: 26,
     objectFit: "contain",
   },
   sigLine: {
-    width: "82%",
+    width: "80%",
     height: 0.5,
     backgroundColor: PALETTE.ink,
-    marginBottom: 4,
+    marginBottom: 3,
   },
   sigName: {
-    fontSize: 10,
+    fontSize: 9,
     color: PALETTE.ink,
     textAlign: "center",
     fontFamily: SERIF,
@@ -201,10 +176,10 @@ const styles = StyleSheet.create({
     fontFamily: SANS,
   },
   meta: {
-    marginTop: 12,
+    marginTop: 8,
     flexDirection: "row",
     justifyContent: "space-between",
-    paddingTop: 6,
+    paddingTop: 5,
     borderTop: `0.5px solid ${PALETTE.line}`,
   },
   metaItem: {
@@ -245,19 +220,14 @@ export function CertificateDocument({
           <View style={styles.innerFrame}>
             <View style={styles.header}>
               <Text style={styles.wordmark}>REGENESIS</Text>
-              <Text style={styles.eyebrow}>Academy</Text>
+              <Text style={styles.eyebrow}>Academy · Certificate of Completion</Text>
               <View style={styles.goldRule} />
             </View>
 
-            <Text style={styles.purposeLabel}>Certificate of Completion</Text>
-            <View style={[styles.fineRule, { width: 120, marginHorizontal: "auto" }]} />
-
             <Text style={styles.awardedTo}>This certifies that</Text>
             <Text style={styles.name}>{trainee.name}</Text>
-            <View style={[styles.goldRule, { marginTop: 12, marginBottom: 6 }]} />
             <Text style={styles.hereby}>
-              has completed all six modules of the Regenesis Academy, passed
-              the Final Assessment, and is hereby recognised as a
+              is hereby recognised, on completion of all six modules and the Final Assessment, as a
             </Text>
             <Text style={styles.credential}>
               Certified Regenesis Pod Concierge
@@ -273,7 +243,7 @@ export function CertificateDocument({
                 <View style={styles.sigImageWrap}>
                   <Image
                     src={NOVAK_SIGNATURE}
-                    style={[styles.sigImage, { height: 30 }]}
+                    style={[styles.sigImage, { height: 24 }]}
                   />
                 </View>
                 <View style={styles.sigLine} />
@@ -284,7 +254,7 @@ export function CertificateDocument({
                 <View style={styles.sigImageWrap}>
                   <Image
                     src={TAV_SIGNATURE}
-                    style={[styles.sigImage, { height: 34 }]}
+                    style={[styles.sigImage, { height: 28 }]}
                   />
                 </View>
                 <View style={styles.sigLine} />
