@@ -7,45 +7,20 @@ import {
   View,
   Image,
   StyleSheet,
-  Font,
   PDFDownloadLink,
   PDFViewer,
 } from "@react-pdf/renderer";
 import type { Trainee, Property } from "@/lib/types";
 import { NOVAK_SIGNATURE, TAV_SIGNATURE } from "@/lib/signatures";
 
-Font.register({
-  family: "Cormorant",
-  fonts: [
-    {
-      src: "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrEPjoUHbu7MvvyyGuA.ttf",
-      fontWeight: 400,
-    },
-    {
-      src: "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrEPjoUHbu7MvvyyEuAbuvWzPHvw.ttf",
-      fontWeight: 400,
-      fontStyle: "italic",
-    },
-    {
-      src: "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjYrEPjoUHbu7MvvyyGuA.ttf",
-      fontWeight: 600,
-    },
-  ],
-});
-
-Font.register({
-  family: "Inter",
-  fonts: [
-    {
-      src: "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.ttf",
-      fontWeight: 400,
-    },
-    {
-      src: "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.ttf",
-      fontWeight: 500,
-    },
-  ],
-});
+// Using @react-pdf/renderer built-in fonts (Times-Roman, Helvetica) so the
+// cert does not depend on any runtime font fetch. Google Fonts CDN URLs rotate
+// and 404 unpredictably — learned the hard way 2026-04-11. If we ever want
+// Cormorant Garamond back, inline the TTF as base64 under lib/fonts.ts.
+const SERIF = "Times-Roman";
+const SERIF_ITALIC = "Times-Italic";
+const SANS = "Helvetica";
+const SANS_BOLD = "Helvetica-Bold";
 
 const PALETTE = {
   paper: "#faf7f0",
@@ -62,7 +37,7 @@ const styles = StyleSheet.create({
   page: {
     backgroundColor: PALETTE.paper,
     padding: 0,
-    fontFamily: "Inter",
+    fontFamily: SANS,
   },
   frame: {
     margin: 26,
@@ -83,7 +58,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   wordmark: {
-    fontFamily: "Cormorant",
+    fontFamily: SERIF,
     fontSize: 32,
     color: PALETTE.ink,
     letterSpacing: 4,
@@ -119,11 +94,11 @@ const styles = StyleSheet.create({
     textTransform: "uppercase",
     marginTop: 36,
     marginBottom: 12,
-    fontFamily: "Inter",
+    fontFamily: SANS,
     fontWeight: 500,
   },
   certTitle: {
-    fontFamily: "Cormorant",
+    fontFamily: SERIF,
     fontSize: 36,
     color: PALETTE.ink,
     textAlign: "center",
@@ -131,16 +106,15 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
   },
   awardedTo: {
-    fontFamily: "Cormorant",
+    fontFamily: SERIF_ITALIC,
     fontSize: 11,
-    fontStyle: "italic",
     color: PALETTE.muted,
     textAlign: "center",
     marginTop: 30,
     marginBottom: 14,
   },
   name: {
-    fontFamily: "Cormorant",
+    fontFamily: SERIF,
     fontSize: 48,
     color: PALETTE.ink,
     textAlign: "center",
@@ -154,10 +128,10 @@ const styles = StyleSheet.create({
     lineHeight: 1.6,
     marginTop: 18,
     marginHorizontal: 40,
-    fontFamily: "Inter",
+    fontFamily: SANS,
   },
   credential: {
-    fontFamily: "Inter",
+    fontFamily: SANS,
     fontSize: 11,
     letterSpacing: 3,
     color: PALETTE.goldDark,
@@ -167,9 +141,8 @@ const styles = StyleSheet.create({
     fontWeight: 500,
   },
   property: {
-    fontFamily: "Cormorant",
+    fontFamily: SERIF_ITALIC,
     fontSize: 14,
-    fontStyle: "italic",
     color: PALETTE.charcoal,
     textAlign: "center",
     marginTop: 18,
@@ -214,7 +187,7 @@ const styles = StyleSheet.create({
     fontSize: 10,
     color: PALETTE.ink,
     textAlign: "center",
-    fontFamily: "Cormorant",
+    fontFamily: SERIF,
     fontWeight: 500,
     letterSpacing: 0.5,
   },
@@ -225,7 +198,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     textTransform: "uppercase",
     marginTop: 3,
-    fontFamily: "Inter",
+    fontFamily: SANS,
   },
   meta: {
     marginTop: 28,
@@ -238,7 +211,7 @@ const styles = StyleSheet.create({
     fontSize: 7,
     color: PALETTE.muted,
     letterSpacing: 1.5,
-    fontFamily: "Inter",
+    fontFamily: SANS,
     textTransform: "uppercase",
   },
 });
