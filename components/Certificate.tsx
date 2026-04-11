@@ -274,7 +274,7 @@ export function CertificateDocument({
                 <Text style={styles.sigTitle}>Co-Founder · Regenesis</Text>
               </View>
               <View style={styles.sigBlock}>
-                <View style={styles.sigImageWrap}>
+                <View style={[styles.sigImageWrap, { marginBottom: -5 }]}>
                   <Image
                     src={TAV_SIGNATURE}
                     style={[styles.sigImage, { height: 34 }]}
