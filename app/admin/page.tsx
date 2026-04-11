@@ -8,6 +8,7 @@ import { loadTrainee } from "@/lib/storage";
 import type { Trainee } from "@/lib/types";
 
 const ADMIN_URL = process.env.NEXT_PUBLIC_ADMIN_URL ?? "";
+const SHEET_URL = process.env.NEXT_PUBLIC_SHEET_URL ?? "";
 const ADMIN_CODE_HINT = "regenesis-founding";
 
 type Row = Trainee;
@@ -171,6 +172,30 @@ export default function AdminPage() {
             </h1>
             <div className="rule-gold" />
           </div>
+
+          {SHEET_URL && (
+            <div className="mb-12 border border-line bg-cream/40 px-8 py-7">
+              <div className="tracked text-gold-dark mb-2">Live data</div>
+              <h3 className="serif text-2xl text-ink mb-3">
+                The authoritative view lives in Google Sheets
+              </h3>
+              <p className="text-[14px] text-muted leading-relaxed mb-5 max-w-[58ch]">
+                Every enrolment, module completion, quiz score and certificate
+                issued is streamed into a live Google Sheet in real time. Open
+                it to see the full, aggregated view across every device and
+                every trainee — this page only shows trainees on your current
+                browser.
+              </p>
+              <a
+                href={SHEET_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-gold"
+              >
+                Open live Google Sheet →
+              </a>
+            </div>
+          )}
 
           {error && (
             <div className="mb-10 text-[14px] text-muted italic border-l border-gold pl-4 max-w-xl">
