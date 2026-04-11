@@ -6,127 +6,92 @@ export const sopsModule: Module = {
   eyebrow: "Module Five",
   title: "SOPs Essentials",
   subtitle: "Daily rituals that keep the Pod flawless",
-  readingTime: 10,
+  readingTime: 5,
   sections: [
     {
       kind: "prose",
-      body: `A guest who walks into a beautifully prepared Pod room does not notice the preparation. A guest who walks into a Pod room with a smudge on the touchscreen or a stale scent notices **immediately** — and the magic is gone before the session has started.
+      body: `A guest walking into a beautifully prepared Pod room does not notice the preparation. A guest walking into one with a smudged touchscreen notices **immediately**, and the magic is gone.
 
-This module is the daily rhythm that keeps the Pod in the state a guest expects: spotless, fragrant, silent, ready. None of these tasks are difficult. All of them matter. The Pod is a piece of craftsmanship, and like any piece of craftsmanship it requires a quiet, consistent ritual of care.
-
-If you are in the Engineering or Maintenance team, Module Six covers the deeper technical work and emergency protocols. This module is for **everyone who operates the Pod day-to-day**.`,
+None of these tasks are difficult. All of them matter. This module is for everyone who operates the Pod day-to-day — Engineering covers the deeper technical work in Module Six.`,
     },
     {
       kind: "callout",
-      title: "The Daily Rhythm · A Simple Map",
-      body: `**Morning (before the first guest):**
-→ Pod Start-Up
-→ Room Preparation
-→ 5-minute Health Check (test session)
-→ Tablet charged and session menu ready
+      title: "The Daily Rhythm",
+      body: `**Morning (before first guest):** Start-Up → Room prep → 5-min Health Check → Tablet charged.
 
-**Between every guest:**
-→ Spot cleaning (touchscreen, visible surfaces)
-→ Cushion check
-→ Room refresh (air, ambient sound, soft lighting)
-→ Quick visual of the interior
+**Between every guest:** Spot clean (touchscreen + surfaces) → Cushion check → Room refresh → Visual of interior.
 
-**Evening (after the last guest):**
-→ Final interior clean
-→ Pod Shut-Down (*power button only — never unplug*)
-→ Tablet on charge
-→ Maintenance log closed
+**Evening:** Final clean → Shut-Down (**power button only, never unplug**) → Tablet charging → Log closed.
 
-**Twice a month (15th and 30th):**
-→ Cushion steam-clean with the Aman housekeeping team
+**15th and 30th of each month:** Cushion steam-clean with Aman housekeeping.
 
-**Every Monday:**
-→ Olfactory refill — 10 drops of each doTERRA oil`,
-    },
-    {
-      kind: "prose",
-      title: "Start-Up · The First Ten Minutes",
-      body: `The Pod does not wake up alone. Every morning before the first guest, someone on the team walks the Pod through its start-up ritual.`,
+**Every Monday:** Olfactory refill — 10 drops of each doTERRA oil.`,
     },
     {
       kind: "list",
+      title: "Start-Up · The First Ten Minutes",
       items: [
-        "**Verify power.** The Pod is plugged into its step-down converter. The converter is plugged into the wall. The converter switch is on.",
-        "**Power on.** Press the hidden exterior on/off button (on the bottom lip of the Pod, by the maintenance hatch). Wait for the Pod to come to life fully before opening the door.",
-        "**Open the door.** Use the hidden exterior door button. Step back and let the door complete its full travel.",
-        "**Inspect the interior.** Look for dust, scuffs, marks, or any visual distraction. Check the cushion — it should be clean, aligned, and smooth. If anything is off, clean now.",
-        "**Run the Health Check.** A 5-minute test session. During this run, confirm the scent is delivering, the audio is clean, the lights and transducers are working, and the touchscreen is responsive. *You are the Pod's first guest of the day.*",
-        "**Verify the tablet.** Charged, unlocked, and showing the session menu ready for the first guest to choose.",
+        "**Verify power.** Pod plugged into step-down converter, converter plugged into wall, converter switch on.",
+        "**Power on** via the hidden exterior on/off button.",
+        "**Open the door** via the hidden exterior button. Let it complete its full travel.",
+        "**Inspect the interior** — dust, scuffs, cushion alignment. Clean now if needed.",
+        "**Run the 5-min Health Check.** Confirm scent, audio, lights, transducers, touchscreen. You are the Pod's first guest of the day.",
+        "**Verify the tablet** — charged, unlocked, showing the session menu.",
       ],
     },
     {
-      kind: "prose",
-      title: "Between Guests · The Reset",
-      body: `The reset between guests is short — usually 10 to 15 minutes — but it is the moment that makes the Pod feel untouched when the next guest arrives. Treat every reset as though a Michelin inspector is about to walk in.`,
-    },
-    {
       kind: "list",
+      title: "Between Guests · The Reset",
       items: [
-        "**Put on white gloves.** Every single time. Guests notice clean hands.",
-        "**Spot-clean the touchscreen** with a microfibre cloth lightly dampened with Windex. Dry with a clean section. No streaks, no fingerprints.",
-        "**Wipe down any visible interior surfaces** — the big screen, the cushion edge, anywhere a previous guest may have touched.",
-        "**Check the cushion.** If it shows any mark, stain, or residue, swap to the backup cushion and send the used one to the Aman housekeeping team for steam cleaning.",
-        "**Refresh the room.** Dim the lighting, lower any ambient sound to a quiet baseline, let the air settle. The room should feel *newly entered* by the next guest.",
-        "**Log the session** in the Regenesis Maintenance Log. Notes, issues, guest feedback — anything the next shift should know.",
+        "**Put on white gloves.** Every time.",
+        "**Spot-clean the touchscreen** with microfibre + a light Windex mist. No streaks.",
+        "**Wipe visible interior surfaces** — big screen, cushion edge, anywhere a previous guest may have touched.",
+        "**Check the cushion.** Any mark → swap to backup immediately, send used one to housekeeping.",
+        "**Refresh the room** — dim lights, quiet ambient, let the air settle.",
+        "**Log the session** in the Maintenance Log.",
       ],
     },
     {
       kind: "callout",
       title: "The Cushion · Treat It Like Fine Linen",
-      body: `The Pod's cushion is the single surface that touches every guest for 30 uninterrupted minutes. It is the most important piece of hygiene in the entire operation, and it is also the piece most likely to be neglected because it looks fine to a casual glance.
+      body: `The single surface that touches every guest for 30 uninterrupted minutes. Cleaned **twice a month (15th & 30th)** by Aman housekeeping with gentle steam, backup cushion swapped in during cleaning.
 
-**The rule:** the cushion is **cleaned twice a month — on the 15th and the 30th — by the Aman housekeeping team**, and immediately replaced with the backup cushion during cleaning.
-
-**If you see any mark, stain, smell, or residue between scheduled cleanings, swap it out immediately.** Do not wait for the 15th. The backup cushion exists exactly for this.
-
-When cleaning, use **gentle steam only**, at a safe heat setting to protect both the fabric and the memory foam. Ensure the cushion is completely dry before placing it back into the Pod.`,
+**Any mark, stain, or residue between scheduled cleanings → swap to backup immediately.** Do not wait. The backup exists for exactly this.`,
     },
     {
       kind: "prose",
       title: "Scent Is Everything",
-      body: `The olfactory system is the single most important signature of the Regenesis experience — it is the **neural anchor** the body uses to recognise the Pod from one session to the next. A Pod with a faint, stale, or mixed scent is a Pod that has lost its most powerful tool.
+      body: `The olfactory system is the single most important signature — it's the **neural anchor** the body uses to recognise the Pod. A faint or stale scent is a Pod that has lost its most powerful tool.
 
-**Every Monday**, if the Pod has been running continuously, the olfactory system is refilled. It is a ten-minute ritual.`,
+**Every Monday**, refill if the Pod has been running continuously.`,
     },
     {
       kind: "list",
       items: [
-        "**Wear white gloves.** Contamination is the enemy.",
-        "**Unscrew the back hatch** using the allen key. Support the hatch as the final screws come out — it should not fall.",
-        "**Gently slide out the olfactory system.** Note the position of each scent before you unscrew any nut lids.",
-        "**Add exactly 10 drops** of the correct doTERRA oil to each active scent hole. The current mapping is: **ID 1 → Lavender (RELAX), ID 2 → Frankincense (RECONNECT), ID 3 → Tangerine (RECHARGE)**. The remaining slots are reserved for future experiences — leave them empty.",
-        "**Only doTERRA oils.** Only these oils. Using any other brand or any other blend contaminates the system and undoes months of neural anchoring work.",
-        "**Reseal each nut lid carefully.** Slide the olfactory system back into place. Confirm all pipes and cables are still connected.",
-        "**Secure the back hatch.** Every screw hand-tightened. No rattles.",
+        "**White gloves.** Contamination is the enemy.",
+        "**Unscrew the back hatch** (allen key). Support the hatch as the last screws come out.",
+        "**Slide out the olfactory system.** Note scent positions before unscrewing nut lids.",
+        "**Add exactly 10 drops** of the correct doTERRA oil. Mapping: **ID 1 → Lavender (RELAX) · ID 2 → Frankincense (RECONNECT) · ID 3 → Tangerine (RECHARGE)**. Remaining slots reserved for future experiences — leave empty.",
+        "**doTERRA only.** Any other brand contaminates months of neural anchoring work.",
+        "**Reseal, reassemble, secure the hatch** — every screw hand-tightened, no rattles.",
         "**Run a test session** to confirm each scent delivers cleanly.",
       ],
     },
     {
       kind: "callout",
       title: "Shut-Down · The One Rule You Must Not Break",
-      body: `At the end of the day:
+      body: `1. Confirm interior clean and cushion in place.
+2. Close the Pod door via the exterior button.
+3. Power off via the hidden exterior on/off button.
 
-1. Confirm the interior is clean and the cushion is in place for tomorrow.
-2. Close the Pod door using the exterior door button.
-3. Power off the Pod using the hidden exterior on/off button.
+**Do NOT unplug the Pod from the step-down converter.** Leave it plugged in overnight. The button is the correct shut-down — unplugging interrupts the internal maintenance cycle.
 
-**Do NOT unplug the Pod from the step-down converter.** Ever. Leave it plugged in overnight. Powering down via the button is the correct shut-down — unplugging interrupts the Pod's internal maintenance cycle and can cause system issues the next morning.
-
-This is the single most common mistake new staff make. Commit it to memory: **power button only, never the plug**.`,
+**Power button only, never the plug.** The single most common new-staff mistake.`,
     },
     {
       kind: "prose",
       title: "The Maintenance Log",
-      body: `Every issue, every observation, every guest note, every refill date goes into the **Regenesis Maintenance Log**. Not because a bureaucrat needs paperwork, but because the log is how Regenesis back in Bali can spot patterns across every Pod in the world and fix them before they become problems.
-
-A rattling fan noted once is a note. A rattling fan noted three times across two weeks is a service ticket. Your log entries are how we catch the second one.
-
-**Log every:** olfactory refill, cushion clean, any guest feedback on the experience, any issue with any subsystem, any emergency release activation, any unusual behaviour.`,
+      body: `Every issue, observation, guest note, and refill date goes in the **Regenesis Maintenance Log**. A rattling fan noted once is a note. Noted three times across two weeks is a service ticket. Your logs are how Regenesis spots patterns across every Pod in the world.`,
     },
     {
       kind: "pullquote",
@@ -144,14 +109,14 @@ A rattling fan noted once is a note. A rattling fan noted three times across two
       ],
       answer: 1,
       explain:
-        "Power button ONLY, never unplug. Unplugging interrupts the internal maintenance cycle and is the most common new-staff mistake.",
+        "Power button ONLY, never unplug. Unplugging interrupts the internal maintenance cycle.",
     },
     {
       q: "How often is the olfactory system refilled if the Pod runs continuous sessions?",
       options: ["Daily", "Every Monday", "Once a month", "Only when scent is noticeably weaker"],
       answer: 1,
       explain:
-        "Weekly refill, every Monday, 10 drops of each doTERRA oil. The scent is the neural anchor — it must stay strong and distinct.",
+        "Weekly refill, every Monday, 10 drops of each doTERRA oil.",
     },
     {
       q: "A cushion shows a small mark on April 3rd. The scheduled cleaning is April 15th. What do you do?",
@@ -163,7 +128,7 @@ A rattling fan noted once is a note. A rattling fan noted three times across two
       ],
       answer: 1,
       explain:
-        "The backup cushion exists exactly for this. Hygiene is non-negotiable and the schedule is a minimum, not a maximum.",
+        "The backup cushion exists exactly for this. Hygiene is never on a schedule.",
     },
     {
       q: "When adding essential oils during an olfactory refill, you should use:",
@@ -175,7 +140,7 @@ A rattling fan noted once is a note. A rattling fan noted three times across two
       ],
       answer: 1,
       explain:
-        "doTERRA only. Using other brands contaminates the neural anchor the guest's body has learned to recognise, and undoes months of conditioning work.",
+        "doTERRA only. Other brands contaminate the neural anchor the guest's body has learned to recognise.",
     },
     {
       q: "The Regenesis Maintenance Log exists primarily to:",
@@ -187,7 +152,7 @@ A rattling fan noted once is a note. A rattling fan noted three times across two
       ],
       answer: 2,
       explain:
-        "The log is an early-warning system for the entire Regenesis fleet. A small issue logged today is how we prevent a major failure somewhere next month.",
+        "The log is an early-warning system for the entire Regenesis fleet.",
     },
   ],
 };
