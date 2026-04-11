@@ -27,7 +27,7 @@ Read that again. The same person who leads Aman's global wellness vision is a co
 
 This is your most powerful piece of context. You don't need to lead with it, but when a guest asks *"is this just another wellness gadget?"* or *"what makes this different?"*, the answer lives here.
 
-**The line to have ready:** *"The Pod is co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and our founder Tav Keen. It was built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."*`,
+**The line to have ready:** *"The Pod is co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and Regenesis co-founder Tav Keen. It was built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."*`,
     },
     {
       kind: "prose",
@@ -140,7 +140,7 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"It's co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and our founder Tav Keen. Built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."`,
+      body: `"It's co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and Regenesis co-founder Tav Keen. Built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."`,
     },
     { kind: "script", role: "Guest", body: `"Is it safe?"` },
     {
@@ -233,7 +233,7 @@ If you remember only one line from this entire module: **you are not selling. Yo
       q: "A guest asks 'who's actually behind this?' Which response is correct and on-brand?",
       options: [
         "'It's built by an Indonesian startup, not sure of the founders.'",
-        "'It's co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and our founder Tav Keen. The same environment Novak uses himself.'",
+        "'It's co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and Regenesis co-founder Tav Keen. The same environment Novak uses himself.'",
         "'It's a licensed wellness product from Asia.'",
         "'I'm not sure — I'd have to check.'",
       ],

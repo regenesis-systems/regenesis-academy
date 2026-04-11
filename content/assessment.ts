@@ -23,7 +23,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "A guest asks 'who's actually behind this?' What is the correct on-brand answer?",
     options: [
       "'It's a wellness startup from Asia, not sure of the founders.'",
-      "'It's co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and our founder Tav Keen. The same environment Novak uses himself.'",
+      "'It's co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and Regenesis co-founder Tav Keen. The same environment Novak uses himself.'",
       "'It's licensed by Aman from another company.'",
       "'I'm not sure — I'd have to check with my manager.'",
     ],
