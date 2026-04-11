@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #faf7f0;
+  --cream: #f1ebdc;
+  --stone: #d9d2c1;
+  --ink: #1a1a1a;
+  --charcoal: #2b2a28;
+  --muted: #6b6659;
+  --gold: #b89866;
+  --gold-dark: #8f7547;
+  --line: #c9c1ac;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-cream: var(--cream);
+  --color-stone: var(--stone);
+  --color-ink: var(--ink);
+  --color-charcoal: var(--charcoal);
+  --color-muted: var(--muted);
+  --color-gold: var(--gold);
+  --color-gold-dark: var(--gold-dark);
+  --color-line: var(--line);
+  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-inter), "Inter", system-ui, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+  letter-spacing: -0.005em;
+}
+
+h1, h2, h3, h4, .serif {
+  font-family: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.tracked {
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+
+.rule {
+  height: 1px;
+  background: var(--line);
+  width: 100%;
+}
+
+.rule-gold {
+  height: 1px;
+  background: var(--gold);
+  width: 3rem;
+}
+
+.prose-aman p {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--charcoal);
+  margin-bottom: 1.25rem;
+}
+
+.prose-aman p:last-child { margin-bottom: 0; }
+
+.prose-aman strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.prose-aman em {
+  font-style: italic;
+  color: var(--gold-dark);
+}
+
+.prose-aman ul {
+  margin: 1rem 0 1.5rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.prose-aman ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--charcoal);
+}
+
+.prose-aman ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.85rem;
+  width: 0.75rem;
+  height: 1px;
+  background: var(--gold);
+}
+
+.prose-aman blockquote {
+  border-left: 1px solid var(--gold);
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  margin: 1.5rem 0;
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 1.375rem;
+  font-style: italic;
+  color: var(--charcoal);
+  line-height: 1.5;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.9rem 1.75rem;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--ink);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+}
+
+.btn-ghost:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.btn-gold {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: var(--paper);
+}
+
+.btn-gold:hover {
+  background: transparent;
+  color: var(--gold-dark);
+  border-color: var(--gold);
+}
+
+input[type="text"], input[type="email"], textarea, select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  padding: 0.65rem 0;
+  font-size: 1rem;
+  color: var(--ink);
+  width: 100%;
+  transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focus {
+  outline: none;
+  border-bottom-color: var(--gold);
+}
+
+::placeholder { color: var(--muted); opacity: 0.6; }
+
+::selection { background: var(--gold); color: var(--paper); }
