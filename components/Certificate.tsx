@@ -5,6 +5,7 @@ import {
   Page,
   Text,
   View,
+  Image,
   StyleSheet,
   Font,
   PDFDownloadLink,
@@ -184,32 +185,37 @@ const styles = StyleSheet.create({
     marginTop: "auto",
     paddingTop: 28,
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "space-around",
     alignItems: "flex-end",
   },
   sigBlock: {
     alignItems: "center",
-    width: "40%",
+    width: "42%",
+  },
+  sigImageWrap: {
+    height: 54,
+    width: "100%",
+    alignItems: "center",
+    justifyContent: "flex-end",
+    marginBottom: 4,
+  },
+  sigImage: {
+    height: 48,
+    objectFit: "contain",
   },
   sigLine: {
-    width: "100%",
+    width: "82%",
     height: 0.5,
     backgroundColor: PALETTE.ink,
     marginBottom: 6,
   },
-  sigSerif: {
-    fontFamily: "Cormorant",
-    fontStyle: "italic",
-    fontSize: 20,
-    color: PALETTE.ink,
-    marginBottom: 8,
-  },
   sigName: {
-    fontSize: 9,
-    color: PALETTE.charcoal,
+    fontSize: 10,
+    color: PALETTE.ink,
     textAlign: "center",
-    fontFamily: "Inter",
+    fontFamily: "Cormorant",
     fontWeight: 500,
+    letterSpacing: 0.5,
   },
   sigTitle: {
     fontSize: 7,
@@ -290,23 +296,32 @@ export function CertificateDocument({
 
             <View style={styles.footer}>
               <View style={styles.sigBlock}>
-                <Text style={styles.sigSerif}>Tav Keen</Text>
+                <View style={styles.sigImageWrap}>
+                  <Image
+                    src="/novak-signature.png"
+                    style={[styles.sigImage, { height: 42 }]}
+                  />
+                </View>
                 <View style={styles.sigLine} />
-                <Text style={styles.sigName}>Tav Keen</Text>
+                <Text style={styles.sigName}>Novak Djokovic</Text>
                 <Text style={styles.sigTitle}>Co-Founder · Regenesis</Text>
               </View>
               <View style={styles.sigBlock}>
-                <Text style={[styles.sigSerif, { fontStyle: "normal" }]}>
-                  {formatDate(issued)}
-                </Text>
+                <View style={styles.sigImageWrap}>
+                  <Image
+                    src="/tav-signature.png"
+                    style={[styles.sigImage, { height: 46 }]}
+                  />
+                </View>
                 <View style={styles.sigLine} />
-                <Text style={styles.sigName}>Date of issuance</Text>
-                <Text style={styles.sigTitle}>Regenesis Academy</Text>
+                <Text style={styles.sigName}>Tav Keen</Text>
+                <Text style={styles.sigTitle}>Co-Founder · Regenesis</Text>
               </View>
             </View>
 
             <View style={styles.meta}>
               <Text style={styles.metaItem}>Cert · {certId}</Text>
+              <Text style={styles.metaItem}>Issued · {formatDate(issued)}</Text>
               <Text style={styles.metaItem}>Score · {trainee.finalScore ?? 0}%</Text>
               <Text style={styles.metaItem}>
                 Regenesis Pod · First Generation
