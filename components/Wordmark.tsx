@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const HEIGHT_CLASS: Record<"sm" | "md" | "lg", string> = {
-  sm: "h-5",
-  md: "h-6",
-  lg: "h-8",
+  sm: "h-[10px]",
+  md: "h-3",
+  lg: "h-4",
 };
 
 type WordmarkProps = {
