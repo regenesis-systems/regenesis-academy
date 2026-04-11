@@ -39,8 +39,11 @@ export default function CertificatePreviewPage() {
       getProperty(qProperty) ?? PROPERTIES["AMANYARA-FOUNDING"];
     setProperty(prop);
 
+    const hex = Array.from({ length: 8 }, () =>
+      Math.floor(Math.random() * 16).toString(16),
+    ).join("");
     const sample: Trainee = {
-      id: "tr_preview" + Math.random().toString(36).slice(2, 8),
+      id: "tr_" + hex,
       name: displayName,
       email: "preview@example.com",
       role: qRole,
@@ -91,24 +94,39 @@ export default function CertificatePreviewPage() {
             <div className="py-20 text-center tracked text-muted">Loading...</div>
           )}
 
-          <div className="mt-14 pt-10 border-t border-line max-w-[58ch] mx-auto">
+          <div className="mt-14 pt-10 border-t border-line max-w-[56ch] mx-auto">
             <div className="tracked text-gold-dark mb-3 text-center">
-              Change the name
+              Change the name on the preview
             </div>
-            <p className="text-[13px] leading-[1.7] text-muted text-center mb-5">
-              Append a query string to the URL. Spaces become <code>+</code>.
+            <p className="text-[13px] leading-[1.7] text-muted text-center mb-6">
+              Add a query string to the URL. Spaces become plus signs.
             </p>
-            <ul className="text-[12px] text-muted space-y-2 leading-relaxed">
-              <li>
-                <code className="text-ink">?name=Firstname+Lastname</code>
-              </li>
-              <li>
-                <code className="text-ink">&role=Villa+Host</code>
-              </li>
-              <li>
-                <code className="text-ink">&property=AMANYARA-FOUNDING</code>
-              </li>
-            </ul>
+            <div className="space-y-3">
+              <div className="bg-cream border border-line px-5 py-3 flex items-baseline gap-4">
+                <span className="tracked text-gold-dark text-[10px] w-20 flex-shrink-0">
+                  Name
+                </span>
+                <span className="font-mono text-[12px] text-ink tracking-tight">
+                  ?name=Firstname+Lastname
+                </span>
+              </div>
+              <div className="bg-cream border border-line px-5 py-3 flex items-baseline gap-4">
+                <span className="tracked text-gold-dark text-[10px] w-20 flex-shrink-0">
+                  Role
+                </span>
+                <span className="font-mono text-[12px] text-ink tracking-tight">
+                  &amp;role=Villa+Host
+                </span>
+              </div>
+              <div className="bg-cream border border-line px-5 py-3 flex items-baseline gap-4">
+                <span className="tracked text-gold-dark text-[10px] w-20 flex-shrink-0">
+                  Property
+                </span>
+                <span className="font-mono text-[12px] text-ink tracking-tight">
+                  &amp;property=AMANYARA-FOUNDING
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
