@@ -40,99 +40,108 @@ const styles = StyleSheet.create({
     fontFamily: SANS,
   },
   frame: {
-    margin: 14,
+    margin: 18,
     border: `1px solid ${PALETTE.gold}`,
     flex: 1,
-    padding: 14,
+    padding: 20,
     display: "flex",
     flexDirection: "column",
   },
   innerFrame: {
     border: `0.5px solid ${PALETTE.line}`,
     flex: 1,
-    padding: 14,
+    padding: 22,
     position: "relative",
+    display: "flex",
+    flexDirection: "column",
   },
   header: {
     textAlign: "center",
   },
   wordmark: {
     fontFamily: SERIF,
-    fontSize: 22,
+    fontSize: 30,
     color: PALETTE.ink,
     letterSpacing: 4,
     textAlign: "center",
   },
   eyebrow: {
-    fontSize: 7,
-    letterSpacing: 2.5,
+    fontSize: 8,
+    letterSpacing: 3,
     color: PALETTE.goldDark,
     textTransform: "uppercase",
     textAlign: "center",
-    marginTop: 3,
+    marginTop: 5,
     fontWeight: 500,
   },
   goldRule: {
-    width: 32,
+    width: 36,
     height: 1,
     backgroundColor: PALETTE.gold,
     marginHorizontal: "auto",
-    marginTop: 6,
-    marginBottom: 6,
+    marginTop: 10,
+    marginBottom: 10,
   },
   awardedTo: {
     fontFamily: SERIF_ITALIC,
-    fontSize: 10,
+    fontSize: 12,
     color: PALETTE.muted,
     textAlign: "center",
-    marginTop: 4,
-    marginBottom: 2,
+    marginTop: 14,
+    marginBottom: 6,
   },
   name: {
     fontFamily: SERIF,
-    fontSize: 34,
+    fontSize: 44,
     color: PALETTE.ink,
     textAlign: "center",
-    marginBottom: 2,
+    marginBottom: 4,
     letterSpacing: 0.5,
   },
   hereby: {
-    fontSize: 9,
+    fontSize: 10,
     color: PALETTE.muted,
     textAlign: "center",
-    lineHeight: 1.4,
-    marginTop: 4,
+    lineHeight: 1.5,
+    marginTop: 12,
     marginHorizontal: 60,
     fontFamily: SANS,
   },
   credential: {
     fontFamily: SANS,
-    fontSize: 10,
+    fontSize: 12,
     letterSpacing: 3,
     color: PALETTE.goldDark,
     textAlign: "center",
     textTransform: "uppercase",
-    marginTop: 6,
+    marginTop: 12,
     fontWeight: 500,
   },
   property: {
     fontFamily: SERIF_ITALIC,
-    fontSize: 12,
+    fontSize: 16,
     color: PALETTE.charcoal,
     textAlign: "center",
-    marginTop: 8,
+    marginTop: 18,
   },
   cohort: {
-    fontSize: 7,
+    fontSize: 9,
     letterSpacing: 2.5,
     color: PALETTE.muted,
     textAlign: "center",
     textTransform: "uppercase",
-    marginTop: 2,
+    marginTop: 4,
+  },
+  tagline: {
+    fontFamily: SERIF_ITALIC,
+    fontSize: 11,
+    color: PALETTE.muted,
+    textAlign: "center",
+    marginTop: 18,
   },
   footer: {
     marginTop: "auto",
-    paddingTop: 6,
+    paddingTop: 14,
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "flex-end",
@@ -142,24 +151,24 @@ const styles = StyleSheet.create({
     width: "42%",
   },
   sigImageWrap: {
-    height: 30,
+    height: 40,
     width: "100%",
     alignItems: "center",
     justifyContent: "flex-end",
-    marginBottom: 2,
+    marginBottom: 3,
   },
   sigImage: {
-    height: 26,
+    height: 36,
     objectFit: "contain",
   },
   sigLine: {
     width: "80%",
     height: 0.5,
     backgroundColor: PALETTE.ink,
-    marginBottom: 3,
+    marginBottom: 4,
   },
   sigName: {
-    fontSize: 9,
+    fontSize: 11,
     color: PALETTE.ink,
     textAlign: "center",
     fontFamily: SERIF,
@@ -167,23 +176,23 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
   },
   sigTitle: {
-    fontSize: 6,
+    fontSize: 7,
     letterSpacing: 2,
     color: PALETTE.muted,
     textAlign: "center",
     textTransform: "uppercase",
-    marginTop: 2,
+    marginTop: 3,
     fontFamily: SANS,
   },
   meta: {
-    marginTop: 8,
+    marginTop: 12,
     flexDirection: "row",
     justifyContent: "space-between",
-    paddingTop: 5,
+    paddingTop: 8,
     borderTop: `0.5px solid ${PALETTE.line}`,
   },
   metaItem: {
-    fontSize: 6,
+    fontSize: 7,
     color: PALETTE.muted,
     letterSpacing: 1.5,
     fontFamily: SANS,
@@ -238,12 +247,16 @@ export function CertificateDocument({
               {property.cohort} · {property.location}
             </Text>
 
+            <Text style={styles.tagline}>
+              "You are not selling. You are inviting. The Pod does the rest."
+            </Text>
+
             <View style={styles.footer}>
               <View style={styles.sigBlock}>
                 <View style={styles.sigImageWrap}>
                   <Image
                     src={NOVAK_SIGNATURE}
-                    style={[styles.sigImage, { height: 24 }]}
+                    style={[styles.sigImage, { height: 32 }]}
                   />
                 </View>
                 <View style={styles.sigLine} />
@@ -254,7 +267,7 @@ export function CertificateDocument({
                 <View style={styles.sigImageWrap}>
                   <Image
                     src={TAV_SIGNATURE}
-                    style={[styles.sigImage, { height: 28 }]}
+                    style={[styles.sigImage, { height: 38 }]}
                   />
                 </View>
                 <View style={styles.sigLine} />
@@ -291,18 +304,28 @@ export function CertificateView({
   )}.pdf`;
   return (
     <div className="space-y-8">
-      <div className="border border-line bg-white shadow-sm" style={{ height: 560 }}>
-        <PDFViewer width="100%" height="100%" showToolbar={false}>
+      <div
+        className="border border-line shadow-sm overflow-hidden"
+        style={{ height: 620, backgroundColor: "#faf7f0" }}
+      >
+        <PDFViewer
+          width="100%"
+          height="100%"
+          showToolbar={false}
+          style={{ border: 0, backgroundColor: "#faf7f0" }}
+        >
           <CertificateDocument trainee={trainee} property={property} />
         </PDFViewer>
       </div>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center justify-center gap-4">
         <PDFDownloadLink
           document={<CertificateDocument trainee={trainee} property={property} />}
           fileName={filename}
           className="btn btn-gold"
         >
-          {({ loading }) => (loading ? "Preparing…" : "Download certificate")}
+          {({ loading }) =>
+            loading ? "Preparing your certificate..." : "Download certificate"
+          }
         </PDFDownloadLink>
       </div>
     </div>
