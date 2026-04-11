@@ -39,7 +39,7 @@ Here is what actually happens across a series of sessions:`,
     {
       kind: "prose",
       title: "Protocol Consistency",
-      body: `A guest may feel tempted to switch between experiences — to try RELAX on day one, RECOVER on day two, RECONNECT on day three. There is nothing wrong with this, and some guests will genuinely want variety. But there is a profound biological advantage to **repeating the same experience** throughout their stay.
+      body: `A guest may feel tempted to switch between experiences — to try RELAX on day one, RECONNECT on day two, RECHARGE on day three. There is nothing wrong with this, and some guests will genuinely want variety. But there is a profound biological advantage to **repeating the same experience** throughout their stay.
 
 Here is why:`,
     },

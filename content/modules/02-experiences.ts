@@ -4,13 +4,13 @@ export const experiencesModule: Module = {
   slug: "experiences",
   number: 2,
   eyebrow: "Module Two",
-  title: "The Five Experiences",
-  subtitle: "One Pod · five distinct journeys",
-  readingTime: 10,
+  title: "The Three Experiences",
+  subtitle: "One Pod · three distinct journeys",
+  readingTime: 8,
   sections: [
     {
       kind: "prose",
-      body: `The Regenesis Pod is not a single thing the guest does. It is a single environment that holds **five distinct journeys**, each one a different arrangement of the Pod's underlying technologies — light, sound, vibration, scent, and grounding frequencies — all synchronised toward a different outcome.
+      body: `The Regenesis Pod is not a single thing the guest does. It is a single environment that holds **three distinct journeys**, each one a different arrangement of the Pod's underlying technologies — light, sound, vibration, scent, and grounding frequencies — all synchronised toward a different outcome.
 
 Your job in this module is to know each experience well enough to recommend the right one to the right guest in a single sentence. Not to recite what each technology does, but to know **who each experience is for, what it feels like, and the phrase you'll use to invite the guest into it**.`,
     },
@@ -38,25 +38,10 @@ Each experience is paired with one of our signature doTERRA essential oils. The 
     },
     {
       kind: "prose",
-      title: "Experience Two · RECOVER",
-      body: `**Scent: Eucalyptus** · the athlete's session, the body-first journey.
-
-**Who it is for.** The guest who played tennis this morning. The surfer coming in off the water. The guest nursing a sore knee, a tight back, a day of physical exertion. The guest who talks about their training regimen without being asked.
-
-**What it feels like.** Warmth, depth, and a kind of physical unwinding. The infrared penetrates, the vibration releases, the scent opens the breath. Guests typically leave this one feeling *lighter in the body* — as if muscle tension has been released without the effort of a massage.
-
-**When to recommend it.** After physical activity, or for any guest who is clearly oriented toward their body rather than their mind.`,
-    },
-    {
-      kind: "pullquote",
-      body: "For RECOVER: 'If your body has been working hard this week, this is the experience I'd suggest. It is the one athletes gravitate to.'",
-    },
-    {
-      kind: "prose",
-      title: "Experience Three · RECONNECT",
+      title: "Experience Two · RECONNECT",
       body: `**Scent: Frankincense** · the stillness session, the soul journey.
 
-**Who it is for.** The guest on a spiritual retreat. The meditator. The guest who mentions they've been feeling "scattered" or "not quite themselves." The couple who have been arguing on holiday and need to land again.
+**Who it is for.** The guest on a spiritual retreat. The meditator. The guest who mentions they've been feeling "scattered" or "not quite themselves." The couple who have been arguing on holiday and need to land again. The guest who talks about craving silence.
 
 **What it feels like.** A deep, grounding stillness — something closer to meditation than sleep. Frankincense is the scent most often described as *sacred* by guests who notice scent at all. The experience tends to leave people *more themselves* — quieter, clearer, less reactive.
 
@@ -68,25 +53,10 @@ Each experience is paired with one of our signature doTERRA essential oils. The 
     },
     {
       kind: "prose",
-      title: "Experience Four · REJUVENATE",
-      body: `**Scent: Peppermint** · the clarity session, the cognitive journey.
-
-**Who it is for.** The guest working on a project between lunches. The creative who is stuck. The guest who asks whether the Pod will help them *think better*. The guest whose challenge is mental fatigue rather than physical.
-
-**What it feels like.** A noticeable lift. Peppermint is bright and alert, and this experience leaves guests feeling *clearer and more focused* — less like they have been napping, more like they have had a perfect cup of coffee without the jitter.
-
-**When to recommend it.** In the morning, before a meeting, or for any guest who needs to think clearly rather than simply rest.`,
-    },
-    {
-      kind: "pullquote",
-      body: "For REJUVENATE: 'If what you need is clarity rather than rest, this is the one. Most guests come out of it sharp and alert.'",
-    },
-    {
-      kind: "prose",
-      title: "Experience Five · RECHARGE",
+      title: "Experience Three · RECHARGE",
       body: `**Scent: Tangerine** · the lift, the reset, the bright journey.
 
-**Who it is for.** The guest who arrived on a red-eye. The traveller with jet lag. The guest who is technically on holiday but emotionally still at work. The guest whose energy is flat and who wants to *come back to themselves* quickly.
+**Who it is for.** The guest who arrived on a red-eye. The traveller with jet lag. The guest who is technically on holiday but emotionally still at work. The guest whose energy is flat and who wants to *come back to themselves* quickly. The guest who needs to feel bright before a dinner, a meeting, or an afternoon on the water.
 
 **What it feels like.** A bright reset. Tangerine is the most uplifting scent in the lineup, and the experience is designed to leave the guest feeling *restored rather than sedated* — a sense of returning energy without the edge of caffeine.
 
@@ -105,17 +75,15 @@ Each experience is paired with one of our signature doTERRA essential oils. The 
       kind: "list",
       items: [
         "**Guest says they're exhausted, stressed, or can't sleep** → RELAX.",
-        "**Guest has been physical today, or talks about their body** → RECOVER.",
         "**Guest mentions meditation, retreat, or feeling off-center** → RECONNECT.",
-        "**Guest needs to think, focus, or create** → REJUVENATE.",
-        "**Guest has jet lag, low energy, or an afternoon ahead** → RECHARGE.",
+        "**Guest has jet lag, low energy, or wants to feel bright** → RECHARGE.",
         "**When genuinely unsure**, default to RELAX. It is the experience that works for the widest range of guests and is the best first impression.",
       ],
     },
     {
       kind: "callout",
-      title: "A Note on the Sixth",
-      body: `You will notice the olfactory system holds a sixth scent — marked simply as **REGENESIS**. We are not yet speaking about this experience publicly. If a guest asks, the answer is: *"That one is still in development — something we are working on for the next generation of the Pod. We will share more when it is ready."* Warm, honest, and brief.`,
+      title: "A Note on What's Coming",
+      body: `You may notice the olfactory system physically holds capacity for additional scents. These slots are reserved for **future experiences** currently in development at Regenesis. If a guest asks, the answer is: *"We began with the three experiences that cover the widest range of guests. There are more in development — we will share them when they are ready."* Warm, honest, and brief. Never invent a benefit for an experience that isn't live yet.`,
     },
     {
       kind: "prose",
@@ -124,7 +92,7 @@ Each experience is paired with one of our signature doTERRA essential oils. The 
 
 **Say:** *"I would suggest starting with RELAX — it is the one most guests fall in love with on their first visit."*
 
-**Don't say:** *"You need RECOVER — it will treat your back."*
+**Don't say:** *"You need RECHARGE — it will cure your jet lag."*
 
 The guest is choosing. You are advising. Keep it light.`,
     },
@@ -132,40 +100,40 @@ The guest is choosing. You are advising. Keep it light.`,
   quiz: [
     {
       q: "A guest arrives visibly wound-up after a long travel day, mentions they haven't slept well in a week. Which experience do you suggest first?",
-      options: ["RECOVER", "RELAX", "REJUVENATE", "RECHARGE"],
-      answer: 1,
+      options: ["RELAX", "RECHARGE", "RECONNECT", "It doesn't matter"],
+      answer: 0,
       explain:
         "RELAX is the deepest-drop session, paired with Lavender — the safest, most universally effective first experience for an exhausted guest.",
     },
     {
-      q: "A guest has just come in from a morning surf and is clearly sore. Best experience to suggest?",
-      options: ["RECONNECT", "REJUVENATE", "RECOVER", "RELAX"],
+      q: "A guest says they came to Amanyara to 'disconnect from the noise' and mentions they have been meditating daily. Best experience to suggest?",
+      options: ["RELAX", "RECHARGE", "RECONNECT", "Whichever they prefer"],
       answer: 2,
       explain:
-        "RECOVER (Eucalyptus) is the body-first experience — warmth, infrared depth, and vibration release — designed exactly for post-physical activity.",
+        "RECONNECT (Frankincense) is the stillness journey — exactly the match for a meditator or anyone craving quiet.",
     },
     {
       q: "Which experience is paired with Frankincense and described as the 'sacred' or 'meditation-like' journey?",
-      options: ["RELAX", "REJUVENATE", "RECHARGE", "RECONNECT"],
-      answer: 3,
+      options: ["RELAX", "RECHARGE", "RECONNECT", "All three equally"],
+      answer: 2,
       explain:
         "RECONNECT (Frankincense) is the stillness journey — the one guests on retreat gravitate to.",
     },
     {
-      q: "A guest asks about the sixth scent marked REGENESIS. What is the correct on-brand answer?",
+      q: "A guest asks whether the Pod has other experiences beyond the three currently offered. What is the correct on-brand answer?",
       options: [
-        "Make up a benefit to match — it's fine, we'll fix it later.",
+        "Make up details about future experiences to keep them interested.",
         "Tell them it's a secret and we can't discuss it.",
-        "Say it's still in development, something we're working on for the next generation of the Pod.",
-        "Offer them a discount on an existing experience instead.",
+        "Say we began with the three that cover the widest range of guests, and more are in development — we will share when ready.",
+        "Offer them a discount to distract from the question.",
       ],
       answer: 2,
       explain:
-        "Warm, honest, brief. Never invent benefits, never be secretive. 'Still in development — more when it's ready' is the approved line.",
+        "Warm, honest, brief. Never invent benefits for experiences that aren't live yet. 'More in development, shared when ready' is the approved line.",
     },
     {
       q: "A guest with mild jet lag wants to 'feel like themselves again' before dinner tonight. Best recommendation?",
-      options: ["RECOVER", "RELAX", "RECHARGE", "RECONNECT"],
+      options: ["RELAX", "RECONNECT", "RECHARGE", "Skip the Pod today"],
       answer: 2,
       explain:
         "RECHARGE (Tangerine) is the bright reset — designed exactly for jet lag and low-energy afternoons.",

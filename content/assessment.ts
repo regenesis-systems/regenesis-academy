@@ -21,8 +21,8 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
   },
   {
     q: "A guest has been on an overnight flight and is visibly flat and jet-lagged. Which experience do you suggest?",
-    options: ["RELAX", "RECOVER", "REJUVENATE", "RECHARGE"],
-    answer: 3,
+    options: ["RELAX", "RECONNECT", "RECHARGE", "Skip the Pod today"],
+    answer: 2,
     explain: "RECHARGE (Tangerine) is the bright reset — designed for jet lag and low energy.",
   },
   {
@@ -109,15 +109,15 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     explain: "The Emergence is sacred. 60 seconds of silence protects the afterglow. Then — and only then — a gentle conversation.",
   },
   {
-    q: "A guest asks about the sixth scent marked REGENESIS. The correct on-brand answer:",
+    q: "A guest asks whether the Pod has other experiences beyond the three currently offered. The correct on-brand answer:",
     options: [
-      "'It's a secret experience for VIP guests only.'",
+      "'They're a secret experience reserved for VIP guests.'",
       "'We don't know — no one at Regenesis has told us.'",
-      "'That one is still in development — something we're working on for the next generation of the Pod. We'll share more when it's ready.'",
-      "'It smells the same as the others — we just haven't mapped it yet.'",
+      "'We began with the three that cover the widest range of guests. There are more in development — we will share them when they are ready.'",
+      "'The others exist but they're not recommended — stick with the current three.'",
     ],
     answer: 2,
-    explain: "Warm, honest, brief. Never invent, never hide, never overclaim.",
+    explain: "Warm, honest, brief. Never invent, never hide, never overclaim. And never reveal future product plans in detail.",
   },
   {
     q: "Which signature phrase best captures the philosophy of the Recovery Series?",
@@ -132,8 +132,8 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
   },
   {
     q: "A guest mentions they're on a meditation retreat and have been feeling 'scattered.' Which experience fits best?",
-    options: ["RELAX", "RECOVER", "RECONNECT", "REJUVENATE"],
-    answer: 2,
+    options: ["RELAX", "RECONNECT", "RECHARGE", "Whichever they prefer"],
+    answer: 1,
     explain: "RECONNECT (Frankincense) is the stillness journey — exactly the match for retreat-minded guests.",
   },
   {

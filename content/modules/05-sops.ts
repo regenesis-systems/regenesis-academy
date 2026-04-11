@@ -99,7 +99,7 @@ When cleaning, use **gentle steam only**, at a safe heat setting to protect both
         "**Wear white gloves.** Contamination is the enemy.",
         "**Unscrew the back hatch** using the allen key. Support the hatch as the final screws come out — it should not fall.",
         "**Gently slide out the olfactory system.** Note the position of each scent before you unscrew any nut lids.",
-        "**Add exactly 10 drops** of the correct doTERRA oil to each scent hole. The mapping is: **ID 1 → Lavender (RELAX), ID 2 → Eucalyptus (RECOVER), ID 3 → Frankincense (RECONNECT), ID 4 → Peppermint (REJUVENATE), ID 5 → Tangerine (RECHARGE), ID 6 → REGENESIS (leave empty for now)**.",
+        "**Add exactly 10 drops** of the correct doTERRA oil to each active scent hole. The current mapping is: **ID 1 → Lavender (RELAX), ID 2 → Frankincense (RECONNECT), ID 3 → Tangerine (RECHARGE)**. The remaining slots are reserved for future experiences — leave them empty.",
         "**Only doTERRA oils.** Only these oils. Using any other brand or any other blend contaminates the system and undoes months of neural anchoring work.",
         "**Reseal each nut lid carefully.** Slide the olfactory system back into place. Confirm all pipes and cables are still connected.",
         "**Secure the back hatch.** Every screw hand-tightened. No rattles.",
