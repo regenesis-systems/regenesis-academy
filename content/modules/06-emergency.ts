@@ -10,7 +10,7 @@ export const emergencyModule: Module = {
   sections: [
     {
       kind: "prose",
-      body: `Emergencies are rare. The Pod has multiple redundancies — automatic and manual door release, no drugs, no chemicals, and the guest can step out at any moment.
+      body: `Emergencies are rare. The Regenesis Pod 2.7 has multiple redundancies — automatic and manual door release, no drugs, no chemicals, and the guest can step out at any moment.
 
 But rare is not never. When something unexpected happens, the difference between a small moment of concern and a damaged guest relationship is **how calmly and quickly you respond**. Read this slowly, then practice the Manual Release at least once before your first guest.`,
     },
@@ -31,9 +31,9 @@ But rare is not never. When something unexpected happens, the difference between
         "**Check if the door opened automatically.** It usually does within a few seconds.",
         "**If not, use the Manual Release.** No waiting, no hoping.",
         "**Help the guest step out.** Seat, water, unhurried calm.",
-        "**Contact property maintenance** for power restoration.",
+        "**Contact Amanyara maintenance** for power restoration.",
         "**Do not resume** until power is restored AND a full Health Check has been run.",
-        "**Log the event** immediately.",
+        "**Log the event** immediately and contact Regenesis Technical Support.",
       ],
     },
     {
@@ -41,7 +41,7 @@ But rare is not never. When something unexpected happens, the difference between
       title: "The Manual Door Release · Practice This",
       body: `Every staff member must **physically practice** the Manual Release at least once before their first real session. You do not want to be figuring it out under stress with a guest inside.
 
-**Where:** exterior of the Pod, below the hinge, on the side of the door. Your trainer will show you the exact location.
+**Where:** the exterior of the Pod 2.7, below the hinge, on the side of the door. The release is deliberately distinct from the **illuminated power button** — they are not to be confused. Your trainer will show you the exact location.
 
 **How:**
 
@@ -50,16 +50,16 @@ But rare is not never. When something unexpected happens, the difference between
 3. **Aid the door gently** with your free hand until it is fully open.
 4. **Do NOT release the toggle early** — partial release can re-engage the lock.
 
-After a Manual Release, contact Regenesis Technical Support. The door mechanism needs inspection before the next use.`,
+After a Manual Release, contact Regenesis Technical Support (**support@regenesispod.com**). The door mechanism needs inspection before the next use.`,
     },
     {
       kind: "list",
       title: "Guest Distress",
       items: [
-        "**Stop the session immediately** from the exterior tablet.",
+        "**Stop the session immediately** from the three-dial tablet. All dials to zero.",
         "**Open the door.** If the button doesn't respond in a few seconds, go straight to Manual Release.",
         "**Speak softly:** *'I'm here. Take your time. You're completely safe.'*",
-        "**Assist them out.** Some guests feel lightheaded coming out of a deep state suddenly.",
+        "**Assist them out.** Some guests feel lightheaded coming out of a deep state suddenly — especially if The Drop was happening when the session was interrupted.",
         "**Offer water and quiet.** Don't ask what happened. Don't pitch another session. Let them speak first.",
         "**Follow up the next day** with a brief handwritten note to their villa. Never push, never disappear.",
       ],
@@ -74,16 +74,28 @@ After a Manual Release, contact Regenesis Technical Support. The door mechanism 
         "**Stay with them.** Someone else contacts the on-duty manager.",
         "**Preserve the scene.** Do not reset the Pod or alter anything until the incident is documented.",
         "**Document everything immediately** — time, symptoms, actions, response times.",
+        "**Contact Regenesis Technical Support** at support@regenesispod.com — guaranteed response within 24 hours.",
       ],
     },
     {
       kind: "callout",
       title: "System Malfunction Mid-Session",
-      body: `**Minor malfunction** (weaker scent, one dim screen section): let the session complete, address between guests.
+      body: `**Minor malfunction** (weaker scent, one dim light section, one dial unresponsive): let the session complete, address between guests.
 
-**Significant malfunction** (loud noise, overheating, burning smell, anything that worries the guest): end the session calmly, bring the guest out using the distress protocol, take the Pod offline, contact Regenesis Technical Support.
+**Significant malfunction** (loud noise, overheating, burning smell, multiple dials unresponsive, anything that worries the guest): end the session calmly, bring the guest out using the distress protocol, take the Pod offline, contact Regenesis Technical Support.
 
 **Never run the Pod with a known significant malfunction.** A canceled guest is recoverable. A guest hurt by a known problem is not.`,
+    },
+    {
+      kind: "callout",
+      title: "Regenesis Technical Support",
+      body: `- **Email:** support@regenesispod.com
+- **Standard Live Support:** 18:00 – 10:00 TCI time (06:00 – 22:00 Bali WITA)
+- **Urgent Window:** 10:00 – 12:00 noon TCI time
+- **Guaranteed response:** within 24 hours
+- **Extended support** available outside these hours by prior arrangement
+
+Save these contact details in your phone before your first shift. When something is wrong, you should not be searching for an email address.`,
     },
     {
       kind: "prose",
@@ -107,16 +119,16 @@ This is not about blame. It is about **learning faster than any Pod can fail** �
         "Guest first, equipment second. The Pod is designed to unlock automatically, but if it doesn't, the Manual Release is immediate.",
     },
     {
-      q: "How frequently should each staff member physically practice the Manual Release?",
+      q: "The illuminated exterior button on the Pod 2.7 is the:",
       options: [
-        "Once a year, during annual training.",
-        "Only when an actual emergency happens.",
-        "At least once during their first shift, before handling any real guest session.",
-        "Only the Engineering team needs to practice it.",
+        "Manual door release.",
+        "Emergency stop for the three-dial control.",
+        "Power on/off button — used for Start-Up and Shut-Down.",
+        "Scent refill access panel.",
       ],
       answer: 2,
       explain:
-        "Muscle memory. You do not want to be figuring out the Manual Release for the first time with a guest inside.",
+        "The illuminated button is the power button. It is distinct from the Manual Release toggle, which is located separately — below the hinge on the side of the door.",
     },
     {
       q: "A guest becomes distressed mid-session and wants out immediately. After ending the session and opening the door, the correct response is to:",
@@ -128,19 +140,19 @@ This is not about blame. It is about **learning faster than any Pod can fail** �
       ],
       answer: 2,
       explain:
-        "Listen, don't fill the silence. Presence and calm matter more than words.",
+        "Listen, don't fill the silence. Presence and calm matter more than words — especially if The Drop was happening when the session was interrupted.",
     },
     {
-      q: "During a session you hear an unusual loud noise from the Pod and smell something burning. What do you do?",
+      q: "What is the Regenesis Technical Support email address?",
       options: [
-        "Let the session finish so you don't disturb the guest, then investigate.",
-        "End the session immediately, bring the guest out using the distress protocol, take the Pod offline, and contact Regenesis Technical Support.",
-        "Open the back hatch while the session runs to investigate the source.",
-        "Call property maintenance and wait for them to arrive.",
+        "help@regenesis.com",
+        "support@regenesispod.com",
+        "technical@regenesispod.studio",
+        "There is no technical support — only the property's maintenance team.",
       ],
       answer: 1,
       explain:
-        "Significant malfunction — especially anything involving heat or smell — is an immediate stop.",
+        "support@regenesispod.com. Guaranteed response within 24 hours. Save it in your phone before your first shift.",
     },
     {
       q: "After any incident (power loss, guest distress, malfunction) you should:",

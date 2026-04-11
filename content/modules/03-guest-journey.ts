@@ -16,7 +16,7 @@ Three teams touch this arc. If each team knows its part and hands off cleanly, t
     },
     {
       kind: "pullquote",
-      body: "The session is 30 minutes. The experience is a full afternoon.",
+      body: "The session is 20 minutes. The experience is a full afternoon.",
     },
     {
       kind: "list",
@@ -26,7 +26,8 @@ Three teams touch this arc. If each team knows its part and hands off cleanly, t
         "**Booking** — commits to a session or the Recovery Series.",
         "**Arrival** — welcomed into the Pod room.",
         "**Preparation** — brief, waiver, orientation.",
-        "**Session** — the 30-minute experience.",
+        "**The Breath Bridge** — the instructional opening of the session.",
+        "**The Drop** — transition from active breathing to passive entrainment.",
         "**Emergence** — the quiet moment just after. Sacred.",
         "**Integration** — the hour after. Where the Recovery Series conversation happens.",
         "**Return** — next session booked.",
@@ -34,19 +35,28 @@ Three teams touch this arc. If each team knows its part and hands off cleanly, t
     },
     {
       kind: "callout",
+      title: "Session Timing — What to Tell Guests",
+      body: `The Pod session itself is **20 minutes** (Regenesis offers protocols ranging from 8 to 21 minutes, with the 20-minute Relax protocol as the flagship).
+
+The full spa-room experience is **30 minutes total**: 5 minutes to settle and brief, 20 minutes inside the Pod, 5 minutes for Emergence and integration.
+
+When a guest asks how long, say: *"About 30 minutes in the spa room — with 20 of those inside the Pod itself."* That way the guest plans their day accurately and you never have them rushing out.`,
+    },
+    {
+      kind: "callout",
       title: "The Villa Host · Plant the Seed",
       body: `You are the first touch. Your job is not to explain — it's to make them curious enough to ask at the spa.
 
-**The line:** *"There's something we've just introduced that you might enjoy — it's called the Regenesis Pod. It's the first one at any Aman destination in the world. I'd suggest mentioning it at the spa — they can walk you through it properly."*
+**The line:** *"There's something new I think you might enjoy — the Regenesis Pod. It's co-founded by Novak Djokovic, who you'll know is Aman's Global Wellness Ambassador. I'd suggest mentioning it at the spa — they can walk you through it properly."*
 
-That's it. Exclusive, warm, clean handoff. Don't try to explain PEMF.`,
+That's it. The Novak fact does the heavy lifting in one sentence. Clean handoff. Don't try to explain the technology.`,
     },
     {
       kind: "callout",
       title: "The Front Office · The Conversion",
-      body: `You usually book the session. The structure: **exclusivity → single → series → soft close.** Never pitch the series first.
+      body: `You usually book the session. The structure: **legitimacy → single → series → soft close.** Never pitch the series first.
 
-**The line:** *"The Regenesis Pod is one of the experiences we'd really recommend this stay. It's the first at any Aman property globally. A single session is wonderful, but most of our guests here choose the **Recovery Series** — four sessions across the stay, every other day. Would you like me to pencil the first session in now?"*`,
+**The line:** *"The Regenesis Pod is one of the newest experiences on our wellness menu. It's co-founded and designed with Novak Djokovic, our Global Wellness Ambassador. A single session is 150 dollars — but most of our guests here choose the **Recovery Series**: four sessions across the stay, every other day. It's the cadence that lets the body really land the benefit. Would you like me to pencil the first session in now?"*`,
     },
     {
       kind: "callout",
@@ -55,11 +65,20 @@ That's it. Exclusive, warm, clean handoff. Don't try to explain PEMF.`,
 
 **The Welcome (2 min):** Greet warmly by name. Offer water or tea. Speak more softly than normal — the room should feel *already half a session in*.
 
-**The Brief (5 min):** *"You'll be in the Pod about 30 minutes. The door closes but it isn't sealed — you can open it from the inside any time. Inside you'll notice light, sound, a gentle vibration through the cushion, and the scent of [experience]. You don't need to do anything. The Pod does the work. Close your eyes and let your body meet it."*
+**The Brief (5 min):** *"You'll be in the Pod for about 20 minutes. We'll begin with a short breath practice I'll guide you through — we call it **The Breath Bridge**. It's just two minutes, to help your body arrive. Then you'll settle into the session. Inside, you'll notice light, immersive sound, a gentle somatic vibration through the cushion, and the scent of [experience]. The door closes but it isn't sealed — you can open it from the inside any time. You don't need to do anything. The Pod does the work."*
 
-Confirm the experience booked. First-timers default to **RELAX** unless they have a strong preference. Complete the waiver if not done.
+Confirm the experience booked. First-timers default to **RELAX** (the 20-min flagship) unless they have a strong preference. Complete the waiver if not done.
 
-**The Entry (3 min):** Invite them to remove shoes. Help them settle. Start the experience. **Then leave them alone.** Close the door softly.`,
+**The Entry (3 min):** Invite them to remove shoes. Help them settle. Guide The Breath Bridge. Start the experience. **Then leave them alone.** Close the door softly.`,
+    },
+    {
+      kind: "prose",
+      title: "The Breath Bridge · The Drop",
+      body: `Every Pod session has a specific opening: a brief guided breath practice at the start of the protocol that helps the guest's nervous system synchronise with the Pod's rhythm. This is **The Breath Bridge**. It lasts only a minute or two.
+
+What happens inside the session is a transition Tav calls **The Drop** — the moment the guest stops actively breathing-along and the Pod takes over, carrying them passively into entrainment. By session three, The Drop happens almost instantly; on session one it can take a few minutes. Both are normal.
+
+Spa therapists: you will master guiding The Breath Bridge in the dedicated therapist workshop. Everyone else: it is enough to know the terms and reference them warmly when briefing a guest.`,
     },
     {
       kind: "prose",
@@ -104,28 +123,28 @@ This primes them to perceive the afterglow, explains the cadence, and makes them
   ],
   quiz: [
     {
-      q: "The villa host's role in the Guest Journey is to:",
+      q: "How long is the Pod session itself, and how long is the full spa-room experience?",
       options: [
-        "Explain PEMF, infrared, and the full science of the Pod in detail.",
-        "Plant the seed by mentioning the Pod and handing off to the spa team.",
-        "Close the sale on the Recovery Series during the welcome tour.",
-        "Walk the guest through the wellness waiver before they arrive at the spa.",
-      ],
-      answer: 1,
-      explain:
-        "Villa hosts plant. They don't explain, they don't close. A single warm mention and a clean handoff.",
-    },
-    {
-      q: "When is the best time to introduce the Recovery Series to a guest?",
-      options: [
-        "At the first mention of the Pod at villa check-in.",
-        "In the first 30 seconds after the guest emerges from the Pod.",
-        "After the guest has had at least 60 seconds of silence post-session, during the Integration Conversation.",
-        "At the front desk during check-out, as a follow-up for their next visit.",
+        "60 minutes in the Pod, 90 minutes total.",
+        "30 minutes in the Pod, 45 minutes total.",
+        "20 minutes in the Pod, 30 minutes total spa-room experience.",
+        "It varies randomly from session to session.",
       ],
       answer: 2,
       explain:
-        "The Emergence is sacred — 60 seconds of silence first. Then the gentle Recovery Series offer.",
+        "The Pod session is 20 minutes (the flagship Relax protocol). The full spa-room experience is ~30 minutes including brief, Breath Bridge, and Emergence.",
+    },
+    {
+      q: "What is 'The Breath Bridge'?",
+      options: [
+        "The name of the Pod's air filtration system.",
+        "The brief guided breath practice at the opening of the session that helps the guest's nervous system synchronise with the Pod's rhythm.",
+        "A piece of equipment above the cushion.",
+        "The physical bridge between the Pod door and the cushion.",
+      ],
+      answer: 1,
+      explain:
+        "The Breath Bridge is the instructional opening — the practice that carries the guest into the session. Every staff member should know the term even if only therapists guide it.",
     },
     {
       q: "A guest has just opened their eyes after a session. What is the WORST thing you can do?",

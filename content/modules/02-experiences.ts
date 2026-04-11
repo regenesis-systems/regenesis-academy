@@ -6,18 +6,26 @@ export const experiencesModule: Module = {
   eyebrow: "Module Two",
   title: "The Three Experiences",
   subtitle: "One Pod · three distinct journeys",
-  readingTime: 4,
+  readingTime: 5,
   sections: [
     {
       kind: "prose",
-      body: `The Pod holds **three distinct journeys**, each a different arrangement of light, sound, vibration, scent, and grounding frequencies. Your job: know which to recommend to which guest in a single sentence.`,
+      body: `The Pod holds **three distinct journeys**, each a different arrangement of the Pod's seven modalities working in synchrony. Your job: know which to recommend to which guest in a single sentence.`,
     },
     {
       kind: "callout",
-      title: "How the Pod Layers",
-      body: `Every experience uses the same stack — **PEMF, near and far infrared, stroboscopic light, vibro-acoustics, Schumann grounding, binaural beats, chromotherapy, and olfactory stimulation**. What changes is the arrangement and the *scent*.
+      title: "The Seven Modalities of Impact",
+      body: `Every experience draws from the same underlying stack. What changes between experiences is the arrangement, the intensity, and the scent. **Memorise these names** — they are how Regenesis describes its own technology:
 
-Each experience is paired with a doTERRA essential oil. The scent is the **neural anchor** — the signature the body recognises on the second visit and drops into much faster by the third.`,
+1. **PEMF** — Bioenergetic frequencies for cellular repair.
+2. **Rhythmic Visual Priming** — Precision light pulses for neural entrainment.
+3. **Immersive Audio** — Spatial soundscapes that bypass mental chatter.
+4. **Somatic Vibration** — Deep physical resonance via internal haptics.
+5. **Targeted NIR** — Brain-specific near-infrared (positioned above the head) to increase oxygenation and blood flow, pulsed in sync with PEMF.
+6. **Schumann Resonance Generators** — A grounded frequency floor aligned with the Earth's natural rhythm.
+7. **Precision Olfactory** — Neural anchoring via specific scent bursts.
+
+The scent is the **neural anchor** — the sensory signature the body recognises on the second visit and drops into much faster by the third. Each experience is paired with a doTERRA essential oil.`,
     },
     {
       kind: "prose",
@@ -26,7 +34,7 @@ Each experience is paired with a doTERRA essential oil. The scent is the **neura
 
 **What it feels like:** a slow, gentle descent. Many guests describe it as the most complete rest they've had in months — a kind of conscious sleep.
 
-**When to recommend:** almost every new guest. Safest first experience, easiest "yes," most likely to convert a skeptic.`,
+**When to recommend:** almost every new guest. Safest first experience, easiest "yes," most likely to convert a skeptic. The 20-minute Relax protocol is Regenesis's flagship session.`,
     },
     {
       kind: "pullquote",
@@ -71,9 +79,9 @@ Each experience is paired with a doTERRA essential oil. The scent is the **neura
     {
       kind: "callout",
       title: "If A Guest Asks About Other Experiences",
-      body: `The olfactory system has capacity for more. Those slots are reserved for future experiences in development. The on-brand answer:
+      body: `The Pod's olfactory system has capacity for more. Those slots are reserved for future experiences in development. The on-brand answer:
 
-> *"We began with the three that cover the widest range of guests. There are more in development — we will share them when they are ready."*
+> *"The Pod is what we call a Living Installation — constantly updated with new protocols validated by our research partners. We began with the three that cover the widest range of guests. More are in development, and we'll share them when they're ready."*
 
 Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
     },
@@ -82,7 +90,7 @@ Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
       title: "Recommending, Not Prescribing",
       body: `You are **recommending**, not prescribing.
 
-**Say:** *"I'd suggest starting with RELAX — it's the one most guests fall in love with on their first visit."*
+**Say:** *"I'd suggest starting with RELAX — it's the 20-minute flagship session, and the one most guests fall in love with on their first visit."*
 
 **Don't say:** *"You need RECHARGE — it will cure your jet lag."*`,
     },
@@ -103,23 +111,28 @@ Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
         "RECONNECT (Frankincense) is the stillness journey — exactly the match for a meditator or anyone craving quiet.",
     },
     {
-      q: "Which experience is paired with Frankincense and described as the 'sacred' or 'meditation-like' journey?",
-      options: ["RELAX", "RECHARGE", "RECONNECT", "All three equally"],
-      answer: 2,
+      q: "Which term correctly describes the Pod's use of light pulses for neural entrainment?",
+      options: [
+        "Stroboscopic Light Therapy",
+        "Rhythmic Visual Priming",
+        "Chromotherapy",
+        "LED Stimulation",
+      ],
+      answer: 1,
       explain:
-        "RECONNECT (Frankincense) is the stillness journey — the one guests on retreat gravitate to.",
+        "Regenesis's sanctioned term is *Rhythmic Visual Priming* — one of the seven modalities of impact. Don't call it 'stroboscopic' — that's the old technical term.",
     },
     {
       q: "A guest asks whether the Pod has other experiences beyond the three currently offered. What is the correct on-brand answer?",
       options: [
         "Make up details about future experiences to keep them interested.",
         "Tell them it's a secret and we can't discuss it.",
-        "Say we began with the three that cover the widest range of guests, and more are in development — we will share when ready.",
+        "Say the Pod is a Living Installation continuously updated, and more experiences are in development — we will share when ready.",
         "Offer them a discount to distract from the question.",
       ],
       answer: 2,
       explain:
-        "Warm, honest, brief. Never invent benefits for experiences that aren't live yet.",
+        "Living Installation language + 'more in development, shared when ready' is the approved line.",
     },
     {
       q: "A guest with mild jet lag wants to 'feel like themselves again' before dinner tonight. Best recommendation?",

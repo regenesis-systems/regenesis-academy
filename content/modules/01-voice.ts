@@ -6,17 +6,44 @@ export const voiceModule: Module = {
   eyebrow: "Module One",
   title: "The Voice",
   subtitle: "How we speak about the Pod",
-  readingTime: 6,
+  readingTime: 7,
   sections: [
     {
       kind: "prose",
       body: `Before you ever touch a button, the thing a guest remembers is *how you made them feel*. That feeling lives almost entirely in the language you use.
 
-Regenesis is a quiet brand. It does not shout, does not promise miracles, does not over-explain. It speaks with calm, patient certainty — and invites the guest in rather than pushing them.`,
+Regenesis is a quiet brand. It does not shout, does not promise miracles, does not over-explain. It speaks with calm, patient certainty — and invites the guest in rather than pushing them. This is not spa relaxation. This is **Precision-Engineered Recovery** — and your job is to carry that distinction in every sentence.`,
     },
     {
       kind: "pullquote",
       body: "You are not selling. You are inviting. The Pod does the rest.",
+    },
+    {
+      kind: "callout",
+      title: "The Co-Founders · Why This Matters at Amanyara",
+      body: `The Regenesis Pod has **two co-founders**: **Tav Keen** and **Novak Djokovic**. Novak is also **Aman's Global Wellness Ambassador**.
+
+Read that again. The same person who leads Aman's global wellness vision is a co-founder of the Pod that now sits at Amanyara. That is not a sponsorship. That is a philosophy-made-physical — the place where Aman's wellness philosophy and Novak's recovery obsession meet, engineered into a single immersive environment.
+
+This is your most powerful piece of context. You don't need to lead with it, but when a guest asks *"is this just another wellness gadget?"* or *"what makes this different?"*, the answer lives here.
+
+**The line to have ready:** *"The Pod is co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and our founder Tav Keen. It was built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."*`,
+    },
+    {
+      kind: "prose",
+      title: "Aman's Own Words — Memorise This",
+      body: `This is the official Pod description from Amanyara's printed Spa & Wellness Menu. Every guest who picks up the menu will read it. Your answers to their questions must be in the same voice:`,
+    },
+    {
+      kind: "pullquote",
+      body: "'The Regenesis Pod is an advanced recovery capsule that delivers a fast mental and physical reset using multi-sensory, science-based technology. It helps the nervous system shift from stress into recovery, promoting calm, clarity, focus and renewed energy in minutes. Co-founded and designed with Novak Djokovic, the Pod combines elite athletic insight, advanced engineering and human-centred design into one seamless recovery experience.'",
+    },
+    {
+      kind: "prose",
+      title: "The Somatic Architect",
+      body: `The best Regenesis staff do not think of themselves as spa receptionists or villa hosts when they are talking about the Pod. They think of themselves as **Somatic Architects** — people with real technical authority over a precisely engineered environment.
+
+This persona is quiet, not boastful. It shows up in *how* you answer questions. You do not guess. You do not oversell. You explain the system calmly, you invite the guest in, you let the Pod do the rest. The confidence is earned because you know what is actually happening inside the environment.`,
     },
     {
       kind: "do-dont",
@@ -25,9 +52,9 @@ Regenesis is a quiet brand. It does not shout, does not promise miracles, does n
         "**Experience** — never *treatment*",
         "**Session** — never *appointment*",
         "**Guest** — never *customer*",
-        "**Journey** — never *regimen*",
-        "**The Pod** — capitalised, reverent",
-        "**Recalibration** — not *healing*",
+        "**Recovery** · **Recalibration** — never *healing*",
+        "**Precision-Engineered Recovery** — the vision, not spa relaxation",
+        "**Living Installation** — the Pod is constantly updated, not static",
         "**Supports · promotes · helps the body return to —**",
         "**Invitation** — never an *offer*",
       ],
@@ -45,10 +72,11 @@ Regenesis is a quiet brand. It does not shout, does not promise miracles, does n
       title: "Signature Phrases",
       items: [
         `**"A workout for your inner calm."**`,
-        `**"Think of this as a recalibration — not a treatment."**`,
+        `**"This is Precision-Engineered Recovery — not spa relaxation."**`,
+        `**"Co-founded by Novak Djokovic — the same environment he uses himself."**`,
         `**"The body learns the Pod. By your third session, the drop happens instantly."**`,
-        `**"We're not giving you a moment of rest. We're training your body to keep that feeling with you."**`,
         `**"The first session surprises you. The third one changes you."**`,
+        `**"We're not giving you a moment of rest. We're training your body to keep that feeling with you."**`,
       ],
     },
     {
@@ -59,7 +87,7 @@ Regenesis is a quiet brand. It does not shout, does not promise miracles, does n
         "**Anchoring** — training the body to hold the feeling after they leave.",
         "**The on-ramp** — the initial settling-in that disappears by session three.",
         "**The afterglow** — the 24–48 hour window after each session when the body integrates.",
-        "**Conditioning** — training, but for the inner state. Repetition is the point.",
+        "**Living Installation** — the Pod is continuously updated with the newest protocols.",
       ],
     },
     {
@@ -76,6 +104,17 @@ If a guest asks whether the Pod will help a specific medical condition, use this
 > *"The Pod supports the body's natural recovery, and many guests report feeling [relevant benefit]. For anything specific I'd always suggest checking with your doctor — but the experience itself is safe and gentle, and you can see how your body responds."*
 
 Learn this line. It is your friend in every clinical conversation.`,
+    },
+    {
+      kind: "callout",
+      title: "The Research Partners · For When a Guest Wants Proof",
+      body: `Regenesis works with researchers at **IACS**, **Harvard**, and **UCLA** to ensure the Pod's protocols reflect the latest longevity and neuroscience research. You do not need to cite studies. You need to know the partners exist and mention them calmly when a skeptical guest asks *"is there real science behind this?"*
+
+**The line:**
+
+> *"The Pod is what we call a Living Installation — the protocols inside are continuously updated in collaboration with researchers at IACS, Harvard and UCLA. So what you experience today is literally different from what a guest experienced six months ago. The science keeps evolving, and the Pod evolves with it."*
+
+This works because it is true, it is specific, and it ends the conversation without a single medical claim.`,
     },
     {
       kind: "prose",
@@ -95,7 +134,13 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"It's called the Regenesis Pod — a sensory environment that layers light, sound, vibration, scent, and grounding frequencies, all in synchrony. The body recognises it almost immediately as a kind of deep, restorative stillness."`,
+      body: `"It's called the Regenesis Pod — an advanced recovery capsule that delivers a mental and physical reset using multi-sensory, science-based technology. It helps the nervous system shift from stress into recovery — calm, clarity, focus, and renewed energy in minutes."`,
+    },
+    { kind: "script", role: "Guest", body: `"Who's behind it?"` },
+    {
+      kind: "script",
+      role: "You",
+      body: `"It's co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and our founder Tav Keen. Built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."`,
     },
     { kind: "script", role: "Guest", body: `"Is it safe?"` },
     {
@@ -121,7 +166,7 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"Those are wonderful on their own. The Pod is different because it layers several things at once — light, sound, vibration, scent, grounding frequencies — all synchronised. Less like any one treatment, more like an entire environment working on you."`,
+      body: `"Those are wonderful on their own. This is different because it layers seven modalities at once — bioenergetic frequencies, rhythmic visual priming, immersive audio, somatic vibration, targeted near-infrared, grounding frequencies, and precision olfactory — all synchronised. It's less like any one treatment and more like an entire environment working on you."`,
     },
     {
       kind: "script",
@@ -131,17 +176,27 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"Different for everyone. Some guests feel weightless, some feel clear and bright, some drift into a dream-like state. Almost everyone says it's unlike anything they've tried."`,
+      body: `"Different for everyone. Some guests feel weightless, some clear and bright, some drift into a dream-like state. Almost everyone says it's unlike anything they've tried — and the benefit lands more deeply over three or four sessions, which is why we recommend the Recovery Series."`,
     },
     {
       kind: "script",
       role: "Guest",
-      body: `"Can I come every day?"`,
+      body: `"Is there real science behind it?"`,
     },
     {
       kind: "script",
       role: "You",
-      body: `"You can — and that's where it gets interesting. A single session is wonderful, but when you come in three or four times across your stay, your body starts to recognise the frequencies and drops in much faster. We call it the **Recovery Series** — I'd love to book you in."`,
+      body: `"Yes — the Pod is what we call a Living Installation. Protocols inside are continuously updated with researchers at IACS, Harvard and UCLA. What you experience today is literally different from what a guest experienced six months ago. The science keeps evolving, and the Pod evolves with it."`,
+    },
+    {
+      kind: "script",
+      role: "Guest",
+      body: `"How much is it?"`,
+    },
+    {
+      kind: "script",
+      role: "You",
+      body: `"A single session is 150 dollars. Most guests here choose the **Recovery Series** — four sessions across the stay, every other day — which is the cadence that lets the body really land the benefit. If you're staying more than a couple of nights, it's the one I'd suggest."`,
     },
     {
       kind: "script",
@@ -156,7 +211,7 @@ Then leave it. The experience is the argument.`,
     {
       kind: "prose",
       title: "One Last Thing",
-      body: `There is a specific Regenesis voice — **quiet, confident, unhurried, never clinical, never hyped** — and your job is to carry it.
+      body: `There is a specific Regenesis voice — **quiet, confident, unhurried, never clinical, never hyped** — and your job is to carry it. You are not a spa operator talking about a machine. You are a **Somatic Architect** introducing a guest to an environment co-created by the same person who leads Aman's global wellness philosophy.
 
 If you remember only one line from this entire module: **you are not selling. You are inviting. The Pod does the rest.**`,
     },
@@ -175,35 +230,40 @@ If you remember only one line from this entire module: **you are not selling. Yo
         "The Pod never makes medical claims. Support language + 'check with your doctor' is the safe, warm, on-brand answer.",
     },
     {
-      q: "Which of these words should you NEVER use to describe what the Pod does?",
-      options: ["Experience", "Session", "Treatment", "Recalibration"],
-      answer: 2,
+      q: "A guest asks 'who's actually behind this?' Which response is correct and on-brand?",
+      options: [
+        "'It's built by an Indonesian startup, not sure of the founders.'",
+        "'It's co-founded by Novak Djokovic — Aman's Global Wellness Ambassador — and our founder Tav Keen. The same environment Novak uses himself.'",
+        "'It's a licensed wellness product from Asia.'",
+        "'I'm not sure — I'd have to check.'",
+      ],
+      answer: 1,
       explain:
-        "*Treatment* is clinical and invites medical claims. We use *experience*, *session*, and *recalibration* instead.",
+        "Novak and Tav are co-founders of Regenesis. Novak is also Aman's Global Wellness Ambassador. This is the single most powerful piece of context at an Aman property.",
     },
     {
-      q: "A skeptical guest asks 'is this actually scientifically proven?' What is the best response?",
+      q: "A skeptical guest asks 'is this scientifically proven?' What is the best response?",
       options: [
         "List studies and cite research papers to convince them.",
-        "Acknowledge the fair concern and invite them into a single session.",
+        "Mention the Pod is a Living Installation with protocols continuously updated with researchers at IACS, Harvard and UCLA — then invite them to try a session.",
         "Insist firmly that it works and they will see for themselves.",
         "Tell them the Pod is probably not for them.",
       ],
       answer: 1,
       explain:
-        "Agreement and invitation — never defense or oversell. The experience is the argument.",
+        "Research partners calmly named + invitation to experience. Specific enough to be credible, never a medical claim.",
     },
     {
       q: "Which phrase is most on-brand for Regenesis?",
       options: [
-        "This will definitely solve your stress problem.",
-        "Think of this as a recalibration — not a treatment.",
-        "It is the most advanced wellness breakthrough ever created.",
-        "The device works on your customer's body.",
+        "This is the most advanced wellness treatment on the market.",
+        "This is Precision-Engineered Recovery — not spa relaxation.",
+        "It's the only device approved by elite athletes.",
+        "The machine works on your customer's nervous system.",
       ],
       answer: 1,
       explain:
-        "'Recalibration not treatment' reframes the entire experience in one sentence.",
+        "'Precision-Engineered Recovery — not spa relaxation' is Tav's core positioning line. It reframes the entire experience in one sentence.",
     },
     {
       q: "What is the core purpose of the Voice?",
