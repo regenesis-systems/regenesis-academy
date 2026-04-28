@@ -103,7 +103,7 @@ If a guest asks whether the Pod will help a specific medical condition, use this
 
 > *"The Pod supports the body's natural recovery, and many guests report feeling deeply relaxed and noticeably lighter. For anything specific I'd always suggest checking with your doctor, but the experience itself is safe and gentle, and you can see how your body responds."*
 
-Learn this line. It is your friend in every clinical conversation.`,
+Make it your own. It will guide you through any clinical conversation.`,
     },
     {
       kind: "callout",
