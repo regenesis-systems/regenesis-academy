@@ -6,7 +6,7 @@ export const sopsModule: Module = {
   eyebrow: "Module Five",
   title: "SOPs Essentials",
   subtitle: "Daily rituals that keep the Pod flawless",
-  readingTime: 6,
+  readingTime: 7,
   sections: [
     {
       kind: "prose",
@@ -22,6 +22,38 @@ None of these tasks are difficult. All of them matter. This module is for everyo
 - **Power button:** the *illuminated* on/off button on the exterior of the Pod (your trainer will show you exactly where on Day One). It glows softly. You can find it in a dimmed room.
 - **Manual controls:** a **three-dial system** on the operator tablet. The default intensity for all three dials is **70%**. Every session starts at 70% unless a guest explicitly requests something different.
 - **Connectivity:** the Pod is always linked to Regenesis's protocol servers for remote updates. Do not disable or disconnect it. This is how the Pod becomes a *Living Installation*.`,
+    },
+    {
+      kind: "callout",
+      title: "The Pod Sign-Up · How the Waiver Keeps Every Session Safe",
+      body: `Every guest needs an account in the Pod before their first session. The sign-up takes about two minutes on a tablet, and the answers they give shape exactly what their session will be. This is the quietest, most important admin step in their journey.
+
+**Where sign-up can happen:**
+
+- Front Office or villa concierge tablet
+- Spa Reception tablet
+- At the Pod itself
+
+The cleanest experience is pre-sign-up at reception or the spa, so by the time they reach the Pod, all they do is log in and settle in. Sign-up at the Pod is fine but breaks the room's quiet for a few minutes. You can either walk through the questions with the guest, or hand the tablet over for them to tap through themselves. Most guests prefer doing it together, it takes the edge off.
+
+**Why the questions matter**
+
+The waiver questions are not paperwork. They are how the Pod knows which of its seven modalities to switch on for that specific guest. The Pod auto-configures based on each answer. From their first session to their last, the Pod will only ever run the modalities that are safe for them. The guest never has to think about it again. They sign in, the Pod knows.
+
+How it shows up in practice:
+
+- **Electrical implant** (pacemaker, cochlear implant, neurostimulator) → **PEMF automatically off.** The other six modalities run normally.
+- **Epilepsy or seizure history** → **Rhythmic Visual Priming automatically off.** Other six normal.
+- **Olfactory allergy or sensitivity** → **Precision Olfactory automatically off.** Session runs without scent.
+
+**Your job during sign-up**
+
+- Don't rush them. Two minutes is the right pace.
+- Read each question with them, not at them. This is part of the experience.
+- Reassure if they hesitate on a sensitive question: *"This just helps the Pod tune itself for you. It's not stored as a medical record."*
+- Note any flag back to them before they enter the Pod: *"Just so you know, the Pod will run today without [PEMF / scent / light pulses] based on what you mentioned. You'll still get the full benefit of the other modalities."*
+
+The Pod is safe at the intensities we operate, regardless of any single answer. The waiver is the extra layer of care, baked into the system itself.`,
     },
     {
       kind: "callout",
@@ -136,6 +168,18 @@ None of these tasks are difficult. All of them matter. This module is for everyo
         "Fortnightly refill. The Pod's olfactory system is a precision burst system, not a continuous diffuser, so oils last longer but still need regular topping-up.",
     },
     {
+      q: "A guest signs up at Spa Reception and notes she has a pacemaker. What changes about her Pod sessions?",
+      options: [
+        "She cannot use the Pod. Decline politely.",
+        "PEMF (the bioenergetic frequency layer) automatically switches off for every session. The other six modalities run normally.",
+        "She can use the Pod, but you must remember to disable PEMF manually each time.",
+        "She must check with her doctor first, then return another day.",
+      ],
+      answer: 1,
+      explain:
+        "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other six modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
+    },
+    {
       q: "What is the default intensity setting for all three dials on the Pod's manual control system?",
       options: ["50%", "70%", "100%", "It varies per experience"],
       answer: 1,
@@ -153,18 +197,6 @@ None of these tasks are difficult. All of them matter. This module is for everyo
       answer: 2,
       explain:
         "Non-corrosive, medical-grade disinfectant only. Other cleaners can damage the Pod's finishes and electronics.",
-    },
-    {
-      q: "What is the maintenance cadence for the Pod's HVAC and intake filters?",
-      options: [
-        "Weekly cleaning",
-        "Monthly cleaning",
-        "Quarterly (every three months) deep cleaning",
-        "Annual cleaning",
-      ],
-      answer: 2,
-      explain:
-        "Quarterly deep cleaning of intake and HVAC filters. The monthly task is the interior deep-clean with medical-grade disinfectant. Different job.",
     },
   ],
 };

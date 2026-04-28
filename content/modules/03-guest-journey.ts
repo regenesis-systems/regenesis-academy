@@ -56,7 +56,7 @@ That's it. The Novak fact does the heavy lifting in one sentence. Clean handoff.
       title: "The Front Office · The Conversion",
       body: `You usually book the session. The structure: **legitimacy → single → series → soft close.** Never pitch the series first.
 
-**The line:** *"The Regenesis Pod is one of the newest experiences on our wellness menu. It's co-founded and designed with Novak Djokovic, our Global Wellness Ambassador. A single session is 150 dollars, but most of our guests here choose the **Recovery Series**: four sessions across the stay, every other day. It's the cadence that lets the body really land the benefit. Would you like me to pencil the first session in now?"*`,
+**The line:** *"The Regenesis Pod is one of the newest experiences on our wellness menu. It's co-founded and designed with Novak Djokovic, our Global Wellness Ambassador. Most of our guests here choose the **Recovery Series**: four sessions across the stay, every other day. It's the cadence that lets the body really land the benefit. Would you like me to pencil the first session in now?"*`,
     },
     {
       kind: "callout",
@@ -76,7 +76,7 @@ Confirm the experience booked. First-timers default to **RELAX** (the 20-min fla
       title: "The Breath Bridge · The Drop",
       body: `Every Pod session has a specific opening: a brief guided breath practice at the start of the protocol that helps the guest's nervous system synchronise with the Pod's rhythm. This is **The Breath Bridge**. It lasts only a minute or two.
 
-What happens inside the session is a transition Tav calls **The Drop**. The moment the guest stops actively breathing-along and the Pod takes over, carrying them passively into entrainment. By session three, The Drop happens almost instantly; on session one it can take a few minutes. Both are normal.
+What happens inside the session is a transition we call **The Drop**. The moment the guest stops actively breathing-along and the Pod takes over, carrying them passively into entrainment. By session three, The Drop happens almost instantly; on session one it can take a few minutes. Both are normal.
 
 Spa therapists: you will master guiding The Breath Bridge in the dedicated therapist workshop. Everyone else: it is enough to know the terms and reference them warmly when briefing a guest.`,
     },

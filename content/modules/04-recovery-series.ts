@@ -51,25 +51,6 @@ Coming in daily short-circuits the afterglow and reduces cumulative benefit. Eve
 If you internalise one fact: **every other day, not every day**.`,
     },
     {
-      kind: "callout",
-      title: "The Price (What to Say)",
-      body: `On the Amanyara Spa Menu, the Pod is priced at:
-
-**Single session · 20 minutes · 150 USD**
-
-There is no bundled package price. The Recovery Series of four sessions is **4 × $150 = 600 USD** total, which is the line you'll quote.
-
-**Anchor it against the rest of the menu.** On the same printed page, a guest is looking at:
-
-- Chakra Balancing · 75 min · $400
-- Water Shiatsu · 60 min · $375
-- Aman Advanced Facial · 60 min · $375
-- Grounding Journey · 180 min · $875
-- Island Hideaway (couples) · 150 min · $1,400
-
-**The Recovery Series at $600 is less than a single 60-minute signature massage + facial.** Four deeply restorative sessions, spread across the stay, for the price of one traditional spa treatment. When a guest pauses on the price, this is the comparison to make: quietly, once, and then stop.`,
-    },
-    {
       kind: "list",
       title: "Single vs Series · The Comparison",
       items: [
@@ -95,13 +76,11 @@ There is no bundled package price. The Recovery Series of four sessions is **4 �
 
 **The line:**
 
-> *"Most of our guests who love their first session book into the Recovery Series for the rest of their stay. Four sessions at 150 dollars each, every other day, the cadence that lets the body really land the benefit. Would you like me to hold three more for you this week?"*
+> *"Most of our guests who love their first session book into the Recovery Series for the rest of their stay. Four sessions, every other day, the cadence that lets the body really land the benefit. Would you like me to hold three more for you this week?"*
 
 That's the whole pitch. Don't describe the science. Make one warm recommendation, then stop. **Silence closes more than words.**
 
-If they say *"maybe later,"* the answer is: *"Of course. I'll note that you enjoyed it. Whenever you're ready."* Let it go.
-
-If they hesitate on price, the anchor: *"For context, that's less than what a single signature facial and massage costs on our menu, and it's designed to land biologically, not just to feel good in the moment."* Then stop again.`,
+If they say *"maybe later,"* the answer is: *"Of course. I'll note that you enjoyed it. Whenever you're ready."* Let it go.`,
     },
     {
       kind: "prose",
@@ -123,16 +102,16 @@ If they hesitate on price, the anchor: *"For context, that's less than what a si
         "The 48-hour afterglow is the single most important biological fact in this module.",
     },
     {
-      q: "What is the single session price on the Amanyara menu, and what is a full Recovery Series?",
+      q: "By the third session, what has typically changed in the guest's body?",
       options: [
-        "$75 single · $300 series",
-        "$150 single · $600 series (4 × $150)",
-        "$200 single · $800 series",
-        "$250 single · $1,000 series",
+        "It loses sensitivity to the Pod's modalities and the benefit reduces.",
+        "It recognises the neural anchors (scent, rhythm, targeted NIR) and drops into the restorative state almost instantly.",
+        "It needs a longer Breath Bridge to settle.",
+        "It builds tolerance, so we shorten the session.",
       ],
       answer: 1,
       explain:
-        "A single session is $150 for 20 minutes in the Pod. The Recovery Series of four sessions totals $600.",
+        "Repetition creates a neural shortcut. By session three, The Breath Bridge is automatic and The Drop is near-instant. The session goes deeper.",
     },
     {
       q: "When is the correct moment to introduce the Recovery Series?",
@@ -147,16 +126,16 @@ If they hesitate on price, the anchor: *"For context, that's less than what a si
         "The guest has to have *felt* the Pod first.",
     },
     {
-      q: "A guest hesitates on the price of the Recovery Series. What's the right anchor to use?",
+      q: "A guest wants to switch experiences each session rather than repeat the same one. What's the right response?",
       options: [
-        "Offer a discount immediately.",
-        "Tell them the price will rise next week.",
-        "Quietly point out that the series is less than one signature facial + massage on the same menu, and it's designed to land biologically.",
-        "Reduce the scope to a single session and let it go.",
+        "Insist they repeat the same one. Variety dilutes the benefit.",
+        "Tell them variety is fine, but quietly mention that repeating the same experience builds neural pathfinding and lets the session go deeper over the series.",
+        "Switching is always best. New experiences keep the brain learning faster.",
+        "Tell them the science requires they pick one and stick to it.",
       ],
-      answer: 2,
+      answer: 1,
       explain:
-        "The anchor is the Amanyara menu itself. $600 for four biologically-designed sessions vs $700+ for a single traditional treatment is a calm, factual comparison.",
+        "Variety is okay, but repeating the same one is biologically better. Neural pathfinding, cellular saturation, eliminating cognitive friction. Mention it once, gently, and let them choose.",
     },
     {
       q: "A guest is only staying two nights. What do you recommend?",

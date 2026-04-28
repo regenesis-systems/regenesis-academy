@@ -30,11 +30,11 @@ The scent is the **neural anchor**, the sensory signature the body recognises on
     {
       kind: "prose",
       title: "RELAX · Lavender",
-      body: `**The deepest drop.** For the guest who arrived wound tight, hasn't slept properly in weeks, or has shoulders you can see from across the room.
+      body: `**The deepest drop.** For the guest who arrived wound tight, hasn't slept properly in weeks, just stepped off a long flight, or has shoulders you can see from across the room.
 
 **What it feels like:** a slow, gentle descent. Many guests describe it as the most complete rest they've had in months. A kind of conscious sleep.
 
-**When to recommend:** almost every new guest. Safest first experience, easiest "yes," most likely to convert a skeptic. The 20-minute Relax protocol is Regenesis's flagship session.`,
+**When to recommend:** almost every new guest. Safest first experience, easiest "yes," most likely to convert a skeptic. The right call for jet lag and travel exhaustion. The 20-minute Relax protocol is Regenesis's flagship session.`,
     },
     {
       kind: "pullquote",
@@ -56,23 +56,23 @@ The scent is the **neural anchor**, the sensory signature the body recognises on
     {
       kind: "prose",
       title: "RECHARGE · Tangerine",
-      body: `**The bright reset.** For the red-eye traveller, the jet-lagged guest, anyone flat and wanting to come back to themselves.
+      body: `**The clarity session.** For the guest with a chapter to write, a presentation to give, a creative idea trying to land. Anyone who needs to sit down and do the work well.
 
-**What it feels like:** restored rather than sedated. Returning energy without the edge of caffeine.
+**What it feels like:** clear, lifted, awake without the sharp edge of caffeine. Many guests describe it as the cleanest hour they've had in weeks.
 
-**When to recommend:** jet lag, afternoon slump, or any guest who wants to finish the day lifted rather than wound down.`,
+**When to recommend:** before creative work, before a presentation, before a meeting that matters. Or any guest mentioning they want to focus or get into flow.`,
     },
     {
       kind: "pullquote",
-      body: "'This is the one for jet lag, the bright one.'",
+      body: "'This is the one when you have something to write or build.'",
     },
     {
       kind: "list",
       title: "A Simple Decision Rule",
       items: [
-        "**Exhausted, stressed, or can't sleep** → RELAX",
+        "**Exhausted, jet-lagged, can't sleep** → RELAX",
         "**Meditation, retreat, or feeling off-center** → RECONNECT",
-        "**Jet lag, low energy, wants to feel bright** → RECHARGE",
+        "**Focusing, creating, before something important** → RECHARGE",
         "**Unsure?** Default to RELAX.",
       ],
     },
@@ -92,7 +92,7 @@ Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
 
 **Say:** *"I'd suggest starting with RELAX. It's the 20-minute flagship session, and the one most guests fall in love with on their first visit."*
 
-**Don't say:** *"You need RECHARGE. It will cure your jet lag."*`,
+**Don't say:** *"You need RECHARGE. It will make you a more creative person."*`,
     },
   ],
   quiz: [
@@ -101,7 +101,7 @@ Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
       options: ["RELAX", "RECHARGE", "RECONNECT", "It doesn't matter"],
       answer: 0,
       explain:
-        "RELAX is the deepest-drop session, paired with Lavender. The safest, most universally effective first experience for an exhausted guest.",
+        "RELAX is the deepest-drop session, paired with Lavender. The safest, most universally effective first experience for an exhausted or jet-lagged guest.",
     },
     {
       q: "A guest says they came to Amanyara to 'disconnect from the noise' and mentions they have been meditating daily. Best experience to suggest?",
@@ -135,11 +135,11 @@ Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
         "Living Installation language + 'more in development, shared when ready' is the approved line.",
     },
     {
-      q: "A guest with mild jet lag wants to 'feel like themselves again' before dinner tonight. Best recommendation?",
+      q: "A guest mentions they have a creative project they want to sit down with later in the day and asks for the right Pod session beforehand. Best recommendation?",
       options: ["RELAX", "RECONNECT", "RECHARGE", "Skip the Pod today"],
       answer: 2,
       explain:
-        "RECHARGE (Tangerine) is the bright reset. Designed exactly for jet lag and low-energy afternoons.",
+        "RECHARGE (Tangerine) is the clarity session. Designed for focus, creative work, and arriving at the page or the meeting clear.",
     },
   ],
 };

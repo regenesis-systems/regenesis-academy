@@ -29,7 +29,7 @@ export const cheatsheet = {
     quote:
       "The Regenesis Pod is an advanced recovery capsule that delivers a fast mental and physical reset using multi-sensory, science-based technology. It helps the nervous system shift from stress into recovery, promoting calm, clarity, focus and renewed energy in minutes. Co-founded and designed with Novak Djokovic, the Pod combines elite athletic insight, advanced engineering and human-centred design into one seamless recovery experience.",
     lineLabel: "The line to have ready",
-    line: "*Co-founded by Novak Djokovic, Aman's Global Wellness Ambassador, and Regenesis co-founder Tav Keen. The same environment Novak uses himself.*",
+    line: "*Co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. The same environment Novak uses himself.*",
   },
 
   experiences: {
@@ -40,7 +40,7 @@ export const cheatsheet = {
         name: "Relax",
         scent: "Lavender",
         feel: "The deepest drop. A kind of conscious sleep.",
-        when: "Wound up, travelled-in, not sleeping.",
+        when: "Wound up, jet-lagged, not sleeping.",
       },
       {
         num: "02",
@@ -53,8 +53,8 @@ export const cheatsheet = {
         num: "03",
         name: "Recharge",
         scent: "Tangerine",
-        feel: "Bright reset. Restored, not sedated.",
-        when: "Jet lag, low energy, before sport.",
+        feel: "Clarity. Lifted, awake, focused.",
+        when: "Before creative work, a presentation, into flow.",
       },
     ],
     rule: "If in doubt, **Relax**. It is the twenty-minute flagship and the safest first session for any guest.",
@@ -71,7 +71,7 @@ export const cheatsheet = {
       {
         role: "Front Office",
         verb: "Book it",
-        say: "A single session is 150 dollars. Most guests choose the Recovery Series: four sessions, every other day, the cadence that lets the body really land the benefit.",
+        say: "Most guests choose the Recovery Series: four sessions, every other day, the cadence that lets the body really land the benefit.",
       },
       {
         role: "Spa Reception",
@@ -106,7 +106,7 @@ export const cheatsheet = {
   series: {
     eyebrow: "The Recovery Series",
     when: "Only after the first session, during the integration conversation.",
-    line: "*Most of our guests who love their first session book into the Recovery Series for the rest of their stay. Four sessions at a hundred and fifty dollars each, every other day. Would you like me to hold three more for you this week?*",
+    line: "*Most of our guests who love their first session book into the Recovery Series for the rest of their stay. Four sessions, every other day. Would you like me to hold three more for you this week?*",
     rules: [
       {
         title: "Every other day.",
@@ -117,8 +117,8 @@ export const cheatsheet = {
         body: "One on arrival, one on the morning of departure. A bookend.",
       },
       {
-        title: "Hesitates on price?",
-        body: '*"Less than one signature facial and massage on our menu."* Then stop.',
+        title: "If they hesitate?",
+        body: '*"Of course. I\'ll note that you enjoyed it. Whenever you\'re ready."* Then stop.',
       },
     ],
   },
@@ -152,7 +152,7 @@ export const cheatsheet = {
     },
     {
       eyebrow: "If a guest asks about the science",
-      body: '*"The Pod is a Living Installation. Its protocols are continuously updated in collaboration with researchers at IACS, Harvard and UCLA. What you experience today is literally different from six months ago."*',
+      body: '*"The Pod is a Living Installation. Its protocols are continuously updated in collaboration with researchers at Harvard, UCLA and IACS. What you experience today is literally different from six months ago."*',
     },
   ],
 

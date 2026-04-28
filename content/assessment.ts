@@ -23,19 +23,20 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "A guest asks 'who's actually behind this?' What is the correct on-brand answer?",
     options: [
       "'It's a wellness startup from Asia, not sure of the founders.'",
-      "'It's co-founded by Novak Djokovic, Aman's Global Wellness Ambassador, and Regenesis co-founder Tav Keen. The same environment Novak uses himself.'",
+      "'It's co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. The same environment Novak uses himself.'",
       "'It's licensed by Aman from another company.'",
       "'I'm not sure. I'd have to check with my manager.'",
     ],
     answer: 1,
     explain:
-      "Novak and Tav are co-founders of Regenesis. Novak is also Aman's Global Wellness Ambassador. This is the single most powerful piece of context at an Aman property.",
+      "Novak Djokovic is co-founder of Regenesis and Aman's Global Wellness Ambassador. This double-legitimacy is the single most powerful piece of context at an Aman property.",
   },
   {
     q: "A guest has been on an overnight flight and is visibly flat and jet-lagged. Which experience do you suggest?",
     options: ["RELAX", "RECONNECT", "RECHARGE", "Skip the Pod today"],
-    answer: 2,
-    explain: "RECHARGE (Tangerine) is the bright reset. Designed for jet lag and low energy.",
+    answer: 0,
+    explain:
+      "RELAX (Lavender) is the deepest drop and the right call for a guest arriving flat and travel-worn. The 20-minute flagship gives them the cleanest reset.",
   },
   {
     q: "How long is the Pod session itself, and how long is the total spa-room experience?",
@@ -72,16 +73,16 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     explain: "The 48-hour afterglow is the biological foundation of the Recovery Series cadence.",
   },
   {
-    q: "What is the single session price on the Amanyara menu, and what does the Recovery Series cost?",
+    q: "A guest signs up at Spa Reception and notes she has a pacemaker. What changes about her Pod sessions?",
     options: [
-      "$75 single · $300 series",
-      "$150 single · $600 series (4 × $150)",
-      "$300 single · $1,200 series",
-      "$400 single · $1,600 series",
+      "She cannot use the Pod. Decline politely.",
+      "PEMF (the bioenergetic frequency layer) automatically switches off for every session. The other six modalities run normally.",
+      "She can use the Pod, but you must remember to disable PEMF manually each time.",
+      "She must check with her doctor first, then return another day.",
     ],
     answer: 1,
     explain:
-      "A single session is $150 for 20 minutes in the Pod. The Recovery Series of four sessions totals $600. Still less than a single signature facial + massage on the same menu.",
+      "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other six modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
   },
   {
     q: "At the end of the day, you power down the Pod by:",
@@ -115,7 +116,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "A skeptical guest asks 'is this actually scientifically proven?' Best response:",
     options: [
       "List the studies and cite specific research papers.",
-      "Mention the Pod is a Living Installation with protocols continuously updated with researchers at IACS, Harvard and UCLA, then invite them into a single session.",
+      "Mention the Pod is a Living Installation with protocols continuously updated with researchers at Harvard, UCLA and IACS, then invite them into a single session.",
       "Insist firmly that it works and they will feel it.",
       "Tell them the Pod may not be right for them.",
     ],

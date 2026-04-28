@@ -20,14 +20,14 @@ Regenesis is a quiet brand. It does not shout, does not promise miracles, does n
     },
     {
       kind: "callout",
-      title: "The Co-Founders · Why This Matters at Amanyara",
-      body: `The Regenesis Pod has **two co-founders**: **Tav Keen** and **Novak Djokovic**. Novak is also **Aman's Global Wellness Ambassador**.
+      title: "Co-Founded with Novak · Why This Matters at Amanyara",
+      body: `The Regenesis Pod was **co-founded with Novak Djokovic**, who is also **Aman's Global Wellness Ambassador**.
 
 Read that again. The same person who leads Aman's global wellness vision is a co-founder of the Pod that now sits at Amanyara. That is not a sponsorship. That is a philosophy-made-physical, the place where Aman's wellness philosophy and Novak's recovery obsession meet, engineered into a single immersive environment.
 
 This is your most powerful piece of context. You don't need to lead with it, but when a guest asks *"is this just another wellness gadget?"* or *"what makes this different?"*, the answer lives here.
 
-**The line to have ready:** *"The Pod is co-founded by Novak Djokovic, Aman's Global Wellness Ambassador, and Regenesis co-founder Tav Keen. It was built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."*`,
+**The line to have ready:** *"The Pod was co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. It was built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."*`,
     },
     {
       kind: "prose",
@@ -108,11 +108,11 @@ Learn this line. It is your friend in every clinical conversation.`,
     {
       kind: "callout",
       title: "The Research Partners · For When a Guest Wants Proof",
-      body: `Regenesis works with researchers at **IACS**, **Harvard**, and **UCLA** to ensure the Pod's protocols reflect the latest longevity and neuroscience research. You do not need to cite studies. You need to know the partners exist and mention them calmly when a skeptical guest asks *"is there real science behind this?"*
+      body: `Regenesis works with researchers at **Harvard**, **UCLA**, and **IACS** to ensure the Pod's protocols reflect the latest longevity and neuroscience research. You do not need to cite studies. You need to know the partners exist and mention them calmly when a skeptical guest asks *"is there real science behind this?"*
 
 **The line:**
 
-> *"The Pod is what we call a Living Installation. The protocols inside are continuously updated in collaboration with researchers at IACS, Harvard and UCLA. So what you experience today is literally different from what a guest experienced six months ago. The science keeps evolving, and the Pod evolves with it."*
+> *"The Pod is what we call a Living Installation. The protocols inside are continuously updated in collaboration with researchers at Harvard, UCLA and IACS. So what you experience today is literally different from what a guest experienced six months ago. The science keeps evolving, and the Pod evolves with it."*
 
 This works because it is true, it is specific, and it ends the conversation without a single medical claim.`,
     },
@@ -140,7 +140,7 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"It's co-founded by Novak Djokovic, Aman's Global Wellness Ambassador, and Regenesis co-founder Tav Keen. Built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."`,
+      body: `"It's co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. Built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."`,
     },
     { kind: "script", role: "Guest", body: `"Is it safe?"` },
     {
@@ -186,17 +186,7 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"Yes. The Pod is what we call a Living Installation. Protocols inside are continuously updated with researchers at IACS, Harvard and UCLA. What you experience today is literally different from what a guest experienced six months ago. The science keeps evolving, and the Pod evolves with it."`,
-    },
-    {
-      kind: "script",
-      role: "Guest",
-      body: `"How much is it?"`,
-    },
-    {
-      kind: "script",
-      role: "You",
-      body: `"A single session is 150 dollars. Most guests here choose the **Recovery Series**: four sessions across the stay, every other day, the cadence that lets the body really land the benefit. If you're staying more than a couple of nights, it's the one I'd suggest."`,
+      body: `"Yes. The Pod is what we call a Living Installation. Protocols inside are continuously updated with researchers at Harvard, UCLA and IACS. What you experience today is literally different from what a guest experienced six months ago. The science keeps evolving, and the Pod evolves with it."`,
     },
     {
       kind: "script",
@@ -233,19 +223,19 @@ If you remember only one line from this entire module: **you are not selling. Yo
       q: "A guest asks 'who's actually behind this?' Which response is correct and on-brand?",
       options: [
         "'It's built by an Indonesian startup, not sure of the founders.'",
-        "'It's co-founded by Novak Djokovic, Aman's Global Wellness Ambassador, and Regenesis co-founder Tav Keen. The same environment Novak uses himself.'",
+        "'It's co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. The same environment Novak uses himself.'",
         "'It's a licensed wellness product from Asia.'",
         "'I'm not sure. I'd have to check.'",
       ],
       answer: 1,
       explain:
-        "Novak and Tav are co-founders of Regenesis. Novak is also Aman's Global Wellness Ambassador. This is the single most powerful piece of context at an Aman property.",
+        "Novak Djokovic is co-founder of Regenesis and Aman's Global Wellness Ambassador. This double-legitimacy is the single most powerful piece of context at an Aman property.",
     },
     {
       q: "A skeptical guest asks 'is this scientifically proven?' What is the best response?",
       options: [
         "List studies and cite research papers to convince them.",
-        "Mention the Pod is a Living Installation with protocols continuously updated with researchers at IACS, Harvard and UCLA. Then invite them to try a session.",
+        "Mention the Pod is a Living Installation with protocols continuously updated with researchers at Harvard, UCLA and IACS. Then invite them to try a session.",
         "Insist firmly that it works and they will see for themselves.",
         "Tell them the Pod is probably not for them.",
       ],
@@ -263,7 +253,7 @@ If you remember only one line from this entire module: **you are not selling. Yo
       ],
       answer: 1,
       explain:
-        "'Precision-Engineered Recovery, not spa relaxation' is Tav's core positioning line. It reframes the entire experience in one sentence.",
+        "'Precision-Engineered Recovery, not spa relaxation' is the core positioning line for Regenesis. It reframes the entire experience in one sentence.",
     },
     {
       q: "What is the core purpose of the Voice?",
