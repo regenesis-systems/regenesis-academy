@@ -130,7 +130,7 @@ export const cheatsheet = {
       "Experience · Session · Guest",
       "Recovery · Recalibration",
       "Precision-Engineered Recovery",
-      "Living Installation",
+      "Evolving environment",
       "Supports · promotes · helps",
       "Invitation",
     ],

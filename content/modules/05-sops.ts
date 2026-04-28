@@ -21,7 +21,7 @@ None of these tasks are difficult. All of them matter. This module is for everyo
 
 - **Power button:** the *illuminated* on/off button on the exterior of the Pod (your trainer will show you exactly where on Day One). It glows softly. You can find it in a dimmed room.
 - **Manual controls:** a **three-dial system** on the operator tablet. The default intensity for all three dials is **70%**. Every session starts at 70% unless a guest explicitly requests something different.
-- **Connectivity:** the Pod is always linked to Regenesis's protocol servers for remote updates. Do not disable or disconnect it. This is how the Pod becomes a *Living Installation*.`,
+- **Connectivity:** the Pod is always linked to Regenesis's protocol servers for remote updates. Do not disable or disconnect it. This is how the Pod stays an *evolving environment*.`,
     },
     {
       kind: "callout",

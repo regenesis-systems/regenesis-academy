@@ -82,7 +82,7 @@ The scent is the **neural anchor**, the sensory signature the body recognises on
       title: "If A Guest Asks About Other Experiences",
       body: `The Pod's olfactory system has capacity for more. Those slots are reserved for future experiences in development. The on-brand answer:
 
-> *"The Pod is what we call a Living Installation. Constantly updated with new protocols validated by our research partners. We began with the three that cover the widest range of guests. More are in development, and we'll share them when they're ready."*
+> *"The Pod is designed as an evolving environment. Continuously refined with new protocols validated by our research partners. We began with the three experiences that cover the widest range of guests. More are in development, and we'll share them when they're ready."*
 
 Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
     },
@@ -128,12 +128,12 @@ Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
       options: [
         "Make up details about future experiences to keep them interested.",
         "Tell them it's a secret and we can't discuss it.",
-        "Say the Pod is a Living Installation continuously updated, and more experiences are in development. We will share when ready.",
+        "Say the Pod is designed as an evolving environment, continuously refined, and more experiences are in development. We will share when ready.",
         "Offer them a discount to distract from the question.",
       ],
       answer: 2,
       explain:
-        "Living Installation language + 'more in development, shared when ready' is the approved line.",
+        "Evolving environment language + 'more in development, shared when ready' is the approved line.",
     },
     {
       q: "A guest mentions they have a creative project they want to sit down with later in the day and asks for the right Pod session beforehand. Best recommendation?",

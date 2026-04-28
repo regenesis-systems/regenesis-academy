@@ -54,7 +54,7 @@ This persona is quiet, not boastful. It shows up in *how* you answer questions. 
         "**Guest**, never *customer*",
         "**Recovery** · **Recalibration**, never *healing*",
         "**Precision-Engineered Recovery**, the vision that replaces spa relaxation",
-        "**Living Installation**, constantly updated, never static",
+        "**Evolving environment**, constantly refined, never static",
         "**Supports · promotes · helps the body return to balance**",
         "**Invitation**, never an *offer*",
       ],
@@ -87,7 +87,7 @@ This persona is quiet, not boastful. It shows up in *how* you answer questions. 
         "**Anchoring**. Training the body to hold the feeling after they leave.",
         "**The on-ramp**. The initial settling-in that disappears by session three.",
         "**The afterglow**. The 24 to 48 hour window after each session when the body integrates.",
-        "**Living Installation**. The Pod is continuously updated with the newest protocols.",
+        "**Evolving environment**. The Pod is continuously refined based on real-world data and feedback.",
       ],
     },
     {
@@ -140,7 +140,9 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"It's co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. The Pod was initiated by his fellow co-founder and developed with a team of engineers to create a system that delivers real recovery. The concept began after he lost his wife to cancer, leading to a deep exploration of advanced and alternative technologies and how they could be brought together into a single, coherent environment. What you experience here reflects the same environment Novak uses personally."`,
+      body: `*Slow down here. This is the longest answer in the module. Let the story carry the meaning, do not race the words.*
+
+"It's co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. The Pod was initiated by his fellow co-founder and developed with a team of engineers to create a system that delivers real recovery. The concept began after he lost his wife to cancer, leading to a deep exploration of advanced and alternative technologies and how they could be brought together into a single, coherent environment. What you experience here reflects the same environment Novak uses personally."`,
     },
     { kind: "script", role: "Guest", body: `"Is it safe?"` },
     {
@@ -166,7 +168,7 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"Those are wonderful on their own. This is different because it layers eight modalities at once: bioenergetic frequencies, pulsed light guidance, immersive audio, somatic vibration, near infra-red, grounding frequencies, precision olfactory, and the spatial design of the Pod itself, all synchronised. It's less like any one treatment and more like an entire environment working on you."`,
+      body: `"Those are wonderful on their own. This is different because it layers multiple modalities at once: bioenergetic frequencies, pulsed light guidance, immersive audio, somatic vibration, near infra-red, and olfactory stimulation, all synchronised. It's less like any one treatment and more like an entire environment working on you."`,
     },
     {
       kind: "script",
