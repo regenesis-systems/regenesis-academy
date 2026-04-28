@@ -30,14 +30,14 @@ export default function CertificatePreviewPage() {
     const qName = params.get("name")?.trim();
     const qRole = params.get("role")?.trim() || "Spa Reception";
     const qProperty = (
-      params.get("property")?.trim() || "AMANYARA-FOUNDING"
+      params.get("property")?.trim() || "AMANYARA"
     ).toUpperCase();
 
     const displayName = qName && qName.length > 0 ? qName : "Sample Staff Member";
     setName(displayName);
 
     const prop =
-      getProperty(qProperty) ?? PROPERTIES["AMANYARA-FOUNDING"];
+      getProperty(qProperty) ?? PROPERTIES["AMANYARA"];
     setProperty(prop);
 
     const hex = Array.from({ length: 8 }, () =>

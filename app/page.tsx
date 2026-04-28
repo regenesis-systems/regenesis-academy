@@ -24,7 +24,7 @@ export default function EnrollmentPage() {
     name: "",
     email: "",
     role: "Spa Reception",
-    code: "AMANYARA-FOUNDING",
+    code: "AMANYARA",
   });
   const [error, setError] = useState<string | null>(null);
   const [existing, setExisting] = useState<boolean>(false);
@@ -181,7 +181,7 @@ export default function EnrollmentPage() {
                   required
                   value={form.code}
                   onChange={(e) => setForm({ ...form, code: e.target.value })}
-                  placeholder="AMANYARA-FOUNDING"
+                  placeholder="AMANYARA"
                   style={{ letterSpacing: "0.05em" }}
                 />
               </label>
