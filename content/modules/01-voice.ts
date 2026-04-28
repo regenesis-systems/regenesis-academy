@@ -40,8 +40,8 @@ This is your most powerful piece of context. You don't need to lead with it, but
     },
     {
       kind: "prose",
-      title: "The Somatic Architect",
-      body: `The best Regenesis staff do not think of themselves as spa receptionists or villa hosts when they are talking about the Pod. They think of themselves as **Somatic Architects**. People with real technical authority over a precisely engineered environment.
+      title: "The Pod Specialist",
+      body: `The best Regenesis staff do not think of themselves as spa receptionists or villa hosts when they are talking about the Pod. They think of themselves as **Pod Specialists**. People with real technical authority over a precisely engineered environment.
 
 This persona is quiet, not boastful. It shows up in *how* you answer questions. You do not guess. You do not oversell. You explain the system calmly, you invite the guest in, you let the Pod do the rest. The confidence is earned because you know what is actually happening inside the environment.`,
     },
@@ -112,7 +112,7 @@ Make it your own. It will guide you through any clinical conversation.`,
 
 **The line:**
 
-> *"The Pod is what we call a Living Installation. The protocols inside are continuously updated in collaboration with researchers at Harvard, UCLA and IACS. So what you experience today is literally different from what a guest experienced six months ago. The science keeps evolving, and the Pod evolves with it."*
+> *"The Pod is designed as an evolving environment. It is continuously refined based on real-world data and feedback. Current sessions are undergoing validation in collaboration with researchers at Harvard, UCLA and IACS, reinforcing the system's effectiveness."*
 
 This works because it is true, it is specific, and it ends the conversation without a single medical claim.`,
     },
@@ -140,13 +140,13 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"It's co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. Built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."`,
+      body: `"It's co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. The Pod was initiated by his fellow co-founder and developed with a team of engineers to create a system that delivers real recovery. The concept began after he lost his wife to cancer, leading to a deep exploration of advanced and alternative technologies and how they could be brought together into a single, coherent environment. What you experience here reflects the same environment Novak uses personally."`,
     },
     { kind: "script", role: "Guest", body: `"Is it safe?"` },
     {
       kind: "script",
       role: "You",
-      body: `"Completely. Nothing injected, nothing ingested. The door opens from the inside at any moment, and we stay nearby the entire time."`,
+      body: `"Completely. Nothing injected, nothing ingested. The Pod uses your sign-up answers to tune each session to your body, so what you experience is always safe for you. The door opens from the inside at any moment, and we stay nearby the entire time."`,
     },
     {
       kind: "script",
@@ -166,7 +166,7 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"Those are wonderful on their own. This is different because it layers seven modalities at once: bioenergetic frequencies, rhythmic visual priming, immersive audio, somatic vibration, targeted near-infrared, grounding frequencies, and precision olfactory, all synchronised. It's less like any one treatment and more like an entire environment working on you."`,
+      body: `"Those are wonderful on their own. This is different because it layers eight modalities at once: bioenergetic frequencies, pulsed light guidance, immersive audio, somatic vibration, near infra-red, grounding frequencies, precision olfactory, and the spatial design of the Pod itself, all synchronised. It's less like any one treatment and more like an entire environment working on you."`,
     },
     {
       kind: "script",
@@ -186,7 +186,7 @@ Then leave it. The experience is the argument.`,
     {
       kind: "script",
       role: "You",
-      body: `"Yes. The Pod is what we call a Living Installation. Protocols inside are continuously updated with researchers at Harvard, UCLA and IACS. What you experience today is literally different from what a guest experienced six months ago. The science keeps evolving, and the Pod evolves with it."`,
+      body: `"Yes. The Pod is designed as an evolving environment. It is continuously refined based on real-world data and feedback. Current sessions are undergoing validation in collaboration with researchers at Harvard, UCLA and IACS, reinforcing the system's effectiveness."`,
     },
     {
       kind: "script",
@@ -201,7 +201,7 @@ Then leave it. The experience is the argument.`,
     {
       kind: "prose",
       title: "One Last Thing",
-      body: `There is a specific Regenesis voice, **quiet, confident, unhurried, never clinical, never hyped**, and your job is to carry it. You are not a spa operator talking about a machine. You are a **Somatic Architect** introducing a guest to an environment co-created by the same person who leads Aman's global wellness philosophy.
+      body: `There is a specific Regenesis voice, **quiet, confident, unhurried, never clinical, never hyped**, and your job is to carry it. You are not a spa operator talking about a machine. You are a **Pod Specialist** introducing a guest to an environment co-created by the same person who leads Aman's global wellness philosophy.
 
 If you remember only one line from this entire module: **you are not selling. You are inviting. The Pod does the rest.**`,
     },
@@ -235,7 +235,7 @@ If you remember only one line from this entire module: **you are not selling. Yo
       q: "A skeptical guest asks 'is this scientifically proven?' What is the best response?",
       options: [
         "List studies and cite research papers to convince them.",
-        "Mention the Pod is a Living Installation with protocols continuously updated with researchers at Harvard, UCLA and IACS. Then invite them to try a session.",
+        "Mention the Pod is designed as an evolving environment, continuously refined with researchers at Harvard, UCLA and IACS. Then invite them to try a session.",
         "Insist firmly that it works and they will see for themselves.",
         "Tell them the Pod is probably not for them.",
       ],

@@ -38,7 +38,7 @@ export const cheatsheet = {
       {
         num: "01",
         name: "Relax",
-        scent: "Lavender",
+        scent: "Lavender & Frankincense",
         feel: "The deepest drop. A kind of conscious sleep.",
         when: "Wound up, jet-lagged, not sleeping.",
       },
@@ -52,7 +52,7 @@ export const cheatsheet = {
       {
         num: "03",
         name: "Recharge",
-        scent: "Tangerine",
+        scent: "Tangerine & Peppermint",
         feel: "Clarity. Lifted, awake, focused.",
         when: "Before creative work, a presentation, into flow.",
       },
@@ -152,7 +152,7 @@ export const cheatsheet = {
     },
     {
       eyebrow: "If a guest asks about the science",
-      body: '*"The Pod is a Living Installation. Its protocols are continuously updated in collaboration with researchers at Harvard, UCLA and IACS. What you experience today is literally different from six months ago."*',
+      body: '*"The Pod is designed as an evolving environment, continuously refined based on real-world data. Current sessions are undergoing validation in collaboration with researchers at Harvard, UCLA and IACS."*',
     },
   ],
 

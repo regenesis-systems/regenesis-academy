@@ -38,12 +38,12 @@ The cleanest experience is pre-sign-up at reception or the spa, so by the time t
 
 **Why the questions matter**
 
-The waiver questions are not paperwork. They are how the Pod knows which of its seven modalities to switch on for that specific guest. The Pod auto-configures based on each answer. From their first session to their last, the Pod will only ever run the modalities that are safe for them. The guest never has to think about it again. They sign in, the Pod knows.
+The waiver questions are not paperwork. They are how the Pod knows which of its eight modalities to switch on for that specific guest. The Pod auto-configures based on each answer. From their first session to their last, the Pod will only ever run the modalities that are safe for them. The guest never has to think about it again. They sign in, the Pod knows.
 
 How it shows up in practice:
 
-- **Electrical implant** (pacemaker, cochlear implant, neurostimulator) → **PEMF automatically off.** The other six modalities run normally.
-- **Epilepsy or seizure history** → **Rhythmic Visual Priming automatically off.** Other six normal.
+- **Electrical implant** (pacemaker, cochlear implant, neurostimulator) → **PEMF automatically off.** The other seven modalities run normally.
+- **Epilepsy or seizure history** → **Pulsed Light Guidance automatically off.** Other seven normal.
 - **Olfactory allergy or sensitivity** → **Precision Olfactory automatically off.** Session runs without scent.
 
 **Your job during sign-up**
@@ -64,7 +64,7 @@ The Pod is safe at the intensities we operate, regardless of any single answer. 
 
 **Evening:** Final clean → Shut-Down (**illuminated power button only, never unplug**) → Tablet charging → Log closed.
 
-**Fortnightly (every two weeks):** Olfactory refill. 10 drops of each doTERRA oil.
+**Fortnightly (every two weeks):** Olfactory refill. 10 drops of each natural essential oil.
 
 **Monthly:** Interior deep clean with **non-corrosive, medical-grade disinfectant only**.
 
@@ -80,7 +80,7 @@ The Pod is safe at the intensities we operate, regardless of any single answer. 
         "**Power on** via the illuminated exterior on/off button.",
         "**Open the door** via the exterior button. Let it complete its full travel.",
         "**Inspect the interior**. Dust, scuffs, cushion alignment. Clean now if needed.",
-        "**Run the 5-min Health Check.** Confirm scent, audio, light pulses, somatic vibration, targeted NIR, touchscreen, three-dial response. You are the Pod's first guest of the day.",
+        "**Run the 5-min Health Check.** Confirm scent, audio, light pulses, somatic vibration, Near Infra-Red, touchscreen, three-dial response. You are the Pod's first guest of the day.",
         "**Confirm the three-dial system is at 70% default** across all three controls.",
         "**Verify the tablet**. Charged, unlocked, showing the session menu.",
       ],
@@ -118,8 +118,8 @@ The Pod is safe at the intensities we operate, regardless of any single answer. 
         "**White gloves.** Contamination is the enemy.",
         "**Unscrew the back hatch** (allen key). Support the hatch as the last screws come out.",
         "**Slide out the olfactory system.** Note scent positions before unscrewing nut lids.",
-        "**Add exactly 10 drops** of the correct doTERRA oil. Mapping: **ID 1 → Lavender (RELAX) · ID 2 → Frankincense (RECONNECT) · ID 3 → Tangerine (RECHARGE)**. Remaining slots reserved for future experiences. Leave empty.",
-        "**doTERRA only.** Any other brand contaminates months of neural anchoring work.",
+        "**Add exactly 10 drops** of the correct natural essential oil. Mapping: **ID 1 → Lavender · ID 2 → Frankincense · ID 3 → Tangerine · ID 4 → Peppermint**. Experiences: RELAX uses 1+2, RECONNECT uses 2, RECHARGE uses 3+4. Remaining slots reserved for future experiences. Leave empty.",
+        "**Approved oils only.** Use only the natural essential oils Regenesis supplies. Any other brand contaminates months of neural anchoring work.",
         "**Reseal, reassemble, secure the hatch**. Every screw hand-tightened, no rattles.",
         "**Run a test session** to confirm each scent delivers cleanly.",
       ],
@@ -171,13 +171,13 @@ The Pod is safe at the intensities we operate, regardless of any single answer. 
       q: "A guest signs up at Spa Reception and notes she has a pacemaker. What changes about her Pod sessions?",
       options: [
         "She cannot use the Pod. Decline politely.",
-        "PEMF (the bioenergetic frequency layer) automatically switches off for every session. The other six modalities run normally.",
+        "PEMF (the bioenergetic frequency layer) automatically switches off for every session. The other seven modalities run normally.",
         "She can use the Pod, but you must remember to disable PEMF manually each time.",
         "She must check with her doctor first, then return another day.",
       ],
       answer: 1,
       explain:
-        "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other six modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
+        "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other seven modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
     },
     {
       q: "What is the default intensity setting for all three dials on the Pod's manual control system?",

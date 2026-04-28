@@ -76,13 +76,13 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "A guest signs up at Spa Reception and notes she has a pacemaker. What changes about her Pod sessions?",
     options: [
       "She cannot use the Pod. Decline politely.",
-      "PEMF (the bioenergetic frequency layer) automatically switches off for every session. The other six modalities run normally.",
+      "PEMF (the bioenergetic frequency layer) automatically switches off for every session. The other seven modalities run normally.",
       "She can use the Pod, but you must remember to disable PEMF manually each time.",
       "She must check with her doctor first, then return another day.",
     ],
     answer: 1,
     explain:
-      "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other six modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
+      "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other seven modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
   },
   {
     q: "At the end of the day, you power down the Pod by:",
@@ -99,7 +99,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "How often is the Pod's olfactory system refilled?",
     options: ["Daily", "Every Monday", "Fortnightly (every two weeks)", "Only when the scent fades"],
     answer: 2,
-    explain: "Fortnightly refill. 10 drops of each doTERRA oil. The Pod's olfactory system is a precision burst system, not a continuous diffuser.",
+    explain: "Fortnightly refill. 10 drops of each natural essential oil. The Pod's olfactory system is a precision burst system, not a continuous diffuser.",
   },
   {
     q: "The Pod loses power during a session. The door has not opened automatically. Your first action is to:",
@@ -116,7 +116,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "A skeptical guest asks 'is this actually scientifically proven?' Best response:",
     options: [
       "List the studies and cite specific research papers.",
-      "Mention the Pod is a Living Installation with protocols continuously updated with researchers at Harvard, UCLA and IACS, then invite them into a single session.",
+      "Mention the Pod is designed as an evolving environment, continuously refined with researchers at Harvard, UCLA and IACS, then invite them into a single session.",
       "Insist firmly that it works and they will feel it.",
       "Tell them the Pod may not be right for them.",
     ],
@@ -127,13 +127,13 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "Which term correctly describes the Pod's use of light pulses for neural entrainment?",
     options: [
       "Stroboscopic Light Therapy",
-      "Rhythmic Visual Priming",
+      "Pulsed Light Guidance",
       "Chromotherapy",
       "LED Stimulation",
     ],
     answer: 1,
     explain:
-      "Regenesis's sanctioned term is *Rhythmic Visual Priming*. One of the seven modalities of impact. Don't use the old technical terms.",
+      "Regenesis's sanctioned term is *Pulsed Light Guidance*. One of the eight modalities of impact. Don't use the old technical terms.",
   },
   {
     q: "A guest emerges from their first Pod session. The correct sequence is:",

@@ -10,26 +10,27 @@ export const experiencesModule: Module = {
   sections: [
     {
       kind: "prose",
-      body: `The Pod holds **three distinct journeys**, each a different arrangement of the Pod's seven modalities working in synchrony. Your job: know which to recommend to which guest in a single sentence.`,
+      body: `The Pod holds **three distinct journeys**, each a different arrangement of the Pod's eight modalities working in synchrony. Your job: know which to recommend to which guest in a single sentence.`,
     },
     {
       kind: "callout",
-      title: "The Seven Modalities of Impact",
-      body: `Every experience draws from the same underlying stack. What changes between experiences is the arrangement, the intensity, and the scent. **Memorise these names**. They are how Regenesis describes its own technology:
+      title: "The Eight Modalities of Impact",
+      body: `Every experience draws from the same underlying stack. What changes between experiences is the arrangement, the intensity, and the scent. These are how Regenesis describes its own technology:
 
 1. **PEMF:** bioenergetic frequencies for cellular repair.
-2. **Rhythmic Visual Priming:** precision light pulses for neural entrainment.
+2. **Pulsed Light Guidance:** precision light pulses for neural entrainment.
 3. **Immersive Audio:** spatial soundscapes that bypass mental chatter.
 4. **Somatic Vibration:** deep physical resonance via internal haptics.
-5. **Targeted NIR:** brain-specific near-infrared (positioned above the head) to increase oxygenation and blood flow, pulsed in sync with PEMF.
+5. **Near Infra-Red:** brain-specific light (positioned above the head) to increase oxygenation and blood flow, pulsed in sync with PEMF.
 6. **Schumann Resonance Generators:** a grounded frequency floor aligned with the Earth's natural rhythm.
 7. **Precision Olfactory:** neural anchoring via specific scent bursts.
+8. **Spatial Design Integration:** organic form and immersive enclosure engineered for physiological ease.
 
-The scent is the **neural anchor**, the sensory signature the body recognises on the second visit and drops into much faster by the third. Each experience is paired with a doTERRA essential oil.`,
+The scent is the **neural anchor**, the sensory signature the body recognises on the second visit and drops into much faster by the third. Each experience is paired with natural essential oils.`,
     },
     {
       kind: "prose",
-      title: "RELAX · Lavender",
+      title: "RELAX · Lavender & Frankincense",
       body: `**The deepest drop.** For the guest who arrived wound tight, hasn't slept properly in weeks, just stepped off a long flight, or has shoulders you can see from across the room.
 
 **What it feels like:** a slow, gentle descent. Many guests describe it as the most complete rest they've had in months. A kind of conscious sleep.
@@ -55,7 +56,7 @@ The scent is the **neural anchor**, the sensory signature the body recognises on
     },
     {
       kind: "prose",
-      title: "RECHARGE · Tangerine",
+      title: "RECHARGE · Tangerine & Peppermint",
       body: `**The clarity session.** For the guest with a chapter to write, a presentation to give, a creative idea trying to land. Anyone who needs to sit down and do the work well.
 
 **What it feels like:** clear, lifted, awake without the sharp edge of caffeine. Many guests describe it as the cleanest hour they've had in weeks.
@@ -114,13 +115,13 @@ Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
       q: "Which term correctly describes the Pod's use of light pulses for neural entrainment?",
       options: [
         "Stroboscopic Light Therapy",
-        "Rhythmic Visual Priming",
+        "Pulsed Light Guidance",
         "Chromotherapy",
         "LED Stimulation",
       ],
       answer: 1,
       explain:
-        "Regenesis's sanctioned term is *Rhythmic Visual Priming*. One of the seven modalities of impact. Don't call it 'stroboscopic'. That's the old technical term.",
+        "Regenesis's sanctioned term is *Pulsed Light Guidance*. One of the eight modalities of impact. Don't call it 'stroboscopic'. That's the old technical term.",
     },
     {
       q: "A guest asks whether the Pod has other experiences beyond the three currently offered. What is the correct on-brand answer?",
