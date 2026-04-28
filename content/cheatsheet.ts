@@ -210,7 +210,7 @@ export const cheatsheet = {
   footer: {
     left: "Regenesis Pod · First Generation",
     center: "*You are not selling. You are inviting.*",
-    right: "Amanyara · April 2026",
+    right: "Amanyara",
   },
 };
 
