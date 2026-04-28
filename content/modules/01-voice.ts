@@ -23,15 +23,15 @@ Regenesis is a quiet brand. It does not shout, does not promise miracles, does n
       title: "Co-Founded with Novak · Why This Matters at Amanyara",
       body: `The Regenesis Pod was **co-founded with Novak Djokovic**, who is also **Aman's Global Wellness Ambassador**.
 
-Read that again. The same person who leads Aman's global wellness vision is a co-founder of the Pod that now sits at Amanyara. That is not a sponsorship. That is a philosophy-made-physical, the place where Aman's wellness philosophy and Novak's recovery obsession meet, engineered into a single immersive environment.
+Read that again. The same person who leads Aman's global wellness vision is a co-founder of the Pod that now sits at Amanyara. That is not a sponsorship. That is a philosophy made physical, where Aman's wellness philosophy meets Novak's disciplined approach to recovery, expressed through a single immersive environment.
 
 This is your most powerful piece of context. You don't need to lead with it, but when a guest asks *"is this just another wellness gadget?"* or *"what makes this different?"*, the answer lives here.
 
-**The line to have ready:** *"The Pod was co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. It was built from the inside out by athletes and engineers who needed recovery that actually works between matches. What you experience here is the same environment Novak uses himself."*`,
+**The line to have ready:** *"The Pod was co-founded with Novak Djokovic, Aman's Global Wellness Ambassador. Developed from the inside out by athletes and engineers, it is designed to support recovery at the highest level. The experience you encounter here mirrors the one Novak uses personally."*`,
     },
     {
       kind: "prose",
-      title: "Aman's Own Words (Memorise This)",
+      title: "Aman's Own Words",
       body: `This is the official Pod description from Amanyara's printed Spa & Wellness Menu. Every guest who picks up the menu will read it. Your answers to their questions must be in the same voice:`,
     },
     {
@@ -101,7 +101,7 @@ This persona is quiet, not boastful. It shows up in *how* you answer questions. 
 
 If a guest asks whether the Pod will help a specific medical condition, use this sentence:
 
-> *"The Pod supports the body's natural recovery, and many guests report feeling [relevant benefit]. For anything specific I'd always suggest checking with your doctor, but the experience itself is safe and gentle, and you can see how your body responds."*
+> *"The Pod supports the body's natural recovery, and many guests report feeling deeply relaxed and noticeably lighter. For anything specific I'd always suggest checking with your doctor, but the experience itself is safe and gentle, and you can see how your body responds."*
 
 Learn this line. It is your friend in every clinical conversation.`,
     },
