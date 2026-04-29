@@ -46,13 +46,15 @@ The cleanest experience is pre-sign-up at reception or the spa, so by the time t
 
 **Why the questions matter**
 
-The waiver questions are not paperwork. They are how the Pod knows which of its eight modalities to switch on for that specific guest. The Pod auto-configures based on each answer. From their first session to their last, the Pod will only ever run the modalities that are safe for them. The guest never has to think about it again. They sign in, the Pod knows.
+The waiver questions are not paperwork. They are how the Pod tunes itself to that specific guest. Based on each answer, the Pod configures which modalities run for them. From their first session to their last, the Pod will only ever run the modalities that are safe for them. The guest never has to think about it again. They sign in, the Pod knows.
 
-How it shows up in practice:
+**How it shows up in practice**
 
-- **Electrical implant** (pacemaker, cochlear implant, neurostimulator) → **PEMF automatically off.** The other seven modalities run normally.
-- **Epilepsy or seizure history** → **Pulsed Light Guidance automatically off.** Other seven normal.
-- **Olfactory allergy or sensitivity** → **Precision Olfactory automatically off.** Session runs without scent.
+If a guest has an electrical implant (pacemaker, cochlear implant, neurostimulator), **PEMF runs off**. Other modalities run normally.
+
+If a guest has epilepsy or a seizure history, **Pulsed Light Guidance runs off**. Other modalities run normally.
+
+If a guest has an olfactory allergy or sensitivity, **Precision Olfactory runs off**. The session runs without scent.
 
 **Your job during sign-up**
 
@@ -192,13 +194,13 @@ The staff wellness calibration. A dedicated 21-minute session one member of the 
       q: "A guest signs up at Spa Reception and notes she has a pacemaker. What changes about her Pod sessions?",
       options: [
         "She cannot use the Pod. Decline politely.",
-        "PEMF (the bioenergetic frequency layer) automatically switches off for every session. The other seven modalities run normally.",
+        "PEMF (the bioenergetic frequency layer) automatically switches off for every session. The other modalities run normally.",
         "She can use the Pod, but you must remember to disable PEMF manually each time.",
         "She must check with her doctor first, then return another day.",
       ],
       answer: 1,
       explain:
-        "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other seven modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
+        "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
     },
     {
       q: "Who adjusts the intensity of the three dials during a guest's Pod session?",

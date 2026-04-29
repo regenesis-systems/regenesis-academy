@@ -76,13 +76,13 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "A guest signs up at Spa Reception and notes she has a pacemaker. What changes about her Pod sessions?",
     options: [
       "She cannot use the Pod. Decline politely.",
-      "PEMF (the bioenergetic frequency layer) automatically switches off for every session. The other seven modalities run normally.",
+      "PEMF (the bioenergetic frequency layer) automatically switches off for every session. The other modalities run normally.",
       "She can use the Pod, but you must remember to disable PEMF manually each time.",
       "She must check with her doctor first, then return another day.",
     ],
     answer: 1,
     explain:
-      "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other seven modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
+      "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
   },
   {
     q: "At the end of the day, you power down the Pod by:",
