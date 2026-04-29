@@ -24,7 +24,7 @@ The goal isn't to sell more sessions. The goal is to give the guest the full val
       items: [
         "**Session 1.** The body maps the new environment. Many guests feel wonderful; some feel slightly overwhelmed by the newness. Both are normal.",
         "**Session 2.** The body recognises the entry: the scent, the warmth, the Arrival Sequence. The on-ramp gets shorter.",
-        "**Session 3.** The body now recognises the *neural anchors* (scent, rhythm, Near Infra-Red) and drops into the restorative state almost instantly. Guests often say the third session is where they *really understand* what the Pod is for.",
+        "**Session 3.** The body now recognises the *neural anchors* (scent and rhythm) and drops into the restorative state almost instantly. Guests often say the third session is where they *really understand* what the Pod is for.",
         "**Session 4.** The nervous system has a new pathway available. The guest is **training** their baseline of stillness to stay with them after they leave.",
       ],
     },
@@ -103,7 +103,7 @@ If they say *"maybe later,"* the answer is: *"Of course. I'll note that you enjo
       q: "By the third session, what has typically changed in the guest's body?",
       options: [
         "It loses sensitivity to the Pod's modalities and the benefit reduces.",
-        "It recognises the neural anchors (scent, rhythm, Near Infra-Red) and drops into the restorative state almost instantly.",
+        "It recognises the neural anchors (scent and rhythm) and drops into the restorative state almost instantly.",
         "It needs a longer Arrival Sequence to settle.",
         "It builds tolerance, so we shorten the session.",
       ],
