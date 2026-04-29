@@ -105,7 +105,6 @@ The staff wellness calibration. A dedicated 21-minute session one member of the 
         "**Open the door** via the exterior button. Let it complete its full travel.",
         "**Inspect the interior**. Dust, scuffs, cushion alignment. Clean now if needed.",
         "**Run the 5-min Health Check.** Confirm scent, audio, light pulses, somatic vibration, Near Infra-Red, touchscreen, three-dial response. You are the Pod's first guest of the day.",
-        "**Verify the three-dial controls inside the Pod are functional.** The guest sets their own intensity during the session; staff confirm only that the dials respond.",
         "**Verify the tablet.** Charged, unlocked, showing the session menu.",
       ],
     },
@@ -113,20 +112,11 @@ The staff wellness calibration. A dedicated 21-minute session one member of the 
       kind: "list",
       title: "Between Guests · The Reset",
       items: [
-        "**Put on white gloves.** Every time.",
         "**Spot-clean the touchscreen** with microfibre + a light medical-grade disinfectant mist. No streaks.",
         "**Wipe visible interior surfaces**. Big screen, cushion edge, anywhere a previous guest may have touched.",
-        "**Check the cushion.** Any mark → swap to backup immediately, send used one to housekeeping.",
         "**Refresh the room**. Dim lights, quiet ambient, let the air settle.",
         "**Log the session** in the Maintenance Log.",
       ],
-    },
-    {
-      kind: "callout",
-      title: "The Cushion · Treat It Like Fine Linen",
-      body: `The single surface that touches every guest for 20 uninterrupted minutes. Cleaned as part of the **monthly deep clean** with gentle steam and non-corrosive medical-grade disinfectant only.
-
-**Any mark, stain, or residue between scheduled cleanings → swap to backup immediately.** Do not wait. The backup exists for exactly this.`,
     },
     {
       kind: "prose",
