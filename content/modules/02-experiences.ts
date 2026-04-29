@@ -31,11 +31,11 @@ The scent is the **neural anchor**, the sensory signature the body recognises on
     {
       kind: "prose",
       title: "RELAX · Lavender & Frankincense",
-      body: `**The deepest drop.** For the guest who arrived wound tight, hasn't slept properly in weeks, just stepped off a long flight, or has shoulders you can see from across the room.
+      body: `**The deepest drop.** For the guest who arrived wound tight, hasn't slept properly in weeks, just stepped off a long flight, or are just feeling stressed.
 
 **What it feels like:** a slow, gentle descent. Many guests describe it as the most complete rest they've had in months. A kind of conscious sleep.
 
-**When to recommend:** almost every new guest. Safest first experience, easiest "yes," most likely to convert a skeptic. The right call for jet lag and travel exhaustion. The 20-minute Relax protocol is Regenesis's flagship session.`,
+**When to recommend:** almost every new guest. Safest first experience, easiest "yes," most likely to convert a skeptic. The right call for jet lag and travel exhaustion. The 20-minute Relax protocol is Regenesis' flagship session.`,
     },
     {
       kind: "pullquote",
@@ -57,7 +57,7 @@ The scent is the **neural anchor**, the sensory signature the body recognises on
     {
       kind: "prose",
       title: "RECHARGE · Tangerine & Peppermint",
-      body: `**The clarity session.** For the guest with a chapter to write, a presentation to give, a creative idea trying to land. Anyone who needs to sit down and do the work well.
+      body: `**The Recharge session.** Designed to elevate energy, sharpen focus, and bring you into a clear, driven state, ready for whatever comes next.
 
 **What it feels like:** clear, lifted, awake without the sharp edge of caffeine. Many guests describe it as the cleanest hour they've had in weeks.
 
@@ -121,7 +121,7 @@ Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
       ],
       answer: 1,
       explain:
-        "Regenesis's sanctioned term is *Pulsed Light Guidance*. One of the eight modalities of impact. Don't call it 'stroboscopic'. That's the old technical term.",
+        "Regenesis' sanctioned term is *Pulsed Light Guidance*. One of the eight modalities of impact. Don't call it 'stroboscopic'. That's the old technical term.",
     },
     {
       q: "A guest asks whether the Pod has other experiences beyond the three currently offered. What is the correct on-brand answer?",
@@ -140,7 +140,7 @@ Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
       options: ["RELAX", "RECONNECT", "RECHARGE", "Skip the Pod today"],
       answer: 2,
       explain:
-        "RECHARGE (Tangerine) is the clarity session. Designed for focus, creative work, and arriving at the page or the meeting clear.",
+        "RECHARGE (Tangerine) is the Recharge session. Designed to elevate energy, sharpen focus, and bring the guest into a clear, driven state for whatever comes next.",
     },
   ],
 };

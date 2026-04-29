@@ -21,7 +21,7 @@ None of these tasks are difficult. All of them matter. This module is for everyo
 
 - **Power button:** the *illuminated* on/off button on the exterior of the Pod (your trainer will show you exactly where on Day One). It glows softly. You can find it in a dimmed room.
 - **Manual controls:** a **three-dial system** on the operator tablet. The default intensity for all three dials is **70%**. Every session starts at 70% unless a guest explicitly requests something different.
-- **Connectivity:** the Pod is always linked to Regenesis's protocol servers for remote updates. Do not disable or disconnect it. This is how the Pod stays an *evolving environment*.`,
+- **Connectivity:** the Pod is always linked to Regenesis' protocol servers for remote updates. Do not disable or disconnect it. This is how the Pod stays an *evolving environment*.`,
     },
     {
       kind: "callout",
@@ -110,7 +110,7 @@ The Pod is safe at the intensities we operate, regardless of any single answer. 
       title: "Scent Is Everything (Fortnightly Refill)",
       body: `The olfactory system is the single most important signature. It's the **neural anchor** the body uses to recognise the Pod. A faint or stale scent is a Pod that has lost its most powerful tool.
 
-**Every two weeks**, refill each active reservoir. This is less frequent than traditional aromatherapy setups because Regenesis's olfactory system is a precision burst system, not a continuous diffuser. The oils last longer but still need fortnightly topping-up to hit peak intensity.`,
+**Every two weeks**, refill each active reservoir. This is less frequent than traditional aromatherapy setups because Regenesis' olfactory system is a precision burst system, not a continuous diffuser. The oils last longer but still need fortnightly topping-up to hit peak intensity.`,
     },
     {
       kind: "list",
@@ -131,7 +131,7 @@ The Pod is safe at the intensities we operate, regardless of any single answer. 
 2. Close the Pod door via the exterior button.
 3. Power off via the illuminated exterior on/off button.
 
-**Do NOT unplug the Pod from the step-down converter.** Leave it plugged in overnight. The button is the correct shut-down. Unplugging interrupts the Pod's internal maintenance cycle AND breaks its link to Regenesis's protocol update servers.
+**Do NOT unplug the Pod from the step-down converter.** Leave it plugged in overnight. The button is the correct shut-down. Unplugging interrupts the Pod's internal maintenance cycle AND breaks its link to Regenesis' protocol update servers.
 
 **Illuminated button only, never the plug.** The single most common new-staff mistake.`,
     },

@@ -93,7 +93,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
       "Disconnecting the step-down converter from the wall.",
     ],
     answer: 1,
-    explain: "Illuminated power button only, never unplug. Unplugging interrupts the internal maintenance cycle and breaks the Pod's link to Regenesis's protocol update servers.",
+    explain: "Illuminated power button only, never unplug. Unplugging interrupts the internal maintenance cycle and breaks the Pod's link to Regenesis' protocol update servers.",
   },
   {
     q: "How often is the Pod's olfactory system refilled?",
@@ -133,7 +133,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     ],
     answer: 1,
     explain:
-      "Regenesis's sanctioned term is *Pulsed Light Guidance*. One of the eight modalities of impact. Don't use the old technical terms.",
+      "Regenesis' sanctioned term is *Pulsed Light Guidance*. One of the eight modalities of impact. Don't use the old technical terms.",
   },
   {
     q: "A guest emerges from their first Pod session. The correct sequence is:",
