@@ -254,14 +254,34 @@ export default function SignInPage() {
                 </h2>
                 <div className="rule-gold mb-8" />
                 <p className="text-[16px] leading-[1.7] text-charcoal mb-6">
-                  We've sent a sign-in link to{" "}
-                  <strong className="text-ink">{email}</strong>. Click the
-                  button in that email to begin (or continue) your training.
+                  If <strong className="text-ink">{email}</strong> is already
+                  registered, a sign-in link is on its way. Click the button
+                  in that email to continue your training.
                 </p>
-                <p className="text-[14px] italic leading-[1.7] text-muted mb-8">
-                  The link is valid for the next thirty minutes. If it doesn't
-                  arrive in a couple of minutes, check your spam folder, or
-                  request a fresh one below.
+                {!showEnrol && (
+                  <div className="border border-gold/40 bg-paper p-5 mb-6">
+                    <div className="tracked text-gold-dark mb-2 text-[10px]">
+                      First time at the Academy?
+                    </div>
+                    <p className="text-[14px] leading-[1.7] text-charcoal mb-4">
+                      You'll need to enrol with your <em>cohort code</em>{" "}
+                      first. Your wellness lead at your property has it.
+                    </p>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setShowEnrol(true);
+                        setStep("form");
+                      }}
+                      className="btn w-full justify-center"
+                    >
+                      Enrol with cohort code
+                    </button>
+                  </div>
+                )}
+                <p className="text-[14px] italic leading-[1.7] text-muted mb-6">
+                  Sign-in links are valid for thirty minutes. If nothing
+                  arrives in a couple of minutes, check your spam folder.
                 </p>
                 <button
                   type="button"
@@ -269,9 +289,9 @@ export default function SignInPage() {
                     setStep("form");
                     setError(null);
                   }}
-                  className="btn w-full justify-center"
+                  className="tracked text-muted hover:text-ink transition-colors text-[10px]"
                 >
-                  Use a different email
+                  ← Use a different email
                 </button>
               </div>
             )}
