@@ -73,14 +73,14 @@ The scent is the **neural anchor**, the sensory signature the body recognises on
       items: [
         "**Exhausted, jet-lagged, can't sleep** → RELAX",
         "**Meditation, retreat, or feeling off-center** → RECONNECT",
-        "**Focusing, creating, before something important** → RECHARGE",
+        "**Focused, high energy, clarity, ready to perform** → RECHARGE",
         "**Unsure?** Default to RELAX.",
       ],
     },
     {
       kind: "callout",
       title: "If A Guest Asks About Other Experiences",
-      body: `The Pod's olfactory system has capacity for more. Those slots are reserved for future experiences in development. The on-brand answer:
+      body: `The Pod has capacity for more. Those are reserved for future experiences in development. The on-brand answer:
 
 > *"The Pod is designed as an evolving environment. Continuously refined with new protocols validated by our research partners. We began with the three experiences that cover the widest range of guests. More are in development, and we'll share them when they're ready."*
 
@@ -112,7 +112,7 @@ Warm, honest, brief. Never invent a benefit for an experience that isn't live.`,
         "RECONNECT (Frankincense) is the stillness journey. Exactly the match for a meditator or anyone craving quiet.",
     },
     {
-      q: "Which term correctly describes the Pod's use of light pulses for neural entrainment?",
+      q: "Which is the Regenesis-sanctioned term for the Pod's light pulses for neural entrainment?",
       options: [
         "Stroboscopic Light Therapy",
         "Pulsed Light Guidance",

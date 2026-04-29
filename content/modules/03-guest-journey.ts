@@ -16,7 +16,7 @@ Three teams touch this arc. If each team knows its part and hands off cleanly, t
     },
     {
       kind: "pullquote",
-      body: "The session is 20 minutes. The experience is a full afternoon.",
+      body: "The session is 20 minutes. The state it creates can stay with you for hours.",
     },
     {
       kind: "list",

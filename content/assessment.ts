@@ -124,7 +124,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     explain: "Research partners calmly named + invitation to experience. Specific enough to be credible, never a medical claim.",
   },
   {
-    q: "Which term correctly describes the Pod's use of light pulses for neural entrainment?",
+    q: "Which is the Regenesis-sanctioned term for the Pod's light pulses for neural entrainment?",
     options: [
       "Stroboscopic Light Therapy",
       "Pulsed Light Guidance",
