@@ -20,7 +20,7 @@ export const cheatsheet = {
   },
 
   hero: {
-    line1: "You are not selling. You are inviting.",
+    line1: "Quiet. Confident. Unhurried.",
     line2: "*The Pod does the rest.*",
   },
 
@@ -86,7 +86,7 @@ export const cheatsheet = {
   emergence: {
     eyebrow: "The Emergence",
     title: "The ninety seconds that matter most",
-    lede: "When the door opens, the guest is in a liminal state. Your next ninety seconds decide whether it carries forward or evaporates. Give sixty seconds of silence before you speak.",
+    lede: "When the door opens, the guest is in a liminal state. Your next ninety seconds decide whether it carries forward or evaporates. Let them speak first.",
     doLabel: "Do",
     do: [
       "Be quietly present. Keep lights low.",
@@ -209,7 +209,7 @@ export const cheatsheet = {
 
   footer: {
     left: "Regenesis Pod · First Generation",
-    center: "*You are not selling. You are inviting.*",
+    center: "",
     right: "Amanyara",
   },
 };

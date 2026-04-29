@@ -61,7 +61,7 @@ export function AcademyShell({ children }: { children: React.ReactNode }) {
       <footer className="border-t border-line px-6 md:px-12 py-8 mt-16">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="tracked text-muted">
-            Regenesis Academy · Founding Cohort
+            Regenesis Academy
           </div>
           <div className="tracked text-muted">v0.1</div>
         </div>

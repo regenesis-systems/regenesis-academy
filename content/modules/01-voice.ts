@@ -15,10 +15,6 @@ export const voiceModule: Module = {
 Regenesis is a quiet brand. It does not shout, does not promise miracles, does not over-explain. It speaks with calm, patient certainty, inviting the guest in rather than pushing them. This is not spa relaxation. This is **Precision-Engineered Recovery**, and your job is to carry that distinction in every sentence.`,
     },
     {
-      kind: "pullquote",
-      body: "You are not selling. You are inviting. The Pod does the rest.",
-    },
-    {
       kind: "callout",
       title: "Co-Founded with Novak · Why This Matters at Amanyara",
       body: `The Regenesis Pod was **co-founded with Novak Djokovic**, who is also **Aman's Global Wellness Ambassador**.
@@ -267,7 +263,7 @@ If you remember only one line from this entire module: **you are not selling. Yo
       ],
       answer: 2,
       explain:
-        "You are not selling. You are inviting. The Pod does the rest.",
+        "The Voice's purpose is to invite, not to convince. The Pod's effect on the guest is what closes the loop.",
     },
   ],
 };

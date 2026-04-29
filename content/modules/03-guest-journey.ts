@@ -96,7 +96,7 @@ The Pod leads the entire sequence. Your role is simply to set the context and le
 
 **Don't:** rush in with *"so, how was it?!"*, turn the lights up, hand them a feedback form, or start pitching.
 
-**Give at least 60 seconds of silence** after they sit up. Then speak, gently.`,
+**Let the guest speak first.** Then respond, gently.`,
     },
     {
       kind: "prose",

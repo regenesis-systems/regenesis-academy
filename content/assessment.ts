@@ -139,12 +139,12 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "A guest emerges from their first Pod session. The correct sequence is:",
     options: [
       "Ask immediately 'so how was it?!' and pitch the Recovery Series while they're still inspired.",
-      "Be present silently, offer water, allow at least 60 seconds of quiet, then speak gently and only then open the Integration Conversation.",
+      "Be present silently, offer water, let the guest speak first, and only then open the Integration Conversation.",
       "Turn the room lights up so they can see clearly, then hand them a feedback form.",
       "Leave them alone until they come out of the room on their own timing.",
     ],
     answer: 1,
-    explain: "The Emergence is sacred. 60 seconds of silence protects the afterglow, and then a gentle conversation can open.",
+    explain: "The Emergence is sacred. Let the guest speak first. The afterglow is protected by your stillness, not by any prescribed pause.",
   },
   {
     q: "What is the single most important principle of the Regenesis Voice?",

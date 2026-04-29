@@ -72,7 +72,7 @@ The door mechanism may need inspection before the next use to ensure it has full
       items: [
         "**Contact emergency services immediately** via the Amanyara emergency line.",
         "**Get the guest out safely** using the Manual Release if needed.",
-        "**Do not move the guest further than necessary.** If unconscious, leave them where they are until help arrives.",
+        "**Check breathing first.** If unconscious, confirm they are breathing and not choking or seizing. If they are stable, help them out of the Pod and lay them on their side in the recovery position. If moving them feels unsafe, leave them where they are until help arrives.",
         "**Stay with them.** Someone else contacts the on-duty manager.",
         "**Preserve the scene.** Do not reset the Pod or alter anything until the incident is documented.",
         "**Document everything immediately**. Time, symptoms, actions, response times.",
@@ -91,11 +91,15 @@ The door mechanism may need inspection before the next use to ensure it has full
     {
       kind: "callout",
       title: "Regenesis Technical Support",
-      body: `- **Email:** support@regenesispod.com
-- **Live Support:** 18:00 to 10:00 TCI time (06:00 to 22:00 Bali WITA)
-- **Urgent-only window:** 10:00 to 12:00 TCI, for situations that cannot wait
-- **Guaranteed response:** within 24 hours
-- **Extended support** available outside these hours by prior arrangement
+      body: `**Email:** support@regenesispod.com
+
+**Live Support:** 18:00 to 10:00 TCI time (06:00 to 22:00 Bali WITA)
+
+**Urgent-only window:** 10:00 to 12:00 TCI, for situations that cannot wait
+
+**Guaranteed response:** within 24 hours
+
+**Extended support** available outside these hours by prior arrangement
 
 Save these contact details in your phone before your first shift. When something is wrong, you should not be searching for an email address.`,
     },

@@ -67,19 +67,6 @@ export default function CertificatePage() {
         </header>
 
         <CertificateView trainee={trainee} property={property} />
-
-        <div className="mt-16 border-t border-line pt-12">
-          <div className="max-w-[58ch] mx-auto text-center">
-            <p className="serif text-2xl italic text-muted leading-snug mb-6">
-              &ldquo;You are not selling. You are inviting. The Pod does the
-              rest.&rdquo;
-            </p>
-            <div className="rule-gold mx-auto mb-6" />
-            <p className="text-[14px] text-muted italic">
-              Carry it with you.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
