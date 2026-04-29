@@ -19,9 +19,17 @@ None of these tasks are difficult. All of them matter. This module is for everyo
       title: "The Pod You Are Working With",
       body: `The hardware at Amanyara is the **Regenesis Pod 2.7**. The current generation. Key things to know about its operation:
 
-- **Power button:** the *illuminated* on/off button on the exterior of the Pod (your trainer will show you exactly where on Day One). It glows softly. You can find it in a dimmed room.
-- **Manual controls:** a **three-dial system** on the operator tablet. The default intensity for all three dials is **70%**. Every session starts at 70% unless a guest explicitly requests something different.
-- **Connectivity:** the Pod is always linked to Regenesis' protocol servers for remote updates. Do not disable or disconnect it. This is how the Pod stays an *evolving environment*.`,
+**Power button**
+
+The *illuminated* on/off button on the exterior of the Pod. Your trainer will show you exactly where on Day One. It glows softly. You can find it in a dimmed room.
+
+**Manual controls**
+
+Three dials inside the Pod that the guest adjusts to their own preference during the session. The guest is in charge of intensity, not the staff.
+
+**Connectivity**
+
+The Pod is always linked to Regenesis' protocol servers for remote updates. Do not disable or disconnect it. This is how the Pod stays an *evolving environment*.`,
     },
     {
       kind: "callout",
@@ -58,19 +66,33 @@ The Pod is safe at the intensities we operate, regardless of any single answer. 
     {
       kind: "callout",
       title: "The Daily Rhythm",
-      body: `**Morning (before first guest):** Start-Up → Room prep → 5-min Health Check → Tablet charged → Confirm three-dial 70% default.
+      body: `**Morning (before first guest)**
 
-**Between every guest:** Spot clean (touchscreen + surfaces) → Cushion check → Room refresh → Visual of interior.
+Start-Up → Room prep → 5-min Health Check → Tablet charged.
 
-**Evening:** Final clean → Shut-Down (**illuminated power button only, never unplug**) → Tablet charging → Log closed.
+**Between every guest**
 
-**Fortnightly (every two weeks):** Olfactory refill. 10 drops of each natural essential oil.
+Spot clean (touchscreen + surfaces) → Cushion check → Room refresh → Visual of interior.
 
-**Monthly:** Interior deep clean with **non-corrosive, medical-grade disinfectant only**.
+**Evening**
 
-**Quarterly (every three months):** Deep cleaning of intake and HVAC filters.
+Final clean → Shut-Down (**illuminated power button only, never unplug**) → Tablet charging → Log closed.
 
-**Weekly:** The staff wellness calibration. A dedicated 21-minute session one member of the team takes to verify the haptic, visual, and audio sync is still perfect.`,
+**Fortnightly (every two weeks)**
+
+Olfactory refill. 10 drops of each natural essential oil.
+
+**Monthly**
+
+Interior deep clean with **non-corrosive, medical-grade disinfectant only**.
+
+**Quarterly (every three months)**
+
+Deep cleaning of intake and HVAC filters.
+
+**Weekly**
+
+The staff wellness calibration. A dedicated 21-minute session one member of the team takes to verify the haptic, visual, and audio sync is still perfect.`,
     },
     {
       kind: "list",
@@ -81,8 +103,8 @@ The Pod is safe at the intensities we operate, regardless of any single answer. 
         "**Open the door** via the exterior button. Let it complete its full travel.",
         "**Inspect the interior**. Dust, scuffs, cushion alignment. Clean now if needed.",
         "**Run the 5-min Health Check.** Confirm scent, audio, light pulses, somatic vibration, Near Infra-Red, touchscreen, three-dial response. You are the Pod's first guest of the day.",
-        "**Confirm the three-dial system is at 70% default** across all three controls.",
-        "**Verify the tablet**. Charged, unlocked, showing the session menu.",
+        "**Verify the three-dial controls inside the Pod are functional.** The guest sets their own intensity during the session; staff confirm only that the dials respond.",
+        "**Verify the tablet.** Charged, unlocked, showing the session menu.",
       ],
     },
     {
@@ -94,7 +116,6 @@ The Pod is safe at the intensities we operate, regardless of any single answer. 
         "**Wipe visible interior surfaces**. Big screen, cushion edge, anywhere a previous guest may have touched.",
         "**Check the cushion.** Any mark → swap to backup immediately, send used one to housekeeping.",
         "**Refresh the room**. Dim lights, quiet ambient, let the air settle.",
-        "**Reset the three dials to 70% default** for the next guest.",
         "**Log the session** in the Maintenance Log.",
       ],
     },
@@ -180,11 +201,16 @@ The Pod is safe at the intensities we operate, regardless of any single answer. 
         "The waiver is built into the Pod sign-up. Implant flagged → PEMF auto-off, every session, automatically. The other seven modalities still deliver a deep recovery experience. Staff don't have to do anything manually.",
     },
     {
-      q: "What is the default intensity setting for all three dials on the Pod's manual control system?",
-      options: ["50%", "70%", "100%", "It varies per experience"],
+      q: "Who adjusts the intensity of the three dials during a guest's Pod session?",
+      options: [
+        "The Spa Reception staff at session start.",
+        "The guest themselves, inside the Pod, to their own preference.",
+        "The Pod auto-tunes based on the guest's biometrics.",
+        "The dials are set by Engineering once at install and never changed.",
+      ],
       answer: 1,
       explain:
-        "All three dials default to 70%. Every session starts at 70% unless the guest explicitly requests otherwise.",
+        "The guest controls intensity. They adjust the three dials inside the Pod to their own preference during the session. Staff do not preset a default intensity for them.",
     },
     {
       q: "For cleaning the Pod's interior surfaces, you should use:",

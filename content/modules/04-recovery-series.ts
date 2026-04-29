@@ -70,9 +70,11 @@ If you internalise one fact: **every other day, not every day**.`,
     {
       kind: "callout",
       title: "How to Actually Pitch It",
-      body: `**The moment:** after the first session, during the Integration Conversation. Never earlier. The guest has to have *felt* the Pod first.
+      body: `**The moment**
 
-**The line:**
+A relaxed welcome conversation, the Integration Conversation after a first session, or a quiet second conversation later in the stay. Multiple moments work. The one moment to avoid is right before a guest's first session, while they are about to go in. They have not yet felt what they would be booking, and a pitch in that moment lands as pushy.
+
+**The line**
 
 > *"Most of our guests who love their first session book into the Recovery Series for the rest of their stay. Four sessions, every other day, the cadence that lets the body really land the benefit. Would you like me to hold three more for you this week?"*
 
@@ -112,16 +114,16 @@ If they say *"maybe later,"* the answer is: *"Of course. I'll note that you enjo
         "Repetition creates a neural shortcut. By session three, the Arrival Sequence is automatic and The Drop is near-instant. The session goes deeper.",
     },
     {
-      q: "When is the correct moment to introduce the Recovery Series?",
+      q: "Which is the LEAST appropriate moment to introduce the Recovery Series?",
       options: [
-        "At villa check-in, as part of the welcome.",
-        "In the briefing before the guest's first session.",
-        "After the first session, during the Integration Conversation once the guest has had 60 seconds of silence.",
-        "When the guest checks out, as a suggestion for their next stay.",
+        "At villa check-in, as part of a relaxed welcome conversation.",
+        "In the briefing immediately before the guest's first session, while they are about to go in.",
+        "After the first session, during the Integration Conversation.",
+        "A relaxed second conversation later in their stay.",
       ],
-      answer: 2,
+      answer: 1,
       explain:
-        "The guest has to have *felt* the Pod first.",
+        "Multiple moments work for introducing the Recovery Series. The one to avoid is right before they go in for their first session. They have not yet felt what they would be booking, and a pitch in that moment lands as pushy.",
     },
     {
       q: "A guest wants to switch experiences each session rather than repeat the same one. What's the right response?",

@@ -41,9 +41,11 @@ But rare is not never. When something unexpected happens, the difference between
       title: "The Manual Door Release · Practice This",
       body: `Every staff member must **physically practice** the Manual Release at least once before their first real session. You do not want to be figuring it out under stress with a guest inside.
 
-**Where:** the exterior of the Pod 2.7, below the hinge, on the side of the door. The release is deliberately distinct from the **illuminated power button**. They are not to be confused. Your trainer will show you the exact location.
+**Where**
 
-**How:**
+The exterior of the Pod 2.7, below the hinge, on the side of the door. The release is deliberately distinct from the **illuminated power button**. They are not to be confused. Your trainer will show you the exact location.
+
+**How**
 
 1. **Pull the toggle with firm, steady force and hold.** The mechanism is deliberately stiff. It cannot be activated accidentally.
 2. **Keep it pulled** until the lock disengages.
@@ -56,7 +58,7 @@ After a Manual Release, contact Regenesis Technical Support (**support@regenesis
       kind: "list",
       title: "Guest Distress",
       items: [
-        "**Stop the session immediately** from the three-dial tablet. All dials to zero.",
+        "**Stop the session immediately** via the operator panel.",
         "**Open the door.** If the button doesn't respond in a few seconds, go straight to Manual Release.",
         "**Speak softly:** *'I'm here. Take your time. You're completely safe.'*",
         "**Assist them out.** Some guests feel lightheaded coming out of a deep state suddenly. Especially if The Drop was happening when the session was interrupted.",

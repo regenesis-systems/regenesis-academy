@@ -51,15 +51,15 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
       "20 minutes is the flagship Relax protocol length. The total spa-room experience is ~30 minutes including brief, Arrival Sequence, and Emergence.",
   },
   {
-    q: "When is the correct moment to introduce the Recovery Series?",
+    q: "Which is the LEAST appropriate moment to introduce the Recovery Series?",
     options: [
-      "At villa check-in during the welcome tour.",
-      "In the briefing before the first session.",
-      "After the first session, during the Integration Conversation. Once the guest has had 60 seconds of silence post-emergence.",
-      "Never. It is considered pushy at Aman properties.",
+      "At villa check-in, as part of a relaxed welcome conversation.",
+      "In the briefing immediately before the guest's first session, while they are about to go in.",
+      "After the first session, during the Integration Conversation.",
+      "A relaxed second conversation later in their stay.",
     ],
-    answer: 2,
-    explain: "The guest must have *felt* the Pod first. Pitching earlier is pushy; pitching later is too late.",
+    answer: 1,
+    explain: "Multiple moments work for introducing the Recovery Series. The one to avoid is right before they go in for their first session. They have not yet felt what they would be booking, and a pitch in that moment lands as pushy.",
   },
   {
     q: "Why do we recommend sessions every other day rather than daily?",
