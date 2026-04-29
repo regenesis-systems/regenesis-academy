@@ -10,7 +10,7 @@ export const emergencyModule: Module = {
   sections: [
     {
       kind: "prose",
-      body: `Emergencies are rare. The Regenesis Pod 2.7 has multiple redundancies. Automatic and manual door release, no drugs, no chemicals, and the guest can step out at any moment.
+      body: `Emergencies are rare. The Regenesis Pod 2.7 has multiple redundancies. Automatic and manual door release, and the guest can step out at any moment.
 
 But rare is not never. When something unexpected happens, the difference between a small moment of concern and a damaged guest relationship is **how calmly and quickly you respond**. Read this slowly, then practice the Manual Release at least once before your first guest.`,
     },
@@ -27,9 +27,8 @@ But rare is not never. When something unexpected happens, the difference between
       kind: "list",
       title: "Power Outage",
       items: [
-        "**Stay calm. Announce yourself through the door:** *'This is [name] from the spa team. The Pod has lost power briefly. You are completely safe, and I am going to open the door for you now.'*",
-        "**Check if the door opened automatically.** It usually does within a few seconds.",
-        "**If not, use the Manual Release.** No waiting, no hoping.",
+        "**Stay calm. Announce yourself through the door:** *'This is [name] from the spa team. The Pod has lost power briefly. You are completely safe, and I am opening the door for you now.'*",
+        "**If the door does not open, use the Manual Release.** No waiting, no hoping.",
         "**Help the guest step out.** Seat, water, unhurried calm.",
         "**Contact Amanyara maintenance** for power restoration.",
         "**Do not resume** until power is restored AND a full Health Check has been run.",
@@ -43,7 +42,7 @@ But rare is not never. When something unexpected happens, the difference between
 
 **Where**
 
-The exterior of the Pod 2.7, below the hinge, on the side of the door. The release is deliberately distinct from the **illuminated power button**. They are not to be confused. Your trainer will show you the exact location.
+The exterior of the Pod, towards the front of the Pod under the door pivot point. The release is deliberately distinct from the **illuminated power button**. They are not to be confused. Your trainer will show you the exact location.
 
 **How**
 
@@ -52,14 +51,15 @@ The exterior of the Pod 2.7, below the hinge, on the side of the door. The relea
 3. **Aid the door gently** with your free hand until it is fully open.
 4. **Do NOT release the toggle early**. Partial release can re-engage the lock.
 
-After a Manual Release, contact Regenesis Technical Support (**support@regenesispod.com**). The door mechanism needs inspection before the next use.`,
+The door mechanism may need inspection before the next use to ensure it has fully re-engaged.`,
     },
     {
       kind: "list",
       title: "Guest Distress",
       items: [
         "**Stop the session immediately** via the operator panel.",
-        "**Open the door.** If the button doesn't respond in a few seconds, go straight to Manual Release.",
+        "**If the guest is panicking and tapping the interior button repeatedly,** speak through the door: *'Take your time. Just press the button once firmly, and wait a second or two.'*",
+        "**If the door still does not open,** reassure them: *'Stay calm, I am going to open it from the outside.'* Try the exterior door button first. If that does not work, go to the Manual Release.",
         "**Speak softly:** *'I'm here. Take your time. You're completely safe.'*",
         "**Assist them out.** Some guests feel lightheaded coming out of a deep state suddenly. Especially if The Drop was happening when the session was interrupted.",
         "**Offer water and quiet.** Don't ask what happened. Don't pitch another session. Let them speak first.",
@@ -92,8 +92,8 @@ After a Manual Release, contact Regenesis Technical Support (**support@regenesis
       kind: "callout",
       title: "Regenesis Technical Support",
       body: `- **Email:** support@regenesispod.com
-- **Standard Live Support:** 18:00 to 10:00 TCI time (06:00 to 22:00 Bali WITA)
-- **Urgent Window:** 10:00 to 12:00 noon TCI time
+- **Live Support:** 18:00 to 10:00 TCI time (06:00 to 22:00 Bali WITA)
+- **Urgent-only window:** 10:00 to 12:00 TCI, for situations that cannot wait
 - **Guaranteed response:** within 24 hours
 - **Extended support** available outside these hours by prior arrangement
 
@@ -130,7 +130,7 @@ This is not about blame. It is about **learning faster than any Pod can fail**. 
       ],
       answer: 2,
       explain:
-        "The illuminated button is the power button. It is distinct from the Manual Release toggle, which is located separately. Below the hinge on the side of the door.",
+        "The illuminated button is the power button. It is distinct from the Manual Release toggle, which is located separately. Towards the front of the Pod under the door pivot point.",
     },
     {
       q: "A guest becomes distressed mid-session and wants out immediately. After ending the session and opening the door, the correct response is to:",

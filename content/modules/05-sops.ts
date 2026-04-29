@@ -100,7 +100,7 @@ The staff wellness calibration. A dedicated 21-minute session one member of the 
       kind: "list",
       title: "Start-Up · The First Ten Minutes",
       items: [
-        "**Verify power.** Pod plugged into step-down converter, converter plugged into wall, converter switch on.",
+        "**Verify power.** Pod plugged into step-up converter, converter plugged into wall, converter switch on.",
         "**Power on** via the illuminated exterior on/off button.",
         "**Open the door** via the exterior button. Let it complete its full travel.",
         "**Inspect the interior**. Dust, scuffs, cushion alignment. Clean now if needed.",
@@ -144,28 +144,28 @@ The staff wellness calibration. A dedicated 21-minute session one member of the 
 2. Close the Pod door via the exterior button.
 3. Power off via the illuminated exterior on/off button.
 
-**Do NOT unplug the Pod from the step-down converter.** Leave it plugged in overnight. The button is the correct shut-down. Unplugging interrupts the Pod's internal maintenance cycle AND breaks its link to Regenesis' protocol update servers.
+**Do NOT unplug the Pod from the step-up converter.** Leave it plugged in overnight. The button is the correct shut-down. Unplugging interrupts the Pod's internal maintenance cycle AND breaks its link to Regenesis' protocol update servers.
 
 **Illuminated button only, never the plug.** The single most common new-staff mistake.`,
     },
     {
       kind: "prose",
       title: "The Maintenance Log",
-      body: `Every issue, observation, guest note, and refill date goes in the **Regenesis Maintenance Log**. A rattling fan noted once is a note. Noted three times across two weeks is a service ticket. Your logs are how Regenesis spots patterns across every Pod in the world.
+      body: `Every issue, observation, guest note, and refill date goes in the **Regenesis Maintenance Log**. Log everything, however small. Your logs are how Regenesis spots patterns across every Pod in the world. A recurring issue, a rattling fan flagged again and again, opens a service ticket from our end. Your job is to capture. Ours is to act on the pattern.
 
-**Support contact:** email **support@regenesispod.com**. Live support windows: 18:00 to 10:00 TCI time (Bali 06:00 to 22:00 WITA), with an urgent window 10:00 to 12:00 noon TCI. Guaranteed response within 24 hours.`,
+**Support contact:** email **support@regenesispod.com**. Live support: 18:00 to 10:00 TCI time (06:00 to 22:00 Bali WITA). For urgent situations only, support is also available 10:00 to 12:00 TCI. Guaranteed response within 24 hours.`,
     },
     {
       kind: "pullquote",
-      body: "The Pod is craftsmanship. Treat it like a Steinway, not a treadmill.",
+      body: "Care for the Pod the way the Pod cares for the guest. Quietly, completely, every time.",
     },
   ],
   quiz: [
     {
       q: "At the end of the day, you should:",
       options: [
-        "Unplug the Pod from the step-down converter to save energy.",
-        "Power off using the illuminated exterior on/off button only, never unplug.",
+        "Unplug the Pod from the step-up converter to save energy.",
+        "Power off using the exterior on/off button only, never unplug.",
         "Leave the Pod running overnight for the next morning.",
         "Reset the Pod by unplugging for 60 seconds.",
       ],

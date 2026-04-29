@@ -87,10 +87,10 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
   {
     q: "At the end of the day, you power down the Pod by:",
     options: [
-      "Unplugging the Pod from the step-down converter.",
+      "Unplugging the Pod from the step-up converter.",
       "Pressing the illuminated exterior on/off button, never unplugging.",
       "Leaving it running overnight.",
-      "Disconnecting the step-down converter from the wall.",
+      "Disconnecting the step-up converter from the wall.",
     ],
     answer: 1,
     explain: "Illuminated power button only, never unplug. Unplugging interrupts the internal maintenance cycle and breaks the Pod's link to Regenesis' protocol update servers.",
