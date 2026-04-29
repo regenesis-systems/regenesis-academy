@@ -34,6 +34,7 @@ jobs:
         env:
           NEXT_PUBLIC_SUBMIT_URL: https://regenesissystems.app.n8n.cloud/webhook/academy-submit
           NEXT_PUBLIC_SHEET_URL: https://docs.google.com/spreadsheets/d/1UGVPDR0Wdys_5f8yzvnT-viZb6VI3TZFjNYHbg8X6zs/edit
+          NEXT_PUBLIC_AUTH_API_URL: https://auth.regenesispod.com
         run: npm run build
 
       - name: Touch .nojekyll

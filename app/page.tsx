@@ -2,9 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { enroll, loadTrainee, submitEnrollment } from "@/lib/storage";
-import { getProperty } from "@/content/properties";
+import { loadTrainee } from "@/lib/storage";
+import { requestSignIn } from "@/lib/auth-api";
 import { Wordmark } from "@/components/Wordmark";
 
 const ROLES = [
@@ -17,50 +16,72 @@ const ROLES = [
   "Other",
 ];
 
-export default function EnrollmentPage() {
-  const router = useRouter();
+type Step = "form" | "sent";
+
+export default function SignInPage() {
   const [mounted, setMounted] = useState(false);
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    role: "Spa Reception",
-    code: "AMANYARA",
-  });
+  const [existingName, setExistingName] = useState<string | null>(null);
+
+  const [email, setEmail] = useState("");
+  const [showEnrol, setShowEnrol] = useState(false);
+  const [name, setName] = useState("");
+  const [role, setRole] = useState("Spa Reception");
+  const [cohortCode, setCohortCode] = useState("");
+
+  const [step, setStep] = useState<Step>("form");
+  const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [existing, setExisting] = useState<boolean>(false);
 
   useEffect(() => {
     setMounted(true);
     const t = loadTrainee();
-    if (t) setExisting(true);
+    if (t) setExistingName(t.name);
   }, []);
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError(null);
-    const property = getProperty(form.code);
-    if (!property) {
-      setError(
-        "That property code was not recognised. Please check with your trainer.",
-      );
-      return;
-    }
-    if (!form.name.trim() || !form.email.trim()) {
-      setError("Please enter your name and email to continue.");
-      return;
-    }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+
+    const cleanEmail = email.trim().toLowerCase();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(cleanEmail)) {
       setError("Please enter a valid email address.");
       return;
     }
-    const trainee = enroll({
-      name: form.name,
-      email: form.email,
-      role: form.role,
-      propertyCode: form.code,
-    });
-    void submitEnrollment(trainee);
-    router.push("/academy/");
+    if (showEnrol) {
+      if (!name.trim()) {
+        setError("Please enter your full name.");
+        return;
+      }
+      if (!cohortCode.trim()) {
+        setError(
+          "First-time enrolment needs the cohort code from your property's wellness lead.",
+        );
+        return;
+      }
+    }
+
+    setSubmitting(true);
+    try {
+      await requestSignIn({
+        email: cleanEmail,
+        ...(showEnrol
+          ? {
+              name: name.trim(),
+              role,
+              cohort_code: cohortCode.trim().toUpperCase(),
+            }
+          : {}),
+      });
+      setStep("sent");
+    } catch (err) {
+      setError(
+        err instanceof Error
+          ? err.message
+          : "Something went wrong sending your sign-in link. Please try again.",
+      );
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   return (
@@ -68,12 +89,12 @@ export default function EnrollmentPage() {
       <header className="px-8 md:px-16 py-10">
         <div className="flex items-center justify-between max-w-6xl mx-auto">
           <Wordmark size="lg" />
-          {mounted && existing && (
+          {mounted && existingName && (
             <Link
               href="/academy/"
               className="tracked text-muted hover:text-ink transition-colors"
             >
-              Continue →
+              Continue as {existingName.split(" ")[0]} →
             </Link>
           )}
         </div>
@@ -104,98 +125,156 @@ export default function EnrollmentPage() {
               certification will carry that distinction.
             </p>
             <p className="text-[17px] leading-[1.75] text-charcoal max-w-[54ch] mb-8">
-              Over the next six modules, you will be guided through the Pod
-              experience, operating principles, guest journey, and core
-              standards required to deliver Regenesis with confidence and care.
+              Six modules, a final assessment, a certificate. Take your time.
+              The Academy is designed for mastery, not speed.
             </p>
-            <p className="text-[17px] leading-[1.75] text-charcoal max-w-[54ch] mb-8">
-              Each module concludes with a short assessment. Upon successful
-              completion of the full programme, you will receive a personalised
-              certificate recognising you as a Certified Regenesis Pod
-              Concierge.
-            </p>
-            <p className="text-[17px] leading-[1.75] text-charcoal max-w-[54ch]">
-              Take your time. The Academy is designed for mastery, not speed.
+            <p className="text-[15px] italic leading-[1.7] text-muted max-w-[54ch]">
+              Sign-in works without a password. You enter your email, we send
+              you a sign-in link, you click it. The link is valid for thirty
+              minutes; once you sign in, your session stays active for seven
+              days.
             </p>
           </div>
 
           <div className="md:col-span-5">
-            <form
-              onSubmit={handleSubmit}
-              className="border border-line bg-cream/50 p-10"
-            >
-              <div className="tracked text-gold-dark mb-3">Enrol</div>
-              <h2 className="serif text-3xl text-ink mb-2">
-                Begin your certification
-              </h2>
-              <div className="rule-gold mb-8" />
+            {step === "form" ? (
+              <form
+                onSubmit={handleSubmit}
+                className="border border-line bg-cream/50 p-10"
+              >
+                <div className="tracked text-gold-dark mb-3">Sign in</div>
+                <h2 className="serif text-3xl text-ink mb-2">
+                  Begin or continue
+                </h2>
+                <div className="rule-gold mb-8" />
 
-              <label className="block mb-6">
-                <div className="tracked text-muted mb-2 text-[10px]">
-                  Your full name
-                </div>
-                <input
-                  type="text"
-                  required
-                  value={form.name}
-                  onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  placeholder="As you would like it on the certificate"
-                />
-              </label>
+                <label className="block mb-6">
+                  <div className="tracked text-muted mb-2 text-[10px]">
+                    Email address
+                  </div>
+                  <input
+                    type="email"
+                    required
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="name@aman.com"
+                    autoComplete="email"
+                  />
+                </label>
 
-              <label className="block mb-6">
-                <div className="tracked text-muted mb-2 text-[10px]">
-                  Email address
-                </div>
-                <input
-                  type="email"
-                  required
-                  value={form.email}
-                  onChange={(e) => setForm({ ...form, email: e.target.value })}
-                  placeholder="name@aman.com"
-                />
-              </label>
+                {!showEnrol && (
+                  <button
+                    type="button"
+                    onClick={() => setShowEnrol(true)}
+                    className="block mb-6 tracked text-gold-dark hover:text-ink transition-colors text-[10px]"
+                  >
+                    First time? Enrol with cohort code →
+                  </button>
+                )}
 
-              <label className="block mb-6">
-                <div className="tracked text-muted mb-2 text-[10px]">
-                  Your role
-                </div>
-                <select
-                  value={form.role}
-                  onChange={(e) => setForm({ ...form, role: e.target.value })}
+                {showEnrol && (
+                  <div className="border-t border-line pt-6 mb-6">
+                    <div className="tracked text-gold-dark mb-3 text-[10px]">
+                      First-time enrolment
+                    </div>
+
+                    <label className="block mb-6">
+                      <div className="tracked text-muted mb-2 text-[10px]">
+                        Your full name
+                      </div>
+                      <input
+                        type="text"
+                        required={showEnrol}
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        placeholder="As you would like it on the certificate"
+                      />
+                    </label>
+
+                    <label className="block mb-6">
+                      <div className="tracked text-muted mb-2 text-[10px]">
+                        Your role
+                      </div>
+                      <select
+                        value={role}
+                        onChange={(e) => setRole(e.target.value)}
+                      >
+                        {ROLES.map((r) => (
+                          <option key={r} value={r}>
+                            {r}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+
+                    <label className="block mb-2">
+                      <div className="tracked text-muted mb-2 text-[10px]">
+                        Cohort code
+                      </div>
+                      <input
+                        type="password"
+                        required={showEnrol}
+                        value={cohortCode}
+                        onChange={(e) => setCohortCode(e.target.value)}
+                        placeholder="From your property's wellness lead"
+                        autoComplete="off"
+                        style={{ letterSpacing: "0.05em" }}
+                      />
+                    </label>
+                    <p className="text-[12px] italic text-muted mb-2">
+                      Your wellness lead distributes this. Treat it like a
+                      passkey for your property.
+                    </p>
+                  </div>
+                )}
+
+                {error && (
+                  <div className="mb-6 text-[14px] text-muted italic border-l border-gold pl-4">
+                    {error}
+                  </div>
+                )}
+
+                <button
+                  type="submit"
+                  className="btn w-full justify-center"
+                  disabled={submitting}
                 >
-                  {ROLES.map((r) => (
-                    <option key={r} value={r}>
-                      {r}
-                    </option>
-                  ))}
-                </select>
-              </label>
-
-              <label className="block mb-8">
-                <div className="tracked text-muted mb-2 text-[10px]">
-                  Property code
-                </div>
-                <input
-                  type="text"
-                  required
-                  value={form.code}
-                  onChange={(e) => setForm({ ...form, code: e.target.value })}
-                  placeholder="AMANYARA"
-                  style={{ letterSpacing: "0.05em" }}
-                />
-              </label>
-
-              {error && (
-                <div className="mb-6 text-[14px] text-muted italic border-l border-gold pl-4">
-                  {error}
-                </div>
-              )}
-
-              <button type="submit" className="btn w-full justify-center">
-                Begin the Academy
-              </button>
-            </form>
+                  {submitting
+                    ? "Sending..."
+                    : showEnrol
+                      ? "Send my welcome link"
+                      : "Send me a sign-in link"}
+                </button>
+              </form>
+            ) : (
+              <div className="border border-line bg-cream/50 p-10">
+                <div className="tracked text-gold-dark mb-3">Sign-in</div>
+                <h2 className="serif italic text-3xl text-ink mb-2">
+                  Check your inbox
+                </h2>
+                <div className="rule-gold mb-8" />
+                <p className="text-[16px] leading-[1.7] text-charcoal mb-6">
+                  We've sent a sign-in link to{" "}
+                  <strong className="text-ink">{email}</strong>. Click the
+                  button in that email to begin (or continue) your training.
+                </p>
+                <p className="text-[14px] italic leading-[1.7] text-muted mb-8">
+                  The link is valid for the next thirty minutes. If it doesn't
+                  arrive in a couple of minutes, check your spam folder, or
+                  request a fresh one below.
+                </p>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setStep("form");
+                    setError(null);
+                  }}
+                  className="btn w-full justify-center"
+                >
+                  Use a different email
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </section>
@@ -203,7 +282,7 @@ export default function EnrollmentPage() {
       <footer className="px-8 md:px-16 py-10 border-t border-line">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="tracked text-muted">
-            Regenesis Academy · v0.1 Founding
+            Regenesis Academy · v1.0 Founding
           </div>
           <div className="tracked text-muted">Private · by invitation only</div>
         </div>
