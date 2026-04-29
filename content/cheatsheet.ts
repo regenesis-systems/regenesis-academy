@@ -53,8 +53,8 @@ export const cheatsheet = {
         num: "03",
         name: "Recharge",
         scent: "Tangerine & Peppermint",
-        feel: "Clarity. Lifted, awake, focused.",
-        when: "Before creative work, a presentation, into flow.",
+        feel: "Lifted, focused. Ready to perform.",
+        when: "Focused, high energy, clarity, ready to perform.",
       },
     ],
     rule: "If in doubt, **Relax**. It is the twenty-minute flagship and the safest first session for any guest.",
@@ -76,7 +76,7 @@ export const cheatsheet = {
       {
         role: "Spa Reception",
         verb: "Welcome and settle",
-        say: "Greet softly. Brief: twenty minutes in the Pod, thirty in the room, The Breath Bridge to begin. Then leave them alone.",
+        say: "Greet softly. Brief: twenty minutes in the Pod, thirty in the room, a short breath sequence to begin. Then step away and let them close the door.",
       },
     ],
     timingInside: "**20 min** inside the Pod",
@@ -161,7 +161,7 @@ export const cheatsheet = {
     items: [
       {
         q: "Is it safe?",
-        a: '*"Completely. Nothing injected, nothing ingested. The door opens from inside at any moment, and we stay nearby the entire time."*',
+        a: '*"Completely. Nothing injected, nothing ingested. The Pod uses your sign-up answers to tune each session to your body, so what you experience is always safe for you. The door opens from inside at any moment, and we stay nearby the entire time."*',
       },
       {
         q: "I'm a little claustrophobic.",
