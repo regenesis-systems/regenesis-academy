@@ -65,7 +65,7 @@ That's it. The Novak fact does the heavy lifting in one sentence. Clean handoff.
 
 **The Welcome (2 min):** Greet warmly by name. Offer water or tea. Speak more softly than normal. The room should feel *already half a session in*.
 
-**The Brief (5 min):** *"You'll be in the Pod for about 20 minutes. We'll begin with a short breath practice I'll guide you through. We call it **The Breath Bridge**. It's just two minutes, to help your body arrive. Then you'll settle into the session. Inside, you'll notice light, immersive sound, a gentle somatic vibration through the cushion, and the scent of [experience]. The door closes but it isn't sealed. You can open it from the inside any time. You don't need to do anything. The Pod does the work."*
+**The Brief (5 min):** *"You'll be in the Pod for about 20 minutes. The session will guide you in with a short breath sequence, then you just lie back and relax. Inside, you'll experience light, sound, vibration, and scent. You can open the door at any time. You don't need to do anything."*
 
 Confirm the experience booked. First-timers default to **RELAX** (the 20-min flagship) unless they have a strong preference. Complete the waiver if not done.
 
