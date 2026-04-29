@@ -23,7 +23,7 @@ The goal isn't to sell more sessions. The goal is to give the guest the full val
       title: "The Compound Effect",
       items: [
         "**Session 1.** The body maps the new environment. Many guests feel wonderful; some feel slightly overwhelmed by the newness. Both are normal.",
-        "**Session 2.** The body recognises the entry: the scent, the warmth, the Breath Bridge. The on-ramp gets shorter.",
+        "**Session 2.** The body recognises the entry: the scent, the warmth, the Arrival Sequence. The on-ramp gets shorter.",
         "**Session 3.** The body now recognises the *neural anchors* (scent, rhythm, Near Infra-Red) and drops into the restorative state almost instantly. Guests often say the third session is where they *really understand* what the Pod is for.",
         "**Session 4.** The nervous system has a new pathway available. The guest is **training** their baseline of stillness to stay with them after they leave.",
       ],
@@ -38,15 +38,13 @@ The goal isn't to sell more sessions. The goal is to give the guest the full val
       items: [
         "**Neural pathfinding.** Repetition creates grooves. Repeating RELAX four times builds a shortcut to deep recovery.",
         "**Cellular saturation.** PEMF and Near Infra-Red benefits are cumulative at a mitochondrial level.",
-        "**Eliminating cognitive friction.** By session three, The Breath Bridge is automatic and The Drop is near-instant. The session goes deeper.",
+        "**Eliminating cognitive friction.** By session three, the Arrival Sequence is automatic and The Drop is near-instant. The session goes deeper.",
       ],
     },
     {
       kind: "callout",
-      title: "The 48-Hour Cycle (The Most Important Fact)",
-      body: `We recommend **every other day**, not daily. Why: the afterglow lasts **24 to 48 hours**, and the body needs that window to integrate. PEMF is still stimulating cellular repair. The nervous system is still holding the lower cortisol baseline.
-
-Coming in daily short-circuits the afterglow and reduces cumulative benefit. Every other day keeps the guest in **constant coherence** across their stay.
+      title: "Why Every Other Day (The Most Important Fact)",
+      body: `We recommend **every other day**, not daily. The Pod can deliver some serious energetic effects, and the body benefits from time between sessions to settle and integrate. Coming in daily can over-stimulate the nervous system and blunt the cumulative benefit rather than amplify it. Every other day keeps the guest in **constant coherence** across their stay.
 
 If you internalise one fact: **every other day, not every day**.`,
     },
@@ -66,7 +64,7 @@ If you internalise one fact: **every other day, not every day**.`,
         `**"Precision-Engineered Recovery, not spa relaxation."**`,
         `**"Eliminating the on-ramp. By your third visit, your body recognises the frequencies immediately."**`,
         `**"We're training your body to keep that feeling of Amanyara with you when you return home."**`,
-        `**"Every other day is the sweet spot. The benefit takes 24 to 48 hours to land."**`,
+        `**"Every other day is the sweet spot. The Pod is energetically intense, and the body benefits from time between sessions to settle."**`,
       ],
     },
     {
@@ -93,25 +91,25 @@ If they say *"maybe later,"* the answer is: *"Of course. I'll note that you enjo
       q: "Why do we recommend sessions every other day rather than daily?",
       options: [
         "Because the Pod needs 24 hours to reset between sessions.",
-        "Because the afterglow. The physiological integration window. Lasts 24 to 48 hours, and daily sessions would short-circuit it.",
+        "Because the Pod can deliver serious energetic effects. The body benefits from time between sessions to settle and integrate. Daily would over-stimulate and blunt the cumulative benefit.",
         "Because we want guests to explore the resort on their off days.",
         "Because the essential oils need time to refill.",
       ],
       answer: 1,
       explain:
-        "The 48-hour afterglow is the single most important biological fact in this module.",
+        "The Pod's energetic intensity is the single most important reason for the every-other-day cadence in this module.",
     },
     {
       q: "By the third session, what has typically changed in the guest's body?",
       options: [
         "It loses sensitivity to the Pod's modalities and the benefit reduces.",
         "It recognises the neural anchors (scent, rhythm, Near Infra-Red) and drops into the restorative state almost instantly.",
-        "It needs a longer Breath Bridge to settle.",
+        "It needs a longer Arrival Sequence to settle.",
         "It builds tolerance, so we shorten the session.",
       ],
       answer: 1,
       explain:
-        "Repetition creates a neural shortcut. By session three, The Breath Bridge is automatic and The Drop is near-instant. The session goes deeper.",
+        "Repetition creates a neural shortcut. By session three, the Arrival Sequence is automatic and The Drop is near-instant. The session goes deeper.",
     },
     {
       q: "When is the correct moment to introduce the Recovery Series?",

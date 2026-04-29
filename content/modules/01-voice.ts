@@ -86,7 +86,7 @@ This persona is quiet, not boastful. It shows up in *how* you answer questions. 
         "**Recalibration**. The nervous system re-tuning to its natural rhythm.",
         "**Anchoring**. Training the body to hold the feeling after they leave.",
         "**The on-ramp**. The initial settling-in that disappears by session three.",
-        "**The afterglow**. The 24 to 48 hour window after each session when the body integrates.",
+        "**The afterglow**. The settling and integration window after each session.",
         "**Evolving environment**. The Pod is continuously refined based on real-world data and feedback.",
       ],
     },

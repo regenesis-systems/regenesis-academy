@@ -26,7 +26,7 @@ Three teams touch this arc. If each team knows its part and hands off cleanly, t
         "**Booking**. Commits to a session or the Recovery Series.",
         "**Arrival**. Welcomed into the Pod room.",
         "**Preparation**. Brief, waiver, orientation.",
-        "**The Breath Bridge**. The instructional opening of the session.",
+        "**The Arrival Sequence**. The opening of the session, led by the Pod.",
         "**The Drop**. Transition from active breathing to passive entrainment.",
         "**Emergence**. The quiet moment just after. Sacred.",
         "**Integration**. The hour after. Where the Recovery Series conversation happens.",
@@ -73,12 +73,14 @@ Confirm the experience booked. First-timers default to **RELAX** (the 20-min fla
     },
     {
       kind: "prose",
-      title: "The Breath Bridge · The Drop",
-      body: `Every Pod session has a specific opening: a brief guided breath practice at the start of the protocol that helps the guest's nervous system synchronise with the Pod's rhythm. This is **The Breath Bridge**. It lasts only a minute or two.
+      title: "Arrival Sequence · The Drop",
+      body: `Every session begins with an **Arrival Sequence**. The Pod guides the guest into the right state using breath, visuals, and subtle sensory cues.
 
-What happens inside the session is a transition we call **The Drop**. The moment the guest stops actively breathing-along and the Pod takes over, carrying them passively into entrainment. By session three, The Drop happens almost instantly; on session one it can take a few minutes. Both are normal.
+This leads into **The Drop**, the point where the guest stops actively following and the system takes over, moving them into a deeper, more passive state. This can happen quickly or take a few minutes. Both are normal.
 
-Spa therapists: you will master guiding The Breath Bridge in the dedicated therapist workshop. Everyone else: it is enough to know the terms and reference them warmly when briefing a guest.`,
+The session finishes with a quiet integration phase before returning to the space.
+
+The Pod leads the entire sequence. Your role is simply to set the context and let the experience unfold.`,
     },
     {
       kind: "prose",
@@ -116,9 +118,9 @@ If they say *"maybe later,"* the answer is: *"Of course. I'll note that you enjo
       title: "Before They Leave",
       body: `When you say goodbye, give them something to notice:
 
-> *"Drink plenty of water this afternoon, take it gently, and notice how you feel this evening and tomorrow. The Pod keeps working for about 48 hours after the session. That's when your body is actually integrating the benefit."*
+> *"Drink plenty of water this afternoon, take it gently, and notice how you feel this evening, and how you sleep tonight. The Pod can provide lasting benefits as your body continues to integrate the experience."*
 
-This primes them to perceive the afterglow, explains the cadence, and makes them an active participant.`,
+This invites them to notice the Pod's effects through the rest of the day, and makes them an active participant in their own integration.`,
     },
   ],
   quiz: [
@@ -132,19 +134,19 @@ This primes them to perceive the afterglow, explains the cadence, and makes them
       ],
       answer: 2,
       explain:
-        "The Pod session is 20 minutes (the flagship Relax protocol). The full spa-room experience is ~30 minutes including brief, Breath Bridge, and Emergence.",
+        "The Pod session is 20 minutes (the flagship Relax protocol). The full spa-room experience is ~30 minutes including brief, Arrival Sequence, and Emergence.",
     },
     {
-      q: "What is 'The Breath Bridge'?",
+      q: "What is the 'Arrival Sequence'?",
       options: [
         "The name of the Pod's air filtration system.",
-        "The brief guided breath practice at the opening of the session that helps the guest's nervous system synchronise with the Pod's rhythm.",
+        "The opening of every session, where the Pod guides the guest into the right state using breath, visuals, and subtle sensory cues.",
         "A piece of equipment above the cushion.",
-        "The physical bridge between the Pod door and the cushion.",
+        "The check-in flow at Spa Reception.",
       ],
       answer: 1,
       explain:
-        "The Breath Bridge is the instructional opening. The practice that carries the guest into the session. Every staff member should know the term even if only therapists guide it.",
+        "The Arrival Sequence is how every session begins. The Pod leads it. Staff set the context and step away.",
     },
     {
       q: "A guest has just opened their eyes after a session. What is the WORST thing you can do?",
@@ -162,13 +164,13 @@ This primes them to perceive the afterglow, explains the cadence, and makes them
       q: "Why do we recommend sessions every other day rather than daily?",
       options: [
         "Because the Pod needs time to cool down between sessions.",
-        "Because the afterglow. The physiological integration window. Lasts 24 to 48 hours, and the body needs time to land the benefit.",
+        "Because the Pod can deliver serious energetic effects. The body benefits from time between sessions to settle and integrate, rather than being over-stimulated.",
         "Because we want to fit more guests into the schedule.",
         "Because the scent needs to be refilled between sessions.",
       ],
       answer: 1,
       explain:
-        "Every other day protects the afterglow. Daily sessions short-circuit the integration window.",
+        "Every other day prevents over-stimulation. Daily sessions can blunt the cumulative benefit rather than amplify it.",
     },
     {
       q: "A guest says 'maybe later' to the Recovery Series. What is the right response?",

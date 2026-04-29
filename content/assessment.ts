@@ -48,7 +48,7 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     ],
     answer: 2,
     explain:
-      "20 minutes is the flagship Relax protocol length. The total spa-room experience is ~30 minutes including brief, Breath Bridge, and Emergence.",
+      "20 minutes is the flagship Relax protocol length. The total spa-room experience is ~30 minutes including brief, Arrival Sequence, and Emergence.",
   },
   {
     q: "When is the correct moment to introduce the Recovery Series?",
@@ -65,12 +65,12 @@ export const FINAL_ASSESSMENT: QuizQuestion[] = [
     q: "Why do we recommend sessions every other day rather than daily?",
     options: [
       "Because the Pod's scent needs 24 hours to refill.",
-      "Because the afterglow. The integration window. Lasts 24 to 48 hours, and daily sessions prevent the body from landing the benefit.",
+      "Because the Pod can deliver serious energetic effects. The body benefits from time between sessions to settle and integrate. Daily would over-stimulate and blunt the cumulative benefit.",
       "Because we want guests to rest in their villas.",
       "Because daily sessions overheat the Pod.",
     ],
     answer: 1,
-    explain: "The 48-hour afterglow is the biological foundation of the Recovery Series cadence.",
+    explain: "The Pod's energetic intensity is why we space sessions every other day. Daily would over-stimulate.",
   },
   {
     q: "A guest signs up at Spa Reception and notes she has a pacemaker. What changes about her Pod sessions?",

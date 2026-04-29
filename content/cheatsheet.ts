@@ -110,7 +110,7 @@ export const cheatsheet = {
     rules: [
       {
         title: "Every other day.",
-        body: "The afterglow lasts twenty-four to forty-eight hours.",
+        body: "The Pod is energetically intense; the body benefits from time between sessions.",
       },
       {
         title: "Two-night stay?",
