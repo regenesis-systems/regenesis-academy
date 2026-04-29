@@ -69,7 +69,7 @@ That's it. The Novak fact does the heavy lifting in one sentence. Clean handoff.
 
 Confirm the experience booked. First-timers default to **RELAX** (the 20-min flagship) unless they have a strong preference. Complete the waiver if not done.
 
-**The Entry (3 min):** Invite them to remove shoes. Help them settle. Guide The Breath Bridge. Start the experience. **Then leave them alone.** Close the door softly.`,
+**The Entry (3 min):** Invite them to remove their shoes. Help them settle comfortably into the Pod. Begin the session and ensure the guidance starts. **Then step away and allow them to close the door.**`,
     },
     {
       kind: "prose",
